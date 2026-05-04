@@ -1,5 +1,7 @@
-package main.java.sbfl;
-import main.java.model.CoverageData;
+// 2026-05-03
+package sbfl;
+
+import model.CoverageData;
 import java.io.*;
 import java.util.*;
 
@@ -11,27 +13,29 @@ public class CoverageParser {
         for (File file : Objects.requireNonNull(folder.listFiles())) {
             if (!file.getName().endsWith(".txt")) continue;
 
-            List<String> lines = new ArrayList<>();
             try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+                String firstLine = br.readLine();
+                if (firstLine == null) continue;
+                firstLine = firstLine.trim();
+
+                int lastSpace = firstLine.lastIndexOf(' ');
+                if (lastSpace < 0) continue;
+
+                String testName = firstLine.substring(0, lastSpace).trim();
+                boolean failed = firstLine.substring(lastSpace + 1).trim().equalsIgnoreCase("false");
+
+                Set<String> methods = new HashSet<>();
                 String line;
                 while ((line = br.readLine()) != null) {
-                    if (!line.trim().isEmpty())
-                        lines.add(line.trim());
-                }
-            }
-
-            int i = 0;
-            while (i < lines.size()) {
-                String test = lines.get(i++);
-                Set<String> methods = new HashSet<>();
-
-                while (i < lines.size() && !lines.get(i).startsWith("Test")) {
-                    methods.add(lines.get(i));
-                    data.allMethods.add(lines.get(i));
-                    i++;
+                    line = line.trim();
+                    if (!line.isEmpty()) {
+                        methods.add(line);
+                        data.allMethods.add(line);
+                    }
                 }
 
-                data.testToMethods.put(test, methods);
+                data.testToMethods.put(testName, methods);
+                if (failed) data.failedTests.add(testName);
             }
         }
 

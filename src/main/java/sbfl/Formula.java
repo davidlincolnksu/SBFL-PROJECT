@@ -1,4 +1,5 @@
-package main.java.sbfl;
+// 2026-05-03
+package sbfl;
 
 public enum Formula {
 

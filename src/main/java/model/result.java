@@ -1,11 +1,14 @@
-package main.java.model;
+// 2026-05-03
+package model;
 
-public class result {
+public class Result {
     public String method;
     public double score;
+    public boolean failCovered;
 
-    public result(String method, double score) {
+    public Result(String method, double score, boolean failCovered) {
         this.method = method;
         this.score = score;
+        this.failCovered = failCovered;
     }
 }

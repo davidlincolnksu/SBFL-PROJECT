@@ -1,0 +1,30 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1777864833536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1777864851189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \n java -version\n mvn -version\n \n-## Running the App\n+## Launch App\n mvn javafx:run\n \n \n ## Using the Tool\n"
+                },
+                {
+                    "date": 1777864876538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,33 +15,4 @@\n \n ## Launch App\n mvn javafx:run\n \n-\n-## Using the Tool\n-\n-1. **Load Data** — click the button and select a folder containing `.txt` coverage files.\n-   - Each file represents one test case.\n-   - Format: first line is `<test_name> true|false` (true = passed, false = failed), followed by one method signature per line.\n-   - The `CoverageData/` folder in this repo contains sample data.\n-\n-2. **Select a Formula** — choose from the dropdown:\n-   - `Tarantula`\n-   - `Ochiai`\n-   - `Jaccard`\n-   - `Zoltar`\n-\n-3. **Run SBFL** — click the button to rank all methods by suspicion score. Higher scores indicate more likely fault locations.\n-\n-## Project Structure\n-\n-```\n-src/main/java/\n-├── app/MainApp.java          # JavaFX GUI\n-├── model/CoverageData.java   # Data model\n-├── model/Result.java         # Result (method + score)\n-└── sbfl/\n-    ├── CoverageParser.java   # Parses .txt coverage files\n-    ├── Formula.java          # Suspicion formula enum\n-    └── SBFL.java             # Core ranking logic\n-CoverageData/                 # Sample coverage files\n-```\n"
+                },
+                {
+                    "date": 1777866860262,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,37 @@\n-# SBFL JavaFX Project\n+SBFL JavaFX Project\n \n-Description: \n-A Java Spectrum-Based Fault Localization (SBFL) desktop app that ranks methods by suspicion score using test coverage data.\n+A Java desktop app that ranks methods by suspicion score using spectrum-based fault localization (SBFL). It reads test coverage data, computes scores using your chosen formula, and displays results ranked from most to least suspicious with color-coded rows.\n \n-## Requirements\n \n-- Java 17+\n-- Maven 3.6+\n+REQUIREMENTS\n \n-Verify:\n+    Java 17 or higher\n+    Maven 3.6 or higher\n \n-java -version\n-mvn -version\n+Verify with:\n+    java -version\n+    mvn -version\n \n-## Launch App\n-mvn javafx:run\n \n+HOW TO RUN\n+\n+    mvn javafx:run\n+\n+\n+USING THE APP\n+\n+1. Click Load Data to load the CoverageData folder automatically.\n+   The status bar will show how many tests, methods, and failures were found.\n+\n+2. Select a formula from the dropdown: Tarantula, Ochiai, Jaccard, or Zoltar.\n+\n+3. Click Run SBFL to rank all methods by suspicion score.\n+   Results appear in the table ranked highest to lowest.\n+   Red rows are more suspicious. Green rows are less suspicious.\n+\n+4. The overview cards at the top show a summary of the loaded dataset.\n+   Hover over a card for more detail.\n+\n+5. The Log section at the bottom can be expanded to see a detailed\n+   record of each action including top suspect and score.\n+\n"
+                }
+            ],
+            "date": 1777864833536,
+            "name": "Commit-0",
+            "content": "# SBFL JavaFX Project\n\nDescription: \nA Java Spectrum-Based Fault Localization (SBFL) desktop app that ranks methods by suspicion score using test coverage data.\n\n## Requirements\n\n- Java 17+\n- Maven 3.6+\n\nVerify:\n\njava -version\nmvn -version\n\n## Running the App\nmvn javafx:run\n\n\n## Using the Tool\n\n1. **Load Data** — click the button and select a folder containing `.txt` coverage files.\n   - Each file represents one test case.\n   - Format: first line is `<test_name> true|false` (true = passed, false = failed), followed by one method signature per line.\n   - The `CoverageData/` folder in this repo contains sample data.\n\n2. **Select a Formula** — choose from the dropdown:\n   - `Tarantula`\n   - `Ochiai`\n   - `Jaccard`\n   - `Zoltar`\n\n3. **Run SBFL** — click the button to rank all methods by suspicion score. Higher scores indicate more likely fault locations.\n\n## Project Structure\n\n```\nsrc/main/java/\n├── app/MainApp.java          # JavaFX GUI\n├── model/CoverageData.java   # Data model\n├── model/Result.java         # Result (method + score)\n└── sbfl/\n    ├── CoverageParser.java   # Parses .txt coverage files\n    ├── Formula.java          # Suspicion formula enum\n    └── SBFL.java             # Core ranking logic\nCoverageData/                 # Sample coverage files\n```\n"
+        }
+    ]
+}
