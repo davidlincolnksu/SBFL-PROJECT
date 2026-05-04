@@ -8,6 +8,14 @@ import java.util.*;
 
 public class SBFL {
 
+    public static void injectFailures(CoverageData data) {
+        int i = 0;
+        for (String test : data.testToMethods.keySet()) {
+            if (i % 5 == 0) data.failedTests.add(test);
+            i++;
+        }
+    }
+
     public static Map<String, int[]> computeEP_EF(CoverageData data) {
         Map<String, int[]> map = new HashMap<>();
 

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1777864833536,
@@ -20,6 +20,14 @@
                 {
                     "date": 1777866860262,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,37 @@\n-# SBFL JavaFX Project\n+SBFL JavaFX Project\n \n-Description: \n-A Java Spectrum-Based Fault Localization (SBFL) desktop app that ranks methods by suspicion score using test coverage data.\n+A Java desktop app that ranks methods by suspicion score using spectrum-based fault localization (SBFL). It reads test coverage data, computes scores using your chosen formula, and displays results ranked from most to least suspicious with color-coded rows.\n \n-## Requirements\n \n-- Java 17+\n-- Maven 3.6+\n+REQUIREMENTS\n \n-Verify:\n+    Java 17 or higher\n+    Maven 3.6 or higher\n \n-java -version\n-mvn -version\n+Verify with:\n+    java -version\n+    mvn -version\n \n-## Launch App\n-mvn javafx:run\n \n+HOW TO RUN\n+\n+    mvn javafx:run\n+\n+\n+USING THE APP\n+\n+1. Click Load Data to load the CoverageData folder automatically.\n+   The status bar will show how many tests, methods, and failures were found.\n+\n+2. Select a formula from the dropdown: Tarantula, Ochiai, Jaccard, or Zoltar.\n+\n+3. Click Run SBFL to rank all methods by suspicion score.\n+   Results appear in the table ranked highest to lowest.\n+   Red rows are more suspicious. Green rows are less suspicious.\n+\n+4. The overview cards at the top show a summary of the loaded dataset.\n+   Hover over a card for more detail.\n+\n+5. The Log section at the bottom can be expanded to see a detailed\n+   record of each action including top suspect and score.\n+\n"
+                },
+                {
+                    "date": 1777867478211,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n \n     mvn javafx:run\n \n \n-USING THE APP\n+Usage\n \n 1. Click Load Data to load the CoverageData folder automatically.\n    The status bar will show how many tests, methods, and failures were found.\n \n"
+                },
+                {
+                    "date": 1777867490161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n \n     mvn javafx:run\n \n \n-Usage\n+APPLICATION USAGE\n \n 1. Click Load Data to load the CoverageData folder automatically.\n    The status bar will show how many tests, methods, and failures were found.\n \n"
                 }
             ],
             "date": 1777864833536,

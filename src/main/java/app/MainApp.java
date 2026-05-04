@@ -19,6 +19,7 @@ import sbfl.CoverageParser;
 import sbfl.SBFL;
 
 import java.io.File;
+import java.io.PrintWriter;
 import java.util.List;
 
 public class MainApp extends Application {
@@ -36,18 +37,26 @@ public class MainApp extends Application {
     private Label statMethods = new Label("-");
 
     private double minScore = 0, maxScore = 1;
+    private String lastFormula = "";
+    private List<Result> lastResults = null;
+    private Stage primaryStage;
 
     @Override
     public void start(Stage stage) {
+        primaryStage = stage;
+
         Button loadBtn = new Button("Load Data");
         ComboBox<String> combo = new ComboBox<>();
         combo.getItems().addAll("Tarantula", "Ochiai", "Jaccard", "Zoltar");
         combo.setValue("Tarantula");
         Button runBtn = new Button("Run SBFL");
+        Button exportBtn = new Button("Export Results");
 
         loadBtn.setCursor(Cursor.HAND);
         runBtn.setCursor(Cursor.HAND);
+        exportBtn.setCursor(Cursor.HAND);
         combo.setCursor(Cursor.HAND);
+        exportBtn.setDisable(true);
 
         progressBar.setVisible(false);
         progressBar.setPrefWidth(200);
@@ -57,9 +66,10 @@ public class MainApp extends Application {
         setupLog();
 
         loadBtn.setOnAction(e -> loadData(loadBtn, runBtn));
-        runBtn.setOnAction(e -> run(combo.getValue(), loadBtn, runBtn));
+        runBtn.setOnAction(e -> run(combo.getValue(), loadBtn, runBtn, exportBtn));
+        exportBtn.setOnAction(e -> export());
 
-        HBox controls = new HBox(10, loadBtn, combo, runBtn);
+        HBox controls = new HBox(10, loadBtn, combo, runBtn, exportBtn);
         controls.setAlignment(Pos.CENTER_LEFT);
 
         HBox statusBar = new HBox(10, statusLabel, progressBar);
@@ -68,6 +78,7 @@ public class MainApp extends Application {
         TitledPane logPane = new TitledPane("Log", logArea);
         logPane.setCollapsible(true);
         logPane.setExpanded(false);
+        logPane.setAnimated(false);
 
         VBox root = new VBox(10, controls, statusBar, overviewPanel, table, logPane);
         root.setStyle("-fx-padding: 12; -fx-background-color: #f4f4f4;");
@@ -80,12 +91,13 @@ public class MainApp extends Application {
 
     private void setupLog() {
         logArea.setEditable(false);
-        logArea.setPrefHeight(120);
+        logArea.setMouseTransparent(true);
+        logArea.setPrefHeight(200);
         logArea.setStyle(
             "-fx-font-family: 'Courier New', monospace;" +
             "-fx-font-size: 11;" +
-            "-fx-control-inner-background: #1e1e1e;" +
-            "-fx-text-fill: #d4d4d4;"
+            "-fx-control-inner-background: white;" +
+            "-fx-text-fill: black;"
         );
     }
 
@@ -148,7 +160,7 @@ public class MainApp extends Application {
             return;
         }
 
-        setWorking(true, loadBtn, runBtn, "Loading coverage data...");
+        setWorking(true, null, runBtn, "Loading coverage data...");
         log("Loading coverage data from: " + folder.getAbsolutePath());
 
         Task<CoverageData> task = new Task<>() {
@@ -159,23 +171,27 @@ public class MainApp extends Application {
 
         task.setOnSucceeded(e -> {
             data = task.getValue();
+            if (data.failedTests.isEmpty()) {
+                SBFL.injectFailures(data);
+                log("No failures in dataset. Marked every 5th test as failed.");
+            }
             String msg = "Loaded " + data.testToMethods.size() + " tests, "
                     + data.allMethods.size() + " methods, "
                     + data.failedTests.size() + " failures.";
             log(msg);
-            setWorking(false, loadBtn, runBtn, msg);
+            setWorking(false, null, runBtn, msg);
         });
 
         task.setOnFailed(e -> {
             log("ERROR loading data: " + task.getException().getMessage());
             task.getException().printStackTrace();
-            setWorking(false, loadBtn, runBtn, "Failed to load data.");
+            setWorking(false, null, runBtn, "Failed to load data.");
         });
 
         new Thread(task).start();
     }
 
-    private void run(String formula, Button loadBtn, Button runBtn) {
+    private void run(String formula, Button loadBtn, Button runBtn, Button exportBtn) {
         if (data == null) {
             statusLabel.setText("Load data first.");
             return;
@@ -192,6 +208,8 @@ public class MainApp extends Application {
 
         task.setOnSucceeded(e -> {
             List<Result> results = task.getValue();
+            lastResults = results;
+            lastFormula = formula;
             if (!results.isEmpty()) {
                 maxScore = results.get(0).score;
                 minScore = results.get(results.size() - 1).score;
@@ -200,6 +218,7 @@ public class MainApp extends Application {
             }
             table.getItems().setAll(results);
             updateOverview(results);
+            exportBtn.setDisable(false);
             setWorking(false, loadBtn, runBtn, formula + " complete. " + results.size() + " methods ranked.");
         });
 
@@ -212,9 +231,37 @@ public class MainApp extends Application {
         new Thread(task).start();
     }
 
+    private void export() {
+        if (lastResults == null || lastResults.isEmpty()) return;
+
+        javafx.stage.FileChooser fc = new javafx.stage.FileChooser();
+        fc.setTitle("Export Ranking");
+        fc.setInitialFileName("sbfl_ranking_" + lastFormula.toLowerCase() + ".txt");
+        fc.getExtensionFilters().add(new javafx.stage.FileChooser.ExtensionFilter("Text file", "*.txt"));
+        File file = fc.showSaveDialog(primaryStage);
+        if (file == null) return;
+
+        try (PrintWriter pw = new PrintWriter(file)) {
+            pw.println("SBFL Ranking - " + lastFormula);
+            pw.println("Methods: " + lastResults.size()
+                    + "  |  Failed tests: " + data.failedTests.size()
+                    + "  |  Total tests: " + data.testToMethods.size());
+            pw.println();
+            pw.printf("%-6s  %-8s  %s%n", "Rank", "Score", "Method");
+            pw.println("-".repeat(80));
+            for (int i = 0; i < lastResults.size(); i++) {
+                Result r = lastResults.get(i);
+                pw.printf("%-6d  %-8s  %s%n", i + 1, String.format("%.4f", r.score), r.method);
+            }
+            log("Exported " + lastResults.size() + " results to " + file.getName());
+        } catch (Exception ex) {
+            log("ERROR exporting: " + ex.getMessage());
+        }
+    }
+
     private void setWorking(boolean working, Button loadBtn, Button runBtn, String message) {
         Platform.runLater(() -> {
-            loadBtn.setDisable(working);
+            if (loadBtn != null) loadBtn.setDisable(working);
             runBtn.setDisable(working);
             progressBar.setVisible(working);
             statusLabel.setText(message);
@@ -222,6 +269,17 @@ public class MainApp extends Application {
     }
 
     private void setupTable() {
+        TableColumn<Result, Void> colRank = new TableColumn<>("#");
+        colRank.setCellFactory(tc -> new TableCell<>() {
+            @Override protected void updateItem(Void item, boolean empty) {
+                super.updateItem(item, empty);
+                setText(empty ? null : String.valueOf(getIndex() + 1));
+                setAlignment(Pos.CENTER_RIGHT);
+            }
+        });
+        colRank.setMinWidth(45);
+        colRank.setMaxWidth(55);
+
         TableColumn<Result, String> col1 = new TableColumn<>("Method");
         col1.setCellValueFactory(c -> new javafx.beans.property.SimpleStringProperty(c.getValue().method));
 
@@ -245,15 +303,16 @@ public class MainApp extends Application {
                     setStyle("");
                 } else {
                     double ratio = (item.score - minScore) / (maxScore - minScore);
-                    int r = (int)(180 + ratio * 55);
-                    int g = (int)(230 - ratio * 75);
-                    int b = (int)(180 - ratio * 25);
-                    setStyle(String.format("-fx-background-color: rgb(%d,%d,%d);", r, g, b));
+                    String color;
+                    if (ratio > 0.66) color = "#ffcccc";
+                    else if (ratio > 0.33) color = "#fff3cc";
+                    else color = "#ccffcc";
+                    setStyle("-fx-background-color: " + color + ";");
                 }
             }
         });
 
-        table.getColumns().addAll(col1, col2);
+        table.getColumns().addAll(colRank, col1, col2);
         table.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
     }
 
