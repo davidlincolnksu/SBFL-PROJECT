@@ -1,0 +1,12 @@
+org.jfree.chart.block.LabelBlockTest.testSerialization true
+org/jfree/chart/block/AbstractBlock:<init>:()V
+org/jfree/chart/block/AbstractBlock:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/block/AbstractBlock:writeObject:(Ljava/io/ObjectOutputStream;)V
+org/jfree/chart/block/AbstractBlock:readObject:(Ljava/io/ObjectInputStream;)V
+org/jfree/chart/block/BlockBorder:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/block/BlockBorder:writeObject:(Ljava/io/ObjectOutputStream;)V
+org/jfree/chart/block/BlockBorder:readObject:(Ljava/io/ObjectInputStream;)V
+org/jfree/chart/block/LabelBlock:<init>:(Ljava/lang/String;Ljava/awt/Font;Ljava/awt/Paint;)V
+org/jfree/chart/block/LabelBlock:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/block/LabelBlock:writeObject:(Ljava/io/ObjectOutputStream;)V
+org/jfree/chart/block/LabelBlock:readObject:(Ljava/io/ObjectInputStream;)V

@@ -1,0 +1,2 @@
+org.jfree.chart.renderer.OutlierTest.testCloning true
+org/jfree/chart/renderer/Outlier:<init>:(DDD)V

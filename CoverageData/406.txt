@@ -1,0 +1,23 @@
+org.jfree.data.time.ohlc.OHLCSeriesTest.testClear true
+org/jfree/data/time/RegularTimePeriod:<init>:()V
+org/jfree/data/time/Year:<init>:(I)V
+org/jfree/data/time/Year:peg:(Ljava/util/Calendar;)V
+org/jfree/data/time/Year:getFirstMillisecond:(Ljava/util/Calendar;)J
+org/jfree/data/time/Year:getLastMillisecond:(Ljava/util/Calendar;)J
+org/jfree/data/general/Series:<init>:(Ljava/lang/Comparable;)V
+org/jfree/data/general/Series:<init>:(Ljava/lang/Comparable;Ljava/lang/String;)V
+org/jfree/data/general/Series:isEmpty:()Z
+org/jfree/data/general/Series:addChangeListener:(Lorg/jfree/data/general/SeriesChangeListener;)V
+org/jfree/data/general/Series:fireSeriesChanged:()V
+org/jfree/data/general/Series:notifyListeners:(Lorg/jfree/data/general/SeriesChangeEvent;)V
+org/jfree/data/general/SeriesChangeEvent:<init>:(Ljava/lang/Object;)V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/time/ohlc/OHLCItem:<init>:(Lorg/jfree/data/time/RegularTimePeriod;DDDD)V
+org/jfree/data/ComparableObjectItem:<init>:(Ljava/lang/Comparable;Ljava/lang/Object;)V
+org/jfree/data/time/ohlc/OHLC:<init>:(DDDD)V
+org/jfree/data/time/ohlc/OHLCSeries:<init>:(Ljava/lang/Comparable;)V
+org/jfree/data/time/ohlc/OHLCSeries:add:(Lorg/jfree/data/time/RegularTimePeriod;DDDD)V
+org/jfree/data/ComparableObjectSeries:<init>:(Ljava/lang/Comparable;ZZ)V
+org/jfree/data/ComparableObjectSeries:getItemCount:()I
+org/jfree/data/ComparableObjectSeries:add:(Lorg/jfree/data/ComparableObjectItem;Z)V
+org/jfree/data/ComparableObjectSeries:clear:()V

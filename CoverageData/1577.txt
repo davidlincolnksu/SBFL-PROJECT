@@ -1,0 +1,2 @@
+org.jfree.chart.renderer.OutlierTest.testSerialization true
+org/jfree/chart/renderer/Outlier:<init>:(DDD)V

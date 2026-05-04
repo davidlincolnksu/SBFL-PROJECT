@@ -1,0 +1,17 @@
+org.jfree.data.time.MinuteTest.testEqualsSelf true
+org/jfree/data/time/RegularTimePeriod:<init>:()V
+org/jfree/data/time/Day:<init>:(Ljava/util/Date;Ljava/util/TimeZone;Ljava/util/Locale;)V
+org/jfree/data/time/Day:getYear:()I
+org/jfree/data/time/Day:getMonth:()I
+org/jfree/data/time/Day:getDayOfMonth:()I
+org/jfree/data/time/Day:peg:(Ljava/util/Calendar;)V
+org/jfree/data/time/Day:getFirstMillisecond:(Ljava/util/Calendar;)J
+org/jfree/data/time/Day:getLastMillisecond:(Ljava/util/Calendar;)J
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/time/Minute:<init>:()V
+org/jfree/data/time/Minute:<init>:(Ljava/util/Date;)V
+org/jfree/data/time/Minute:<init>:(Ljava/util/Date;Ljava/util/TimeZone;Ljava/util/Locale;)V
+org/jfree/data/time/Minute:peg:(Ljava/util/Calendar;)V
+org/jfree/data/time/Minute:getFirstMillisecond:(Ljava/util/Calendar;)J
+org/jfree/data/time/Minute:getLastMillisecond:(Ljava/util/Calendar;)J
+org/jfree/data/time/Minute:equals:(Ljava/lang/Object;)Z

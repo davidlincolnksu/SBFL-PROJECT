@@ -1,0 +1,2 @@
+org.jfree.chart.plot.PieLabelRecordTest.testCloning true
+org/jfree/chart/plot/PieLabelRecord:<init>:(Ljava/lang/Comparable;DDLorg/jfree/text/TextBox;DDD)V

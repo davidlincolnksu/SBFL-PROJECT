@@ -1,0 +1,10 @@
+org.jfree.data.KeyToGroupMapTest.testCloning true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/KeyToGroupMap:<init>:(Ljava/lang/Comparable;)V
+org/jfree/data/KeyToGroupMap:getGroup:(Ljava/lang/Comparable;)Ljava/lang/Comparable;
+org/jfree/data/KeyToGroupMap:mapKeyToGroup:(Ljava/lang/Comparable;Ljava/lang/Comparable;)V
+org/jfree/data/KeyToGroupMap:getKeyCount:(Ljava/lang/Comparable;)I
+org/jfree/data/KeyToGroupMap:equals:(Ljava/lang/Object;)Z
+org/jfree/data/KeyToGroupMap:clone:()Ljava/lang/Object;
+org/jfree/data/KeyToGroupMap:clone:(Ljava/lang/Object;)Ljava/lang/Object;
+org/jfree/data/KeyToGroupMap:clone:(Ljava/util/Collection;)Ljava/util/Collection;

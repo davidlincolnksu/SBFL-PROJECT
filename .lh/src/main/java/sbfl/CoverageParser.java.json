@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/main/java/sbfl/CoverageParser.java",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1777862117585,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1777862715212,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,40 @@\n package main.java.sbfl;\r\n+import main.java.model.CoverageData;\r\n+import java.io.*;\r\n+import java.util.*;\r\n \r\n public class CoverageParser {\r\n-    \r\n-}\r\n+\r\n+    public static CoverageData parse(File folder) throws IOException {\r\n+        CoverageData data = new CoverageData();\r\n+\r\n+        for (File file : Objects.requireNonNull(folder.listFiles())) {\r\n+            if (!file.getName().endsWith(\".txt\")) continue;\r\n+\r\n+            List<String> lines = new ArrayList<>();\r\n+            try (BufferedReader br = new BufferedReader(new FileReader(file))) {\r\n+                String line;\r\n+                while ((line = br.readLine()) != null) {\r\n+                    if (!line.trim().isEmpty())\r\n+                        lines.add(line.trim());\r\n+                }\r\n+            }\r\n+\r\n+            int i = 0;\r\n+            while (i < lines.size()) {\r\n+                String test = lines.get(i++);\r\n+                Set<String> methods = new HashSet<>();\r\n+\r\n+                while (i < lines.size() && !lines.get(i).startsWith(\"Test\")) {\r\n+                    methods.add(lines.get(i));\r\n+                    data.allMethods.add(lines.get(i));\r\n+                    i++;\r\n+                }\r\n+\r\n+                data.testToMethods.put(test, methods);\r\n+            }\r\n+        }\r\n+\r\n+        return data;\r\n+    }\r\n+}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1777862117585,
+            "name": "Commit-0",
+            "content": "package main.java.sbfl;\r\n\r\npublic class CoverageParser {\r\n    \r\n}\r\n"
+        }
+    ]
+}

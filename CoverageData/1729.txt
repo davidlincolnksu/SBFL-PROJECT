@@ -1,0 +1,7 @@
+org.jfree.data.xy.XIntervalDataItemTest.testCloning true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/ComparableObjectItem:<init>:(Ljava/lang/Comparable;Ljava/lang/Object;)V
+org/jfree/data/ComparableObjectItem:clone:()Ljava/lang/Object;
+org/jfree/data/ComparableObjectItem:equals:(Ljava/lang/Object;)Z
+org/jfree/data/xy/XIntervalDataItem:<init>:(DDDD)V
+org/jfree/data/xy/YWithXInterval:<init>:(DDD)V

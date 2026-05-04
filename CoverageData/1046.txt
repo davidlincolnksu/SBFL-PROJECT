@@ -1,0 +1,4 @@
+org.jfree.data.xy.OHLCDataItemTest.testEquals true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/xy/OHLCDataItem:<init>:(Ljava/util/Date;DDDDD)V
+org/jfree/data/xy/OHLCDataItem:equals:(Ljava/lang/Object;)Z

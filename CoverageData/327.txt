@@ -1,0 +1,5 @@
+org.jfree.chart.axis.QuarterDateFormatTest.testCloning true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/axis/QuarterDateFormat:<init>:(Ljava/util/TimeZone;[Ljava/lang/String;)V
+org/jfree/chart/axis/QuarterDateFormat:<init>:(Ljava/util/TimeZone;[Ljava/lang/String;Z)V
+org/jfree/chart/axis/QuarterDateFormat:equals:(Ljava/lang/Object;)Z

@@ -1,0 +1,16 @@
+org.jfree.chart.renderer.RendererUtilitiesTest.testFindLiveItemsUpperBound_Unordered true
+org/jfree/data/general/DatasetChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/data/general/Dataset;)V
+org/jfree/data/general/AbstractSeriesDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:notifyListeners:(Lorg/jfree/data/general/DatasetChangeEvent;)V
+org/jfree/data/xy/AbstractXYDataset:<init>:()V
+org/jfree/data/xy/DefaultXYDataset:<init>:()V
+org/jfree/data/xy/DefaultXYDataset:getSeriesCount:()I
+org/jfree/data/xy/DefaultXYDataset:indexOf:(Ljava/lang/Comparable;)I
+org/jfree/data/xy/DefaultXYDataset:getDomainOrder:()Lorg/jfree/data/DomainOrder;
+org/jfree/data/xy/DefaultXYDataset:getItemCount:(I)I
+org/jfree/data/xy/DefaultXYDataset:getXValue:(II)D
+org/jfree/data/xy/DefaultXYDataset:addSeries:(Ljava/lang/Comparable;[[D)V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/chart/renderer/RendererUtilities:findLiveItemsUpperBound:(Lorg/jfree/data/xy/XYDataset;IDD)I

@@ -1,0 +1,20 @@
+org.jfree.chart.annotations.TextAnnotationTest.testHashCode true
+org/jfree/chart/annotations/TextAnnotation:<init>:(Ljava/lang/String;)V
+org/jfree/chart/annotations/TextAnnotation:getText:()Ljava/lang/String;
+org/jfree/chart/annotations/TextAnnotation:getFont:()Ljava/awt/Font;
+org/jfree/chart/annotations/TextAnnotation:getPaint:()Ljava/awt/Paint;
+org/jfree/chart/annotations/TextAnnotation:getTextAnchor:()Lorg/jfree/ui/TextAnchor;
+org/jfree/chart/annotations/TextAnnotation:getRotationAnchor:()Lorg/jfree/ui/TextAnchor;
+org/jfree/chart/annotations/TextAnnotation:getRotationAngle:()D
+org/jfree/chart/annotations/TextAnnotation:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/annotations/TextAnnotation:hashCode:()I
+org/jfree/chart/annotations/AbstractAnnotation:<init>:()V
+org/jfree/chart/annotations/CategoryTextAnnotation:<init>:(Ljava/lang/String;Ljava/lang/Comparable;D)V
+org/jfree/chart/annotations/CategoryTextAnnotation:getCategory:()Ljava/lang/Comparable;
+org/jfree/chart/annotations/CategoryTextAnnotation:getCategoryAnchor:()Lorg/jfree/chart/axis/CategoryAnchor;
+org/jfree/chart/annotations/CategoryTextAnnotation:getValue:()D
+org/jfree/chart/annotations/CategoryTextAnnotation:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/annotations/CategoryTextAnnotation:hashCode:()I
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/HashUtilities:hashCodeForPaint:(Ljava/awt/Paint;)I
+org/jfree/chart/axis/CategoryAnchor:equals:(Ljava/lang/Object;)Z

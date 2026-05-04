@@ -1,0 +1,5 @@
+org.jfree.chart.annotations.XYLineAnnotationTest.testPublicCloneable true
+org/jfree/chart/annotations/AbstractAnnotation:<init>:()V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/annotations/AbstractXYAnnotation:<init>:()V
+org/jfree/chart/annotations/XYLineAnnotation:<init>:(DDDDLjava/awt/Stroke;Ljava/awt/Paint;)V

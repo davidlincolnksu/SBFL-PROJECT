@@ -1,0 +1,15 @@
+org.jfree.data.KeyedObjectTest.testCloning2 true
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:clone:()Ljava/lang/Object;
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/DefaultKeyedValues:<init>:()V
+org/jfree/data/DefaultKeyedValues:getItemCount:()I
+org/jfree/data/DefaultKeyedValues:clone:()Ljava/lang/Object;
+org/jfree/data/general/DefaultPieDataset:<init>:()V
+org/jfree/data/general/DefaultPieDataset:getItemCount:()I
+org/jfree/data/general/DefaultPieDataset:equals:(Ljava/lang/Object;)Z
+org/jfree/data/general/DefaultPieDataset:clone:()Ljava/lang/Object;
+org/jfree/data/KeyedObject:<init>:(Ljava/lang/Comparable;Ljava/lang/Object;)V
+org/jfree/data/KeyedObject:getObject:()Ljava/lang/Object;
+org/jfree/data/KeyedObject:clone:()Ljava/lang/Object;
+org/jfree/data/KeyedObject:equals:(Ljava/lang/Object;)Z

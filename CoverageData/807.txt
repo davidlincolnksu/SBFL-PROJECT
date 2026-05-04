@@ -1,0 +1,14 @@
+org.jfree.data.xy.DefaultOHLCDatasetTest.testCloning2 true
+org/jfree/data/general/AbstractSeriesDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:clone:()Ljava/lang/Object;
+org/jfree/data/xy/AbstractXYDataset:<init>:()V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/xy/OHLCDataItem:<init>:(Ljava/util/Date;DDDDD)V
+org/jfree/data/xy/OHLCDataItem:equals:(Ljava/lang/Object;)Z
+org/jfree/data/xy/OHLCDataItem:compareTo:(Ljava/lang/Object;)I
+org/jfree/data/xy/DefaultOHLCDataset:<init>:(Ljava/lang/Comparable;[Lorg/jfree/data/xy/OHLCDataItem;)V
+org/jfree/data/xy/DefaultOHLCDataset:sortDataByDate:()V
+org/jfree/data/xy/DefaultOHLCDataset:equals:(Ljava/lang/Object;)Z
+org/jfree/data/xy/DefaultOHLCDataset:clone:()Ljava/lang/Object;

@@ -1,0 +1,2 @@
+org.jfree.data.DataUtilitiesTest.testEqual true
+org/jfree/data/DataUtilities:equal:([[D[[D)Z

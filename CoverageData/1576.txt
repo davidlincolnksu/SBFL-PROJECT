@@ -1,0 +1,10 @@
+org.jfree.data.time.QuarterTest.testHashcode true
+org/jfree/data/time/RegularTimePeriod:<init>:()V
+org/jfree/data/time/Quarter:<init>:(II)V
+org/jfree/data/time/Quarter:getQuarter:()I
+org/jfree/data/time/Quarter:getYearValue:()I
+org/jfree/data/time/Quarter:peg:(Ljava/util/Calendar;)V
+org/jfree/data/time/Quarter:equals:(Ljava/lang/Object;)Z
+org/jfree/data/time/Quarter:hashCode:()I
+org/jfree/data/time/Quarter:getFirstMillisecond:(Ljava/util/Calendar;)J
+org/jfree/data/time/Quarter:getLastMillisecond:(Ljava/util/Calendar;)J

@@ -1,0 +1,15 @@
+org.jfree.chart.urls.StandardPieURLGeneratorTest.testURL true
+org/jfree/data/general/DatasetChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/data/general/Dataset;)V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:fireDatasetChanged:()V
+org/jfree/data/general/AbstractDataset:notifyListeners:(Lorg/jfree/data/general/DatasetChangeEvent;)V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/DefaultKeyedValues:<init>:()V
+org/jfree/data/DefaultKeyedValues:getIndex:(Ljava/lang/Comparable;)I
+org/jfree/data/DefaultKeyedValues:setValue:(Ljava/lang/Comparable;Ljava/lang/Number;)V
+org/jfree/data/general/DefaultPieDataset:<init>:()V
+org/jfree/data/general/DefaultPieDataset:setValue:(Ljava/lang/Comparable;Ljava/lang/Number;)V
+org/jfree/chart/urls/StandardPieURLGenerator:<init>:(Ljava/lang/String;Ljava/lang/String;)V
+org/jfree/chart/urls/StandardPieURLGenerator:<init>:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+org/jfree/chart/urls/StandardPieURLGenerator:generateURL:(Lorg/jfree/data/general/PieDataset;Ljava/lang/Comparable;I)Ljava/lang/String;

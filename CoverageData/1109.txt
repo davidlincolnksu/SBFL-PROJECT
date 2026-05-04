@@ -1,0 +1,2 @@
+org.jfree.chart.urls.TimeSeriesURLGeneratorTest.testPublicCloneable true
+org/jfree/chart/urls/TimeSeriesURLGenerator:<init>:()V

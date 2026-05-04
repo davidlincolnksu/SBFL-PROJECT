@@ -1,0 +1,15 @@
+org.jfree.chart.block.AbstractBlockTest.testEquals true
+org/jfree/chart/block/AbstractBlock:<init>:()V
+org/jfree/chart/block/AbstractBlock:setID:(Ljava/lang/String;)V
+org/jfree/chart/block/AbstractBlock:setWidth:(D)V
+org/jfree/chart/block/AbstractBlock:setHeight:(D)V
+org/jfree/chart/block/AbstractBlock:setMargin:(Lorg/jfree/ui/RectangleInsets;)V
+org/jfree/chart/block/AbstractBlock:setFrame:(Lorg/jfree/chart/block/BlockFrame;)V
+org/jfree/chart/block/AbstractBlock:setPadding:(Lorg/jfree/ui/RectangleInsets;)V
+org/jfree/chart/block/AbstractBlock:setBounds:(Ljava/awt/geom/Rectangle2D;)V
+org/jfree/chart/block/AbstractBlock:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/block/BlockBorder:<init>:(Ljava/awt/Paint;)V
+org/jfree/chart/block/BlockBorder:<init>:(Lorg/jfree/ui/RectangleInsets;Ljava/awt/Paint;)V
+org/jfree/chart/block/BlockBorder:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/block/EmptyBlock:<init>:(DD)V

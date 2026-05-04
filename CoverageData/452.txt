@@ -1,0 +1,5 @@
+org.jfree.chart.labels.StandardXYItemLabelGeneratorTest.testPublicCloneable true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/labels/AbstractXYItemLabelGenerator:<init>:(Ljava/lang/String;Ljava/text/NumberFormat;Ljava/text/NumberFormat;)V
+org/jfree/chart/labels/StandardXYItemLabelGenerator:<init>:()V
+org/jfree/chart/labels/StandardXYItemLabelGenerator:<init>:(Ljava/lang/String;Ljava/text/NumberFormat;Ljava/text/NumberFormat;)V

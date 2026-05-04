@@ -1,0 +1,26 @@
+org.jfree.chart.annotations.CategoryTextAnnotationTest.testEquals true
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;)V
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/chart/JFreeChart;Lorg/jfree/chart/event/ChartChangeEventType;)V
+org/jfree/chart/annotations/TextAnnotation:<init>:(Ljava/lang/String;)V
+org/jfree/chart/annotations/TextAnnotation:getText:()Ljava/lang/String;
+org/jfree/chart/annotations/TextAnnotation:getFont:()Ljava/awt/Font;
+org/jfree/chart/annotations/TextAnnotation:getPaint:()Ljava/awt/Paint;
+org/jfree/chart/annotations/TextAnnotation:getTextAnchor:()Lorg/jfree/ui/TextAnchor;
+org/jfree/chart/annotations/TextAnnotation:getRotationAnchor:()Lorg/jfree/ui/TextAnchor;
+org/jfree/chart/annotations/TextAnnotation:getRotationAngle:()D
+org/jfree/chart/annotations/TextAnnotation:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/annotations/AbstractAnnotation:<init>:()V
+org/jfree/chart/annotations/AbstractAnnotation:fireAnnotationChanged:()V
+org/jfree/chart/annotations/AbstractAnnotation:notifyListeners:(Lorg/jfree/chart/event/AnnotationChangeEvent;)V
+org/jfree/chart/annotations/CategoryTextAnnotation:<init>:(Ljava/lang/String;Ljava/lang/Comparable;D)V
+org/jfree/chart/annotations/CategoryTextAnnotation:getCategory:()Ljava/lang/Comparable;
+org/jfree/chart/annotations/CategoryTextAnnotation:setCategory:(Ljava/lang/Comparable;)V
+org/jfree/chart/annotations/CategoryTextAnnotation:getCategoryAnchor:()Lorg/jfree/chart/axis/CategoryAnchor;
+org/jfree/chart/annotations/CategoryTextAnnotation:setCategoryAnchor:(Lorg/jfree/chart/axis/CategoryAnchor;)V
+org/jfree/chart/annotations/CategoryTextAnnotation:getValue:()D
+org/jfree/chart/annotations/CategoryTextAnnotation:setValue:(D)V
+org/jfree/chart/annotations/CategoryTextAnnotation:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/event/AnnotationChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/chart/annotations/Annotation;)V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/axis/CategoryAnchor:toString:()Ljava/lang/String;
+org/jfree/chart/axis/CategoryAnchor:equals:(Ljava/lang/Object;)Z

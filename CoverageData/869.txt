@@ -1,0 +1,2 @@
+org.jfree.chart.renderer.xy.StandardXYBarPainterTest.testCloning true
+org/jfree/chart/renderer/xy/StandardXYBarPainter:<init>:()V

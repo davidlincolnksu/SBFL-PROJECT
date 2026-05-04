@@ -1,0 +1,2 @@
+org.jfree.chart.urls.CustomCategoryURLGeneratorTest.testPublicCloneable true
+org/jfree/chart/urls/CustomCategoryURLGenerator:<init>:()V

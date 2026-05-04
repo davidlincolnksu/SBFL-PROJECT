@@ -1,0 +1,21 @@
+org.jfree.chart.renderer.category.ScatterRendererTest.testSerialization true
+org/jfree/chart/renderer/category/AbstractCategoryItemRenderer:<init>:()V
+org/jfree/chart/renderer/category/AbstractCategoryItemRenderer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/renderer/AbstractRenderer:<init>:()V
+org/jfree/chart/renderer/AbstractRenderer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/renderer/AbstractRenderer:writeObject:(Ljava/io/ObjectOutputStream;)V
+org/jfree/chart/renderer/AbstractRenderer:readObject:(Ljava/io/ObjectInputStream;)V
+org/jfree/chart/renderer/category/ScatterRenderer:<init>:()V
+org/jfree/chart/renderer/category/ScatterRenderer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/renderer/category/ScatterRenderer:writeObject:(Ljava/io/ObjectOutputStream;)V
+org/jfree/chart/renderer/category/ScatterRenderer:readObject:(Ljava/io/ObjectInputStream;)V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/labels/ItemLabelPosition:<init>:(Lorg/jfree/chart/labels/ItemLabelAnchor;Lorg/jfree/ui/TextAnchor;)V
+org/jfree/chart/labels/ItemLabelPosition:<init>:(Lorg/jfree/chart/labels/ItemLabelAnchor;Lorg/jfree/ui/TextAnchor;Lorg/jfree/ui/TextAnchor;D)V
+org/jfree/chart/labels/ItemLabelPosition:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/labels/ItemLabelAnchor:toString:()Ljava/lang/String;
+org/jfree/chart/labels/ItemLabelAnchor:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/labels/ItemLabelAnchor:readResolve:()Ljava/lang/Object;
+org/jfree/chart/labels/StandardCategorySeriesLabelGenerator:<init>:()V
+org/jfree/chart/labels/StandardCategorySeriesLabelGenerator:<init>:(Ljava/lang/String;)V
+org/jfree/chart/labels/StandardCategorySeriesLabelGenerator:equals:(Ljava/lang/Object;)Z

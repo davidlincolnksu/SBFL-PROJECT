@@ -1,0 +1,3 @@
+org.jfree.data.xy.XYIntervalTest.testEquals true
+org/jfree/data/xy/XYInterval:<init>:(DDDDD)V
+org/jfree/data/xy/XYInterval:equals:(Ljava/lang/Object;)Z

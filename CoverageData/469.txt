@@ -1,0 +1,6 @@
+org.jfree.data.DomainOrderTest.testSerialization true
+org/jfree/data/DomainOrder:<clinit>:()V
+org/jfree/data/DomainOrder:<init>:(Ljava/lang/String;)V
+org/jfree/data/DomainOrder:toString:()Ljava/lang/String;
+org/jfree/data/DomainOrder:equals:(Ljava/lang/Object;)Z
+org/jfree/data/DomainOrder:readResolve:()Ljava/lang/Object;

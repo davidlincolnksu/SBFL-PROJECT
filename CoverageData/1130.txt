@@ -1,0 +1,4 @@
+org.jfree.data.statistics.SimpleHistogramBinTest.testOverlapsWidth true
+org/jfree/data/statistics/SimpleHistogramBin:<init>:(DD)V
+org/jfree/data/statistics/SimpleHistogramBin:<init>:(DDZZ)V
+org/jfree/data/statistics/SimpleHistogramBin:overlapsWith:(Lorg/jfree/data/statistics/SimpleHistogramBin;)Z

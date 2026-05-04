@@ -1,0 +1,22 @@
+org.jfree.data.general.DatasetUtilitiesTest.testIterateToFindDomainBounds_IntervalXYDataset true
+org/jfree/data/general/DatasetChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/data/general/Dataset;)V
+org/jfree/data/general/AbstractSeriesDataset:<init>:()V
+org/jfree/data/general/AbstractSeriesDataset:indexOf:(Ljava/lang/Comparable;)I
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:notifyListeners:(Lorg/jfree/data/general/DatasetChangeEvent;)V
+org/jfree/data/xy/AbstractXYDataset:<init>:()V
+org/jfree/data/xy/DefaultIntervalXYDataset:<init>:()V
+org/jfree/data/xy/DefaultIntervalXYDataset:getSeriesCount:()I
+org/jfree/data/xy/DefaultIntervalXYDataset:getSeriesKey:(I)Ljava/lang/Comparable;
+org/jfree/data/xy/DefaultIntervalXYDataset:getItemCount:(I)I
+org/jfree/data/xy/DefaultIntervalXYDataset:getXValue:(II)D
+org/jfree/data/xy/DefaultIntervalXYDataset:getStartXValue:(II)D
+org/jfree/data/xy/DefaultIntervalXYDataset:getEndXValue:(II)D
+org/jfree/data/xy/DefaultIntervalXYDataset:addSeries:(Ljava/lang/Comparable;[[D)V
+org/jfree/data/xy/AbstractIntervalXYDataset:<init>:()V
+org/jfree/data/Range:<init>:(DD)V
+org/jfree/data/Range:getLowerBound:()D
+org/jfree/data/Range:getUpperBound:()D
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/general/DatasetUtilities:iterateToFindDomainBounds:(Lorg/jfree/data/xy/XYDataset;Ljava/util/List;Z)Lorg/jfree/data/Range;

@@ -1,0 +1,2 @@
+org.jfree.data.time.TimePeriodAnchorTest.testEquals true
+org/jfree/data/time/TimePeriodAnchor:equals:(Ljava/lang/Object;)Z

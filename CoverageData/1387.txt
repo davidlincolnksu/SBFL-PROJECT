@@ -1,0 +1,11 @@
+org.jfree.chart.block.AbstractBlockTest.testCloning true
+org/jfree/chart/block/AbstractBlock:<init>:()V
+org/jfree/chart/block/AbstractBlock:setWidth:(D)V
+org/jfree/chart/block/AbstractBlock:setHeight:(D)V
+org/jfree/chart/block/AbstractBlock:setBounds:(Ljava/awt/geom/Rectangle2D;)V
+org/jfree/chart/block/AbstractBlock:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/block/AbstractBlock:clone:()Ljava/lang/Object;
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/block/BlockBorder:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/block/EmptyBlock:<init>:(DD)V
+org/jfree/chart/block/EmptyBlock:clone:()Ljava/lang/Object;

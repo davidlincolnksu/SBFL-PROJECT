@@ -1,0 +1,10 @@
+org.jfree.chart.plot.ValueMarkerTest.test1808376 true
+org/jfree/chart/plot/Marker:<init>:(Ljava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V
+org/jfree/chart/plot/Marker:getPaint:()Ljava/awt/Paint;
+org/jfree/chart/plot/Marker:getStroke:()Ljava/awt/Stroke;
+org/jfree/chart/plot/Marker:getOutlinePaint:()Ljava/awt/Paint;
+org/jfree/chart/plot/Marker:getOutlineStroke:()Ljava/awt/Stroke;
+org/jfree/chart/plot/Marker:getAlpha:()F
+org/jfree/chart/plot/ValueMarker:<init>:(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V
+org/jfree/chart/plot/ValueMarker:getValue:()D
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V

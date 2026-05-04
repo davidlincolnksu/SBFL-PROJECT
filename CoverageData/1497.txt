@@ -1,0 +1,26 @@
+org.jfree.data.statistics.DefaultStatisticalCategoryDatasetTest.test3072674 true
+org/jfree/data/general/DatasetChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/data/general/Dataset;)V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:fireDatasetChanged:()V
+org/jfree/data/general/AbstractDataset:notifyListeners:(Lorg/jfree/data/general/DatasetChangeEvent;)V
+org/jfree/data/Range:<init>:(DD)V
+org/jfree/data/Range:getLowerBound:()D
+org/jfree/data/Range:getUpperBound:()D
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/KeyedObjects2D:<init>:()V
+org/jfree/data/KeyedObjects2D:getRowIndex:(Ljava/lang/Comparable;)I
+org/jfree/data/KeyedObjects2D:getColumnIndex:(Ljava/lang/Comparable;)I
+org/jfree/data/KeyedObjects2D:addObject:(Ljava/lang/Object;Ljava/lang/Comparable;Ljava/lang/Comparable;)V
+org/jfree/data/KeyedObjects2D:setObject:(Ljava/lang/Object;Ljava/lang/Comparable;Ljava/lang/Comparable;)V
+org/jfree/data/KeyedObjects:<init>:()V
+org/jfree/data/KeyedObjects:getIndex:(Ljava/lang/Comparable;)I
+org/jfree/data/KeyedObjects:setObject:(Ljava/lang/Comparable;Ljava/lang/Object;)V
+org/jfree/data/KeyedObject:<init>:(Ljava/lang/Comparable;Ljava/lang/Object;)V
+org/jfree/data/statistics/DefaultStatisticalCategoryDataset:<init>:()V
+org/jfree/data/statistics/DefaultStatisticalCategoryDataset:add:(DDLjava/lang/Comparable;Ljava/lang/Comparable;)V
+org/jfree/data/statistics/DefaultStatisticalCategoryDataset:add:(Ljava/lang/Number;Ljava/lang/Number;Ljava/lang/Comparable;Ljava/lang/Comparable;)V
+org/jfree/data/statistics/DefaultStatisticalCategoryDataset:getRangeLowerBound:(Z)D
+org/jfree/data/statistics/DefaultStatisticalCategoryDataset:getRangeUpperBound:(Z)D
+org/jfree/data/statistics/DefaultStatisticalCategoryDataset:getRangeBounds:(Z)Lorg/jfree/data/Range;
+org/jfree/data/statistics/MeanAndStandardDeviation:<init>:(Ljava/lang/Number;Ljava/lang/Number;)V

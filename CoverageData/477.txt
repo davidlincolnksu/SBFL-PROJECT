@@ -1,0 +1,2 @@
+org.jfree.chart.renderer.category.GradientBarPainterTest.testCloning true
+org/jfree/chart/renderer/category/GradientBarPainter:<init>:(DDD)V

@@ -1,0 +1,5 @@
+org.jfree.chart.imagemap.StandardToolTipTagFragmentGeneratorTest.testGenerateURLFragment true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator:<init>:()V
+org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator:generateToolTipFragment:(Ljava/lang/String;)Ljava/lang/String;
+org/jfree/chart/imagemap/ImageMapUtilities:htmlEscape:(Ljava/lang/String;)Ljava/lang/String;

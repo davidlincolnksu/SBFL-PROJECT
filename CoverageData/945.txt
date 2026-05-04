@@ -1,0 +1,3 @@
+org.jfree.data.DefaultKeyedValuesTest.testConstructor true
+org/jfree/data/DefaultKeyedValues:<init>:()V
+org/jfree/data/DefaultKeyedValues:getItemCount:()I

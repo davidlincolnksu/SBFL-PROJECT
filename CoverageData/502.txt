@@ -1,0 +1,10 @@
+org.jfree.chart.annotations.XYPolygonAnnotationTest.testHashCode true
+org/jfree/chart/annotations/AbstractAnnotation:<init>:()V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/HashUtilities:hashCodeForPaint:(Ljava/awt/Paint;)I
+org/jfree/chart/HashUtilities:hashCodeForDoubleArray:([D)I
+org/jfree/chart/annotations/AbstractXYAnnotation:<init>:()V
+org/jfree/chart/annotations/AbstractXYAnnotation:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/annotations/XYPolygonAnnotation:<init>:([DLjava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Paint;)V
+org/jfree/chart/annotations/XYPolygonAnnotation:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/annotations/XYPolygonAnnotation:hashCode:()I

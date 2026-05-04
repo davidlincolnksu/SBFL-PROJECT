@@ -1,0 +1,20 @@
+org.jfree.chart.renderer.category.DefaultCategoryItemRendererTest.testCloning true
+org/jfree/chart/renderer/category/LineAndShapeRenderer:<init>:()V
+org/jfree/chart/renderer/category/LineAndShapeRenderer:<init>:(ZZ)V
+org/jfree/chart/renderer/category/LineAndShapeRenderer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/renderer/category/LineAndShapeRenderer:clone:()Ljava/lang/Object;
+org/jfree/chart/renderer/category/AbstractCategoryItemRenderer:<init>:()V
+org/jfree/chart/renderer/category/AbstractCategoryItemRenderer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/renderer/category/AbstractCategoryItemRenderer:clone:()Ljava/lang/Object;
+org/jfree/chart/renderer/AbstractRenderer:<init>:()V
+org/jfree/chart/renderer/AbstractRenderer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/renderer/AbstractRenderer:clone:()Ljava/lang/Object;
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/labels/ItemLabelPosition:<init>:(Lorg/jfree/chart/labels/ItemLabelAnchor;Lorg/jfree/ui/TextAnchor;)V
+org/jfree/chart/labels/ItemLabelPosition:<init>:(Lorg/jfree/chart/labels/ItemLabelAnchor;Lorg/jfree/ui/TextAnchor;Lorg/jfree/ui/TextAnchor;D)V
+org/jfree/chart/labels/StandardCategorySeriesLabelGenerator:<init>:()V
+org/jfree/chart/labels/StandardCategorySeriesLabelGenerator:<init>:(Ljava/lang/String;)V
+org/jfree/chart/labels/StandardCategorySeriesLabelGenerator:clone:()Ljava/lang/Object;
+org/jfree/chart/labels/StandardCategorySeriesLabelGenerator:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/util/CloneUtils:cloneMapValues:(Ljava/util/Map;)Ljava/util/Map;
+org/jfree/chart/renderer/category/DefaultCategoryItemRenderer:<init>:()V

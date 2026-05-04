@@ -1,0 +1,15 @@
+org.jfree.chart.labels.StandardXYItemLabelGeneratorTest.testCloning true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/labels/AbstractXYItemLabelGenerator:<init>:(Ljava/lang/String;Ljava/text/NumberFormat;Ljava/text/NumberFormat;)V
+org/jfree/chart/labels/AbstractXYItemLabelGenerator:<init>:(Ljava/lang/String;Ljava/text/DateFormat;Ljava/text/DateFormat;)V
+org/jfree/chart/labels/AbstractXYItemLabelGenerator:getXFormat:()Ljava/text/NumberFormat;
+org/jfree/chart/labels/AbstractXYItemLabelGenerator:getXDateFormat:()Ljava/text/DateFormat;
+org/jfree/chart/labels/AbstractXYItemLabelGenerator:getYFormat:()Ljava/text/NumberFormat;
+org/jfree/chart/labels/AbstractXYItemLabelGenerator:getYDateFormat:()Ljava/text/DateFormat;
+org/jfree/chart/labels/AbstractXYItemLabelGenerator:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/labels/AbstractXYItemLabelGenerator:clone:()Ljava/lang/Object;
+org/jfree/chart/labels/StandardXYItemLabelGenerator:<init>:()V
+org/jfree/chart/labels/StandardXYItemLabelGenerator:<init>:(Ljava/lang/String;Ljava/text/NumberFormat;Ljava/text/NumberFormat;)V
+org/jfree/chart/labels/StandardXYItemLabelGenerator:<init>:(Ljava/lang/String;Ljava/text/DateFormat;Ljava/text/DateFormat;)V
+org/jfree/chart/labels/StandardXYItemLabelGenerator:clone:()Ljava/lang/Object;
+org/jfree/chart/labels/StandardXYItemLabelGenerator:equals:(Ljava/lang/Object;)Z

@@ -1,0 +1,10 @@
+org.jfree.data.DefaultKeyedValuesTest.testAddValue true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/DefaultKeyedValues:<init>:()V
+org/jfree/data/DefaultKeyedValues:getItemCount:()I
+org/jfree/data/DefaultKeyedValues:getValue:(I)Ljava/lang/Number;
+org/jfree/data/DefaultKeyedValues:getIndex:(Ljava/lang/Comparable;)I
+org/jfree/data/DefaultKeyedValues:getValue:(Ljava/lang/Comparable;)Ljava/lang/Number;
+org/jfree/data/DefaultKeyedValues:addValue:(Ljava/lang/Comparable;D)V
+org/jfree/data/DefaultKeyedValues:addValue:(Ljava/lang/Comparable;Ljava/lang/Number;)V
+org/jfree/data/DefaultKeyedValues:setValue:(Ljava/lang/Comparable;Ljava/lang/Number;)V

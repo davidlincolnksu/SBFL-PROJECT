@@ -1,0 +1,6 @@
+org.jfree.chart.labels.HighLowItemLabelGeneratorTest.testHashCode true
+org/jfree/chart/HashUtilities:hashCode:(ILjava/lang/Object;)I
+org/jfree/chart/labels/HighLowItemLabelGenerator:<init>:()V
+org/jfree/chart/labels/HighLowItemLabelGenerator:<init>:(Ljava/text/DateFormat;Ljava/text/NumberFormat;)V
+org/jfree/chart/labels/HighLowItemLabelGenerator:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/labels/HighLowItemLabelGenerator:hashCode:()I

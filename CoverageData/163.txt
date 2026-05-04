@@ -1,0 +1,5 @@
+org.jfree.data.time.DateRangeTest.testImmutable true
+org/jfree/data/Range:<init>:(DD)V
+org/jfree/data/time/DateRange:<init>:(Ljava/util/Date;Ljava/util/Date;)V
+org/jfree/data/time/DateRange:getLowerDate:()Ljava/util/Date;
+org/jfree/data/time/DateRange:getUpperDate:()Ljava/util/Date;

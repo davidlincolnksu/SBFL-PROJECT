@@ -1,0 +1,2 @@
+org.jfree.chart.block.GridArrangementTest.testCloning true
+org/jfree/chart/block/GridArrangement:<init>:(II)V

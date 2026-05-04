@@ -1,0 +1,14 @@
+org.jfree.data.DataUtilitiesTest.testCalculateRowTotal2 true
+org/jfree/data/DataUtilities:calculateRowTotal:(Lorg/jfree/data/Values2D;I[I)D
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/DefaultKeyedValues2D:<init>:()V
+org/jfree/data/DefaultKeyedValues2D:<init>:(Z)V
+org/jfree/data/DefaultKeyedValues2D:getColumnCount:()I
+org/jfree/data/DefaultKeyedValues2D:getValue:(II)Ljava/lang/Number;
+org/jfree/data/DefaultKeyedValues2D:getRowIndex:(Ljava/lang/Comparable;)I
+org/jfree/data/DefaultKeyedValues2D:addValue:(Ljava/lang/Number;Ljava/lang/Comparable;Ljava/lang/Comparable;)V
+org/jfree/data/DefaultKeyedValues2D:setValue:(Ljava/lang/Number;Ljava/lang/Comparable;Ljava/lang/Comparable;)V
+org/jfree/data/DefaultKeyedValues:<init>:()V
+org/jfree/data/DefaultKeyedValues:getValue:(I)Ljava/lang/Number;
+org/jfree/data/DefaultKeyedValues:getIndex:(Ljava/lang/Comparable;)I
+org/jfree/data/DefaultKeyedValues:setValue:(Ljava/lang/Comparable;Ljava/lang/Number;)V

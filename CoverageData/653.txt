@@ -1,0 +1,3 @@
+org.jfree.data.KeyedObjectTest.testEquals true
+org/jfree/data/KeyedObject:<init>:(Ljava/lang/Comparable;Ljava/lang/Object;)V
+org/jfree/data/KeyedObject:equals:(Ljava/lang/Object;)Z

@@ -1,0 +1,5 @@
+org.jfree.chart.renderer.category.GradientBarPainterTest.testHashcode true
+org/jfree/chart/HashUtilities:hashCode:(ID)I
+org/jfree/chart/renderer/category/GradientBarPainter:<init>:(DDD)V
+org/jfree/chart/renderer/category/GradientBarPainter:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/renderer/category/GradientBarPainter:hashCode:()I

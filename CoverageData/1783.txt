@@ -1,0 +1,3 @@
+org.jfree.data.RangeTest.testIntersects true
+org/jfree/data/Range:<init>:(DD)V
+org/jfree/data/Range:intersects:(DD)Z

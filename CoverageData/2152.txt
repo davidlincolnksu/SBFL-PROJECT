@@ -1,0 +1,15 @@
+org.jfree.chart.plot.MarkerTest.testGetSetLabelAnchor true
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;)V
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/chart/JFreeChart;Lorg/jfree/chart/event/ChartChangeEventType;)V
+org/jfree/chart/plot/Marker:<init>:()V
+org/jfree/chart/plot/Marker:<init>:(Ljava/awt/Paint;)V
+org/jfree/chart/plot/Marker:<init>:(Ljava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V
+org/jfree/chart/plot/Marker:getLabelAnchor:()Lorg/jfree/ui/RectangleAnchor;
+org/jfree/chart/plot/Marker:setLabelAnchor:(Lorg/jfree/ui/RectangleAnchor;)V
+org/jfree/chart/plot/Marker:addChangeListener:(Lorg/jfree/chart/event/MarkerChangeListener;)V
+org/jfree/chart/plot/Marker:notifyListeners:(Lorg/jfree/chart/event/MarkerChangeEvent;)V
+org/jfree/chart/plot/ValueMarker:<init>:(D)V
+org/jfree/chart/plot/ValueMarker:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/event/MarkerChangeEvent:<init>:(Lorg/jfree/chart/plot/Marker;)V
+org/jfree/chart/event/MarkerChangeEvent:getMarker:()Lorg/jfree/chart/plot/Marker;
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V

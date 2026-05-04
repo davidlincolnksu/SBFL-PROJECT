@@ -1,0 +1,27 @@
+org.jfree.chart.axis.SegmentedTimelineTest.testBasicSegmentedTimeline true
+org/jfree/chart/axis/SegmentedTimeline:<init>:(JII)V
+org/jfree/chart/axis/SegmentedTimeline:firstMondayAfter1900:()J
+org/jfree/chart/axis/SegmentedTimeline:newMondayThroughFridayTimeline:()Lorg/jfree/chart/axis/SegmentedTimeline;
+org/jfree/chart/axis/SegmentedTimeline:newFifteenMinuteTimeline:()Lorg/jfree/chart/axis/SegmentedTimeline;
+org/jfree/chart/axis/SegmentedTimeline:setStartTime:(J)V
+org/jfree/chart/axis/SegmentedTimeline:getStartTime:()J
+org/jfree/chart/axis/SegmentedTimeline:getSegmentSize:()J
+org/jfree/chart/axis/SegmentedTimeline:setBaseTimeline:(Lorg/jfree/chart/axis/SegmentedTimeline;)V
+org/jfree/chart/axis/SegmentedTimeline:toTimelineValue:(J)J
+org/jfree/chart/axis/SegmentedTimeline:toMillisecond:(J)J
+org/jfree/chart/axis/SegmentedTimeline:getTimeFromLong:(J)J
+org/jfree/chart/axis/SegmentedTimeline:containsDomainValue:(J)Z
+org/jfree/chart/axis/SegmentedTimeline:getExceptionSegmentCount:(JJ)J
+org/jfree/chart/axis/SegmentedTimeline:getSegment:(J)Lorg/jfree/chart/axis/SegmentedTimeline$Segment;
+org/jfree/chart/axis/SegmentedTimeline:binarySearchExceptionSegments:(Lorg/jfree/chart/axis/SegmentedTimeline$Segment;)I
+org/jfree/chart/axis/SegmentedTimeline:access$000:(Lorg/jfree/chart/axis/SegmentedTimeline;)J
+org/jfree/chart/axis/SegmentedTimeline:access$100:(Lorg/jfree/chart/axis/SegmentedTimeline;)J
+org/jfree/chart/axis/SegmentedTimeline:access$200:(Lorg/jfree/chart/axis/SegmentedTimeline;)I
+org/jfree/chart/axis/SegmentedTimeline:access$300:(Lorg/jfree/chart/axis/SegmentedTimeline;)I
+org/jfree/chart/axis/SegmentedTimeline:access$400:(Lorg/jfree/chart/axis/SegmentedTimeline;Lorg/jfree/chart/axis/SegmentedTimeline$Segment;)I
+org/jfree/chart/axis/SegmentedTimeline$Segment:<init>:(Lorg/jfree/chart/axis/SegmentedTimeline;J)V
+org/jfree/chart/axis/SegmentedTimeline$Segment:calculateSegmentNumber:(J)J
+org/jfree/chart/axis/SegmentedTimeline$Segment:inIncludeSegments:()Z
+org/jfree/chart/axis/SegmentedTimeline$Segment:inExcludeSegments:()Z
+org/jfree/chart/axis/SegmentedTimeline$Segment:getSegmentNumberRelativeToGroup:()J
+org/jfree/chart/axis/SegmentedTimeline$Segment:inExceptionSegments:()Z

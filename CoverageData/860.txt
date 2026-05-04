@@ -1,0 +1,4 @@
+org.jfree.data.time.SimpleTimePeriodTest.testEqualsSelf true
+org/jfree/data/time/SimpleTimePeriod:<init>:(JJ)V
+org/jfree/data/time/SimpleTimePeriod:<init>:(Ljava/util/Date;Ljava/util/Date;)V
+org/jfree/data/time/SimpleTimePeriod:equals:(Ljava/lang/Object;)Z

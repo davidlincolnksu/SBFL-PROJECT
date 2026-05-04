@@ -1,0 +1,9 @@
+org.jfree.chart.annotations.XYTextAnnotationTest.testHashCode true
+org/jfree/chart/annotations/AbstractAnnotation:<init>:()V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/HashUtilities:hashCodeForPaint:(Ljava/awt/Paint;)I
+org/jfree/chart/annotations/XYTextAnnotation:<init>:(Ljava/lang/String;DD)V
+org/jfree/chart/annotations/XYTextAnnotation:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/annotations/XYTextAnnotation:hashCode:()I
+org/jfree/chart/annotations/AbstractXYAnnotation:<init>:()V
+org/jfree/chart/annotations/AbstractXYAnnotation:equals:(Ljava/lang/Object;)Z

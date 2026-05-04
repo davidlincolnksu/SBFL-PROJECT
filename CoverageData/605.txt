@@ -1,0 +1,2 @@
+org.jfree.data.xy.XYCoordinateTest.testCloning true
+org/jfree/data/xy/XYCoordinate:<init>:(DD)V

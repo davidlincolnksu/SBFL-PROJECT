@@ -1,0 +1,26 @@
+org.jfree.chart.renderer.category.StackedBarRenderer3DTest.testPublicCloneable true
+org/jfree/chart/renderer/category/AbstractCategoryItemRenderer:<init>:()V
+org/jfree/chart/renderer/AbstractRenderer:<init>:()V
+org/jfree/chart/renderer/AbstractRenderer:setBasePositiveItemLabelPosition:(Lorg/jfree/chart/labels/ItemLabelPosition;)V
+org/jfree/chart/renderer/AbstractRenderer:setBasePositiveItemLabelPosition:(Lorg/jfree/chart/labels/ItemLabelPosition;Z)V
+org/jfree/chart/renderer/AbstractRenderer:setBaseNegativeItemLabelPosition:(Lorg/jfree/chart/labels/ItemLabelPosition;)V
+org/jfree/chart/renderer/AbstractRenderer:setBaseNegativeItemLabelPosition:(Lorg/jfree/chart/labels/ItemLabelPosition;Z)V
+org/jfree/chart/renderer/AbstractRenderer:setBaseLegendShape:(Ljava/awt/Shape;)V
+org/jfree/chart/renderer/AbstractRenderer:fireChangeEvent:()V
+org/jfree/chart/renderer/AbstractRenderer:notifyListeners:(Lorg/jfree/chart/event/RendererChangeEvent;)V
+org/jfree/chart/renderer/category/BarRenderer:getDefaultBarPainter:()Lorg/jfree/chart/renderer/category/BarPainter;
+org/jfree/chart/renderer/category/BarRenderer:getDefaultShadowsVisible:()Z
+org/jfree/chart/renderer/category/BarRenderer:<init>:()V
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;)V
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/chart/JFreeChart;Lorg/jfree/chart/event/ChartChangeEventType;)V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/renderer/category/BarRenderer3D:<init>:()V
+org/jfree/chart/renderer/category/BarRenderer3D:<init>:(DD)V
+org/jfree/chart/labels/ItemLabelPosition:<init>:(Lorg/jfree/chart/labels/ItemLabelAnchor;Lorg/jfree/ui/TextAnchor;)V
+org/jfree/chart/labels/ItemLabelPosition:<init>:(Lorg/jfree/chart/labels/ItemLabelAnchor;Lorg/jfree/ui/TextAnchor;Lorg/jfree/ui/TextAnchor;D)V
+org/jfree/chart/labels/StandardCategorySeriesLabelGenerator:<init>:()V
+org/jfree/chart/labels/StandardCategorySeriesLabelGenerator:<init>:(Ljava/lang/String;)V
+org/jfree/chart/event/RendererChangeEvent:<init>:(Ljava/lang/Object;)V
+org/jfree/chart/event/RendererChangeEvent:<init>:(Ljava/lang/Object;Z)V
+org/jfree/chart/renderer/category/StackedBarRenderer3D:<init>:()V
+org/jfree/chart/renderer/category/StackedBarRenderer3D:<init>:(Z)V

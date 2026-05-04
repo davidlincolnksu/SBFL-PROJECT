@@ -1,0 +1,6 @@
+org.jfree.data.statistics.BoxAndWhiskerCalculatorTest.testCalculateQ3 true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/statistics/Statistics:calculateMedian:(Ljava/util/List;Z)D
+org/jfree/data/statistics/Statistics:calculateMedian:(Ljava/util/List;II)D
+org/jfree/data/statistics/Statistics:calculateMedian:(Ljava/util/List;IIZ)D
+org/jfree/data/statistics/BoxAndWhiskerCalculator:calculateQ3:(Ljava/util/List;)D

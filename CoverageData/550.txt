@@ -1,0 +1,2 @@
+org.jfree.chart.axis.AxisLocationTest.testEquals true
+org/jfree/chart/axis/AxisLocation:equals:(Ljava/lang/Object;)Z

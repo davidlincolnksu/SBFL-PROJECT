@@ -1,0 +1,3 @@
+org.jfree.data.function.LineFunction2DTest.testSerialization true
+org/jfree/data/function/LineFunction2D:<init>:(DD)V
+org/jfree/data/function/LineFunction2D:equals:(Ljava/lang/Object;)Z

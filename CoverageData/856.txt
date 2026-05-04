@@ -1,0 +1,6 @@
+org.jfree.chart.plot.CrosshairTest.testPublicCloneable true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/plot/Crosshair:<init>:(D)V
+org/jfree/chart/plot/Crosshair:<init>:(DLjava/awt/Paint;Ljava/awt/Stroke;)V
+org/jfree/chart/labels/StandardCrosshairLabelGenerator:<init>:()V
+org/jfree/chart/labels/StandardCrosshairLabelGenerator:<init>:(Ljava/lang/String;Ljava/text/NumberFormat;)V

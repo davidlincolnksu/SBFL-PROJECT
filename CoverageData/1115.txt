@@ -1,0 +1,2 @@
+org.jfree.chart.util.LineUtilitiesTest.testClipLine true
+org/jfree/chart/util/LineUtilities:clipLine:(Ljava/awt/geom/Line2D;Ljava/awt/geom/Rectangle2D;)Z

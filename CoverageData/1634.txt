@@ -1,0 +1,5 @@
+org.jfree.chart.labels.CustomXYItemLabelGeneratorTest.testCloning true
+org/jfree/chart/labels/CustomXYToolTipGenerator:<init>:()V
+org/jfree/chart/labels/CustomXYToolTipGenerator:getListCount:()I
+org/jfree/chart/labels/CustomXYToolTipGenerator:clone:()Ljava/lang/Object;
+org/jfree/chart/labels/CustomXYToolTipGenerator:equals:(Ljava/lang/Object;)Z

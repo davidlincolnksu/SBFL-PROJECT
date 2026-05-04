@@ -1,0 +1,17 @@
+org.jfree.chart.plot.dial.DialBackgroundTest.testCloning true
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;)V
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/chart/JFreeChart;Lorg/jfree/chart/event/ChartChangeEventType;)V
+org/jfree/chart/plot/dial/AbstractDialLayer:<init>:()V
+org/jfree/chart/plot/dial/AbstractDialLayer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/plot/dial/AbstractDialLayer:clone:()Ljava/lang/Object;
+org/jfree/chart/plot/dial/AbstractDialLayer:addChangeListener:(Lorg/jfree/chart/plot/dial/DialLayerChangeListener;)V
+org/jfree/chart/plot/dial/AbstractDialLayer:hasListener:(Ljava/util/EventListener;)Z
+org/jfree/chart/plot/dial/AbstractDialLayer:notifyListeners:(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/plot/dial/DialBackground:<init>:()V
+org/jfree/chart/plot/dial/DialBackground:<init>:(Ljava/awt/Paint;)V
+org/jfree/chart/plot/dial/DialBackground:setPaint:(Ljava/awt/Paint;)V
+org/jfree/chart/plot/dial/DialBackground:setGradientPaintTransformer:(Lorg/jfree/ui/GradientPaintTransformer;)V
+org/jfree/chart/plot/dial/DialBackground:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/plot/dial/DialBackground:clone:()Ljava/lang/Object;
+org/jfree/chart/plot/dial/DialLayerChangeEvent:<init>:(Lorg/jfree/chart/plot/dial/DialLayer;)V

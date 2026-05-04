@@ -1,0 +1,19 @@
+org.jfree.data.xy.XYBarDatasetTest.testSerialization true
+org/jfree/data/general/DatasetChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/data/general/Dataset;)V
+org/jfree/data/general/AbstractSeriesDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:addChangeListener:(Lorg/jfree/data/general/DatasetChangeListener;)V
+org/jfree/data/general/AbstractDataset:fireDatasetChanged:()V
+org/jfree/data/general/AbstractDataset:notifyListeners:(Lorg/jfree/data/general/DatasetChangeEvent;)V
+org/jfree/data/general/AbstractDataset:writeObject:(Ljava/io/ObjectOutputStream;)V
+org/jfree/data/general/AbstractDataset:readObject:(Ljava/io/ObjectInputStream;)V
+org/jfree/data/general/AbstractDataset:validateObject:()V
+org/jfree/data/xy/AbstractXYDataset:<init>:()V
+org/jfree/data/xy/AbstractIntervalXYDataset:<init>:()V
+org/jfree/data/xy/DefaultXYDataset:<init>:()V
+org/jfree/data/xy/DefaultXYDataset:indexOf:(Ljava/lang/Comparable;)I
+org/jfree/data/xy/DefaultXYDataset:addSeries:(Ljava/lang/Comparable;[[D)V
+org/jfree/data/xy/DefaultXYDataset:equals:(Ljava/lang/Object;)Z
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/xy/XYBarDataset:<init>:(Lorg/jfree/data/xy/XYDataset;D)V
+org/jfree/data/xy/XYBarDataset:equals:(Ljava/lang/Object;)Z

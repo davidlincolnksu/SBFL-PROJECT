@@ -1,0 +1,2 @@
+org.jfree.chart.labels.SymbolicXYItemLabelGeneratorTest.testPublicCloneable true
+org/jfree/chart/labels/SymbolicXYItemLabelGenerator:<init>:()V

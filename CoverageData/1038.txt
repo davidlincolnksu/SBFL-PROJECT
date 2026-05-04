@@ -1,0 +1,4 @@
+org.jfree.data.DefaultKeyedValues2DTest.testRemoveRow true
+org/jfree/data/DefaultKeyedValues2D:<init>:()V
+org/jfree/data/DefaultKeyedValues2D:<init>:(Z)V
+org/jfree/data/DefaultKeyedValues2D:removeRow:(I)V

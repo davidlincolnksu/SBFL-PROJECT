@@ -1,0 +1,12 @@
+org.jfree.data.time.TimePeriodValueTest.testEqualsSelf true
+org/jfree/data/time/RegularTimePeriod:<init>:()V
+org/jfree/data/time/Day:<init>:()V
+org/jfree/data/time/Day:<init>:(Ljava/util/Date;)V
+org/jfree/data/time/Day:<init>:(Ljava/util/Date;Ljava/util/TimeZone;Ljava/util/Locale;)V
+org/jfree/data/time/Day:peg:(Ljava/util/Calendar;)V
+org/jfree/data/time/Day:getFirstMillisecond:(Ljava/util/Calendar;)J
+org/jfree/data/time/Day:getLastMillisecond:(Ljava/util/Calendar;)J
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/time/TimePeriodValue:<init>:(Lorg/jfree/data/time/TimePeriod;Ljava/lang/Number;)V
+org/jfree/data/time/TimePeriodValue:<init>:(Lorg/jfree/data/time/TimePeriod;D)V
+org/jfree/data/time/TimePeriodValue:equals:(Ljava/lang/Object;)Z

@@ -1,0 +1,7 @@
+org.jfree.chart.plot.ColorPaletteTest.testCloning true
+org/jfree/chart/plot/ColorPalette:<init>:()V
+org/jfree/chart/plot/ColorPalette:setPaletteName:(Ljava/lang/String;)V
+org/jfree/chart/plot/ColorPalette:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/plot/ColorPalette:clone:()Ljava/lang/Object;
+org/jfree/chart/plot/GreyPalette:<init>:()V
+org/jfree/chart/plot/GreyPalette:initialize:()V

@@ -1,0 +1,8 @@
+org.jfree.chart.labels.ItemLabelPositionTest.testSerialization true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/labels/ItemLabelPosition:<init>:()V
+org/jfree/chart/labels/ItemLabelPosition:<init>:(Lorg/jfree/chart/labels/ItemLabelAnchor;Lorg/jfree/ui/TextAnchor;Lorg/jfree/ui/TextAnchor;D)V
+org/jfree/chart/labels/ItemLabelPosition:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/labels/ItemLabelAnchor:toString:()Ljava/lang/String;
+org/jfree/chart/labels/ItemLabelAnchor:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/labels/ItemLabelAnchor:readResolve:()Ljava/lang/Object;

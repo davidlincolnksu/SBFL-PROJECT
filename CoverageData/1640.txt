@@ -1,0 +1,3 @@
+org.jfree.data.RangeTypeTest.testEquals true
+org/jfree/data/RangeType:toString:()Ljava/lang/String;
+org/jfree/data/RangeType:equals:(Ljava/lang/Object;)Z

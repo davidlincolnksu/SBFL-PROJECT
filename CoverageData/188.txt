@@ -1,0 +1,10 @@
+org.jfree.chart.plot.PlotRenderingInfoTest.testCloning true
+org/jfree/chart/plot/PlotRenderingInfo:<init>:(Lorg/jfree/chart/ChartRenderingInfo;)V
+org/jfree/chart/plot/PlotRenderingInfo:getPlotArea:()Ljava/awt/geom/Rectangle2D;
+org/jfree/chart/plot/PlotRenderingInfo:setPlotArea:(Ljava/awt/geom/Rectangle2D;)V
+org/jfree/chart/plot/PlotRenderingInfo:getDataArea:()Ljava/awt/geom/Rectangle2D;
+org/jfree/chart/plot/PlotRenderingInfo:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/plot/PlotRenderingInfo:clone:()Ljava/lang/Object;
+org/jfree/chart/ChartRenderingInfo:<init>:()V
+org/jfree/chart/ChartRenderingInfo:<init>:(Lorg/jfree/chart/entity/EntityCollection;)V
+org/jfree/chart/entity/StandardEntityCollection:<init>:()V

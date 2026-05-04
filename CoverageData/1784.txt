@@ -1,0 +1,7 @@
+org.jfree.chart.labels.CustomXYItemLabelGeneratorTest.testSerialization true
+org/jfree/chart/labels/CustomXYToolTipGenerator:<init>:()V
+org/jfree/chart/labels/CustomXYToolTipGenerator:getListCount:()I
+org/jfree/chart/labels/CustomXYToolTipGenerator:getToolTipCount:(I)I
+org/jfree/chart/labels/CustomXYToolTipGenerator:getToolTipText:(II)Ljava/lang/String;
+org/jfree/chart/labels/CustomXYToolTipGenerator:addToolTipSeries:(Ljava/util/List;)V
+org/jfree/chart/labels/CustomXYToolTipGenerator:equals:(Ljava/lang/Object;)Z

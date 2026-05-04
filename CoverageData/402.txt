@@ -1,0 +1,19 @@
+org.jfree.chart.block.GridArrangementTest.testNullBlock_NN true
+org/jfree/chart/block/AbstractBlock:<init>:()V
+org/jfree/chart/block/BlockContainer:<init>:(Lorg/jfree/chart/block/Arrangement;)V
+org/jfree/chart/block/BlockContainer:getBlocks:()Ljava/util/List;
+org/jfree/chart/block/BlockContainer:add:(Lorg/jfree/chart/block/Block;)V
+org/jfree/chart/block/BlockContainer:add:(Lorg/jfree/chart/block/Block;Ljava/lang/Object;)V
+org/jfree/chart/block/BlockContainer:arrange:(Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/ui/Size2D;
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/block/RectangleConstraint:<init>:(DD)V
+org/jfree/chart/block/RectangleConstraint:<init>:(DLorg/jfree/data/Range;Lorg/jfree/chart/block/LengthConstraintType;DLorg/jfree/data/Range;Lorg/jfree/chart/block/LengthConstraintType;)V
+org/jfree/chart/block/RectangleConstraint:getWidth:()D
+org/jfree/chart/block/RectangleConstraint:getWidthConstraintType:()Lorg/jfree/chart/block/LengthConstraintType;
+org/jfree/chart/block/RectangleConstraint:getHeight:()D
+org/jfree/chart/block/RectangleConstraint:getHeightConstraintType:()Lorg/jfree/chart/block/LengthConstraintType;
+org/jfree/chart/block/GridArrangement:<init>:(II)V
+org/jfree/chart/block/GridArrangement:add:(Lorg/jfree/chart/block/Block;Ljava/lang/Object;)V
+org/jfree/chart/block/GridArrangement:arrange:(Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/ui/Size2D;
+org/jfree/chart/block/GridArrangement:arrangeNN:(Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;)Lorg/jfree/ui/Size2D;
+org/jfree/chart/block/GridArrangement:arrangeFF:(Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/ui/Size2D;

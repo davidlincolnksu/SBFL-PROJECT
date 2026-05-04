@@ -1,0 +1,17 @@
+org.jfree.data.xy.MatrixSeriesTest.testSerialization true
+org/jfree/data/general/Series:<init>:(Ljava/lang/Comparable;)V
+org/jfree/data/general/Series:<init>:(Ljava/lang/Comparable;Ljava/lang/String;)V
+org/jfree/data/general/Series:getKey:()Ljava/lang/Comparable;
+org/jfree/data/general/Series:getDescription:()Ljava/lang/String;
+org/jfree/data/general/Series:equals:(Ljava/lang/Object;)Z
+org/jfree/data/general/Series:fireSeriesChanged:()V
+org/jfree/data/general/Series:notifyListeners:(Lorg/jfree/data/general/SeriesChangeEvent;)V
+org/jfree/data/general/SeriesChangeEvent:<init>:(Ljava/lang/Object;)V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/xy/MatrixSeries:<init>:(Ljava/lang/String;II)V
+org/jfree/data/xy/MatrixSeries:getColumnsCount:()I
+org/jfree/data/xy/MatrixSeries:getRowCount:()I
+org/jfree/data/xy/MatrixSeries:get:(II)D
+org/jfree/data/xy/MatrixSeries:update:(IID)V
+org/jfree/data/xy/MatrixSeries:zeroAll:()V
+org/jfree/data/xy/MatrixSeries:equals:(Ljava/lang/Object;)Z

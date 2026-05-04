@@ -1,0 +1,7 @@
+org.jfree.chart.axis.AxisSpaceTest.testEquals true
+org/jfree/chart/axis/AxisSpace:<init>:()V
+org/jfree/chart/axis/AxisSpace:setTop:(D)V
+org/jfree/chart/axis/AxisSpace:setBottom:(D)V
+org/jfree/chart/axis/AxisSpace:setLeft:(D)V
+org/jfree/chart/axis/AxisSpace:setRight:(D)V
+org/jfree/chart/axis/AxisSpace:equals:(Ljava/lang/Object;)Z

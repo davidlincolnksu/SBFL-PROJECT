@@ -1,0 +1,9 @@
+org.jfree.data.xy.DefaultHighLowDatasetTest.testEquals true
+org/jfree/data/general/AbstractSeriesDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/xy/AbstractXYDataset:<init>:()V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/xy/DefaultHighLowDataset:<init>:(Ljava/lang/Comparable;[Ljava/util/Date;[D[D[D[D[D)V
+org/jfree/data/xy/DefaultHighLowDataset:equals:(Ljava/lang/Object;)Z
+org/jfree/data/xy/DefaultHighLowDataset:createNumberArray:([D)[Ljava/lang/Number;

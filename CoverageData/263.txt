@@ -1,0 +1,4 @@
+org.jfree.data.xy.VectorTest.testHashcode true
+org/jfree/data/xy/Vector:<init>:(DD)V
+org/jfree/data/xy/Vector:equals:(Ljava/lang/Object;)Z
+org/jfree/data/xy/Vector:hashCode:()I

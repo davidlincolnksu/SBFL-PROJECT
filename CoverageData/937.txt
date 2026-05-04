@@ -1,0 +1,3 @@
+org.jfree.data.statistics.StatisticsTest.testCorrelation2 true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/statistics/Statistics:getCorrelation:([Ljava/lang/Number;[Ljava/lang/Number;)D

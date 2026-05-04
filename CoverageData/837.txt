@@ -1,0 +1,18 @@
+org.jfree.data.general.DefaultKeyedValueDatasetTest.testCloneIndependence true
+org/jfree/data/general/DatasetChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/data/general/Dataset;)V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:notifyListeners:(Lorg/jfree/data/general/DatasetChangeEvent;)V
+org/jfree/data/general/AbstractDataset:clone:()Ljava/lang/Object;
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/DefaultKeyedValue:<init>:(Ljava/lang/Comparable;Ljava/lang/Number;)V
+org/jfree/data/DefaultKeyedValue:getKey:()Ljava/lang/Comparable;
+org/jfree/data/DefaultKeyedValue:getValue:()Ljava/lang/Number;
+org/jfree/data/general/DefaultKeyedValueDataset:<init>:(Ljava/lang/Comparable;Ljava/lang/Number;)V
+org/jfree/data/general/DefaultKeyedValueDataset:<init>:(Lorg/jfree/data/KeyedValue;)V
+org/jfree/data/general/DefaultKeyedValueDataset:getKey:()Ljava/lang/Comparable;
+org/jfree/data/general/DefaultKeyedValueDataset:getValue:()Ljava/lang/Number;
+org/jfree/data/general/DefaultKeyedValueDataset:updateValue:(Ljava/lang/Number;)V
+org/jfree/data/general/DefaultKeyedValueDataset:setValue:(Ljava/lang/Comparable;Ljava/lang/Number;)V
+org/jfree/data/general/DefaultKeyedValueDataset:equals:(Ljava/lang/Object;)Z
+org/jfree/data/general/DefaultKeyedValueDataset:clone:()Ljava/lang/Object;

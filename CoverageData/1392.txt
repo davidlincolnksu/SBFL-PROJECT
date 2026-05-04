@@ -1,0 +1,14 @@
+org.jfree.chart.axis.SegmentedTimelineTest.testSerialization2 true
+org/jfree/chart/axis/SegmentedTimeline:<init>:(JII)V
+org/jfree/chart/axis/SegmentedTimeline:firstMondayAfter1900:()J
+org/jfree/chart/axis/SegmentedTimeline:newMondayThroughFridayTimeline:()Lorg/jfree/chart/axis/SegmentedTimeline;
+org/jfree/chart/axis/SegmentedTimeline:newFifteenMinuteTimeline:()Lorg/jfree/chart/axis/SegmentedTimeline;
+org/jfree/chart/axis/SegmentedTimeline:setStartTime:(J)V
+org/jfree/chart/axis/SegmentedTimeline:getStartTime:()J
+org/jfree/chart/axis/SegmentedTimeline:getSegmentsExcluded:()I
+org/jfree/chart/axis/SegmentedTimeline:getSegmentsIncluded:()I
+org/jfree/chart/axis/SegmentedTimeline:getSegmentSize:()J
+org/jfree/chart/axis/SegmentedTimeline:getExceptionSegments:()Ljava/util/List;
+org/jfree/chart/axis/SegmentedTimeline:setBaseTimeline:(Lorg/jfree/chart/axis/SegmentedTimeline;)V
+org/jfree/chart/axis/SegmentedTimeline:equals:(Ljava/lang/Object;Ljava/lang/Object;)Z
+org/jfree/chart/axis/SegmentedTimeline:equals:(Ljava/lang/Object;)Z

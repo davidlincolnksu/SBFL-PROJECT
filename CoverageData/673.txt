@@ -1,0 +1,9 @@
+org.jfree.chart.needle.LongNeedleTest.testSerialization true
+org/jfree/chart/needle/MeterNeedle:<init>:()V
+org/jfree/chart/needle/MeterNeedle:<init>:(Ljava/awt/Paint;Ljava/awt/Paint;Ljava/awt/Paint;)V
+org/jfree/chart/needle/MeterNeedle:setRotateY:(D)V
+org/jfree/chart/needle/MeterNeedle:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/needle/MeterNeedle:writeObject:(Ljava/io/ObjectOutputStream;)V
+org/jfree/chart/needle/MeterNeedle:readObject:(Ljava/io/ObjectInputStream;)V
+org/jfree/chart/needle/LongNeedle:<init>:()V
+org/jfree/chart/needle/LongNeedle:equals:(Ljava/lang/Object;)Z

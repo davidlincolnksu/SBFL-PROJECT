@@ -1,0 +1,9 @@
+org.jfree.data.xy.DefaultOHLCDatasetTest.testCloning true
+org/jfree/data/general/AbstractSeriesDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:clone:()Ljava/lang/Object;
+org/jfree/data/xy/AbstractXYDataset:<init>:()V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/xy/DefaultOHLCDataset:<init>:(Ljava/lang/Comparable;[Lorg/jfree/data/xy/OHLCDataItem;)V
+org/jfree/data/xy/DefaultOHLCDataset:equals:(Ljava/lang/Object;)Z
+org/jfree/data/xy/DefaultOHLCDataset:clone:()Ljava/lang/Object;

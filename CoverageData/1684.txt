@@ -1,0 +1,6 @@
+org.jfree.data.xy.XYDataItemTest.testEquals true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/xy/XYDataItem:<init>:(Ljava/lang/Number;Ljava/lang/Number;)V
+org/jfree/data/xy/XYDataItem:<init>:(DD)V
+org/jfree/data/xy/XYDataItem:setY:(Ljava/lang/Number;)V
+org/jfree/data/xy/XYDataItem:equals:(Ljava/lang/Object;)Z

@@ -1,0 +1,11 @@
+org.jfree.chart.axis.CategoryAxis3DTest.testCloning true
+org/jfree/chart/axis/Axis:<init>:(Ljava/lang/String;)V
+org/jfree/chart/axis/Axis:clone:()Ljava/lang/Object;
+org/jfree/chart/axis/Axis:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/CategoryAxis:<init>:(Ljava/lang/String;)V
+org/jfree/chart/axis/CategoryAxis:clone:()Ljava/lang/Object;
+org/jfree/chart/axis/CategoryAxis:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/CategoryAxis:equalPaintMaps:(Ljava/util/Map;Ljava/util/Map;)Z
+org/jfree/chart/axis/CategoryAxis3D:<init>:(Ljava/lang/String;)V
+org/jfree/chart/axis/CategoryAxis3D:clone:()Ljava/lang/Object;
+org/jfree/chart/axis/AxisLabelLocation:equals:(Ljava/lang/Object;)Z

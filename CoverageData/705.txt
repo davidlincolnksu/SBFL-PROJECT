@@ -1,0 +1,14 @@
+org.jfree.data.xy.XIntervalDataItemTest.testConstructor1 true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/ComparableObjectItem:<init>:(Ljava/lang/Comparable;Ljava/lang/Object;)V
+org/jfree/data/ComparableObjectItem:getComparable:()Ljava/lang/Comparable;
+org/jfree/data/ComparableObjectItem:getObject:()Ljava/lang/Object;
+org/jfree/data/xy/XIntervalDataItem:<init>:(DDDD)V
+org/jfree/data/xy/XIntervalDataItem:getX:()Ljava/lang/Number;
+org/jfree/data/xy/XIntervalDataItem:getYValue:()D
+org/jfree/data/xy/XIntervalDataItem:getXLowValue:()D
+org/jfree/data/xy/XIntervalDataItem:getXHighValue:()D
+org/jfree/data/xy/YWithXInterval:<init>:(DDD)V
+org/jfree/data/xy/YWithXInterval:getY:()D
+org/jfree/data/xy/YWithXInterval:getXLow:()D
+org/jfree/data/xy/YWithXInterval:getXHigh:()D

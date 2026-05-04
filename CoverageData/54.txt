@@ -1,0 +1,4 @@
+org.jfree.data.function.LineFunction2DTest.testHashCode true
+org/jfree/chart/HashUtilities:hashCode:(ID)I
+org/jfree/data/function/LineFunction2D:<init>:(DD)V
+org/jfree/data/function/LineFunction2D:hashCode:()I

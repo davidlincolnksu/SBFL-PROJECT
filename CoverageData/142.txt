@@ -1,0 +1,2 @@
+org.jfree.data.statistics.StatisticsTest.testCalculateMedian true
+org/jfree/data/statistics/Statistics:calculateMedian:(Ljava/util/List;Z)D

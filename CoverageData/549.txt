@@ -1,0 +1,2 @@
+org.jfree.chart.block.BorderArrangementTest.testCloning true
+org/jfree/chart/block/BorderArrangement:<init>:()V

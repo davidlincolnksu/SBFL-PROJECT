@@ -1,0 +1,9 @@
+org.jfree.chart.labels.StandardPieSectionLabelGeneratorTest.testCloning true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/labels/StandardPieSectionLabelGenerator:<init>:()V
+org/jfree/chart/labels/StandardPieSectionLabelGenerator:<init>:(Ljava/lang/String;Ljava/text/NumberFormat;Ljava/text/NumberFormat;)V
+org/jfree/chart/labels/StandardPieSectionLabelGenerator:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/labels/StandardPieSectionLabelGenerator:clone:()Ljava/lang/Object;
+org/jfree/chart/labels/AbstractPieItemLabelGenerator:<init>:(Ljava/lang/String;Ljava/text/NumberFormat;Ljava/text/NumberFormat;)V
+org/jfree/chart/labels/AbstractPieItemLabelGenerator:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/labels/AbstractPieItemLabelGenerator:clone:()Ljava/lang/Object;

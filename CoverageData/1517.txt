@@ -1,0 +1,6 @@
+org.jfree.chart.renderer.LookupPaintScaleTest.testConstructor2 true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/renderer/LookupPaintScale:<init>:(DDLjava/awt/Paint;)V
+org/jfree/chart/renderer/LookupPaintScale:getDefaultPaint:()Ljava/awt/Paint;
+org/jfree/chart/renderer/LookupPaintScale:getLowerBound:()D
+org/jfree/chart/renderer/LookupPaintScale:getUpperBound:()D

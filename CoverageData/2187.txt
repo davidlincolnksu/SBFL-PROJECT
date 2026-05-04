@@ -1,0 +1,15 @@
+org.jfree.chart.ChartPanelTest.testConstructor1 true
+org/jfree/chart/plot/PlotRenderingInfo:<init>:(Lorg/jfree/chart/ChartRenderingInfo;)V
+org/jfree/chart/ChartPanel:<init>:(Lorg/jfree/chart/JFreeChart;)V
+org/jfree/chart/ChartPanel:<init>:(Lorg/jfree/chart/JFreeChart;IIIIIIZZZZZZ)V
+org/jfree/chart/ChartPanel:<init>:(Lorg/jfree/chart/JFreeChart;IIIIIIZZZZZZZ)V
+org/jfree/chart/ChartPanel:getChart:()Lorg/jfree/chart/JFreeChart;
+org/jfree/chart/ChartPanel:setChart:(Lorg/jfree/chart/JFreeChart;)V
+org/jfree/chart/ChartPanel:setDisplayToolTips:(Z)V
+org/jfree/chart/ChartPanel:createSVGGraphics2D:(II)Ljava/awt/Graphics2D;
+org/jfree/chart/ChartPanel:isOrsonPDFAvailable:()Z
+org/jfree/chart/ChartPanel:createPopupMenu:(ZZZZZ)Ljavax/swing/JPopupMenu;
+org/jfree/chart/ChartPanel:updateUI:()V
+org/jfree/chart/ChartRenderingInfo:<init>:()V
+org/jfree/chart/ChartRenderingInfo:<init>:(Lorg/jfree/chart/entity/EntityCollection;)V
+org/jfree/chart/entity/StandardEntityCollection:<init>:()V

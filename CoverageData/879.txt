@@ -1,0 +1,3 @@
+org.jfree.data.statistics.BoxAndWhiskerItemTest.testSerialization true
+org/jfree/data/statistics/BoxAndWhiskerItem:<init>:(Ljava/lang/Number;Ljava/lang/Number;Ljava/lang/Number;Ljava/lang/Number;Ljava/lang/Number;Ljava/lang/Number;Ljava/lang/Number;Ljava/lang/Number;Ljava/util/List;)V
+org/jfree/data/statistics/BoxAndWhiskerItem:equals:(Ljava/lang/Object;)Z

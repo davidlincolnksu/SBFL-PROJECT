@@ -1,0 +1,8 @@
+org.jfree.data.time.YearTest.test1900Next true
+org/jfree/data/time/RegularTimePeriod:<init>:()V
+org/jfree/data/time/Year:<init>:(I)V
+org/jfree/data/time/Year:getYear:()I
+org/jfree/data/time/Year:peg:(Ljava/util/Calendar;)V
+org/jfree/data/time/Year:next:()Lorg/jfree/data/time/RegularTimePeriod;
+org/jfree/data/time/Year:getFirstMillisecond:(Ljava/util/Calendar;)J
+org/jfree/data/time/Year:getLastMillisecond:(Ljava/util/Calendar;)J

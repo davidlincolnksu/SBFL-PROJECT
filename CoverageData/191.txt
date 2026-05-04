@@ -1,0 +1,8 @@
+org.jfree.chart.needle.WindNeedleTest.testEquals true
+org/jfree/chart/needle/MeterNeedle:<init>:()V
+org/jfree/chart/needle/MeterNeedle:<init>:(Ljava/awt/Paint;Ljava/awt/Paint;Ljava/awt/Paint;)V
+org/jfree/chart/needle/MeterNeedle:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/needle/ArrowNeedle:<init>:(Z)V
+org/jfree/chart/needle/ArrowNeedle:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/needle/WindNeedle:<init>:()V
+org/jfree/chart/needle/WindNeedle:equals:(Ljava/lang/Object;)Z

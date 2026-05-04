@@ -1,0 +1,3 @@
+org.jfree.data.DomainOrderTest.testHashCode true
+org/jfree/data/DomainOrder:equals:(Ljava/lang/Object;)Z
+org/jfree/data/DomainOrder:hashCode:()I

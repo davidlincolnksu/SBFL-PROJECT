@@ -1,0 +1,17 @@
+org.jfree.data.xy.XYSeriesCollectionTest.testConstructor true
+org/jfree/data/general/AbstractSeriesDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:addChangeListener:(Lorg/jfree/data/general/DatasetChangeListener;)V
+org/jfree/data/xy/AbstractXYDataset:<init>:()V
+org/jfree/data/xy/AbstractIntervalXYDataset:<init>:()V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/xy/XYSeriesCollection:<init>:()V
+org/jfree/data/xy/XYSeriesCollection:<init>:(Lorg/jfree/data/xy/XYSeries;)V
+org/jfree/data/xy/XYSeriesCollection:getSeriesCount:()I
+org/jfree/data/xy/XYSeriesCollection:getIntervalWidth:()D
+org/jfree/data/xy/XYSeriesCollection:getIntervalPositionFactor:()D
+org/jfree/data/xy/IntervalXYDelegate:<init>:(Lorg/jfree/data/xy/XYDataset;Z)V
+org/jfree/data/xy/IntervalXYDelegate:isAutoWidth:()Z
+org/jfree/data/xy/IntervalXYDelegate:getIntervalPositionFactor:()D
+org/jfree/data/xy/IntervalXYDelegate:getIntervalWidth:()D

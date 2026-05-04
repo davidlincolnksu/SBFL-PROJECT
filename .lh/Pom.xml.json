@@ -1,0 +1,18 @@
+{
+    "sourceFile": "Pom.xml",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1777862111569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1777862111569,
+            "name": "Commit-0",
+            "content": "<project xmlns=\"http://maven.apache.org/POM/4.0.0\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n\r\n    <groupId>sbfl</groupId>\r\n    <artifactId>sbfl-javafx</artifactId>\r\n    <version>1.0</version>\r\n\r\n    <properties>\r\n        <java.version>17</java.version>\r\n        <javafx.version>21</javafx.version>\r\n    </properties>\r\n\r\n    <dependencies>\r\n        <dependency>\r\n            <groupId>org.openjfx</groupId>\r\n            <artifactId>javafx-controls</artifactId>\r\n            <version>${javafx.version}</version>\r\n        </dependency>\r\n    </dependencies>\r\n\r\n    <build>\r\n        <plugins>\r\n            <plugin>\r\n                <groupId>org.openjfx</groupId>\r\n                <artifactId>javafx-maven-plugin</artifactId>\r\n                <version>0.0.8</version>\r\n                <configuration>\r\n                    <mainClass>app.MainApp</mainClass>\r\n                </configuration>\r\n            </plugin>\r\n        </plugins>\r\n    </build>\r\n</project>"
+        }
+    ]
+}

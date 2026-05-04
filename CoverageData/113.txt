@@ -1,0 +1,4 @@
+org.jfree.chart.labels.HighLowItemLabelGeneratorTest.testSerialization true
+org/jfree/chart/labels/HighLowItemLabelGenerator:<init>:()V
+org/jfree/chart/labels/HighLowItemLabelGenerator:<init>:(Ljava/text/DateFormat;Ljava/text/NumberFormat;)V
+org/jfree/chart/labels/HighLowItemLabelGenerator:equals:(Ljava/lang/Object;)Z

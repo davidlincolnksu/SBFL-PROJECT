@@ -1,0 +1,11 @@
+org.jfree.data.general.DefaultHeatMapDatasetTest.testEquals true
+org/jfree/data/general/DatasetChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/data/general/Dataset;)V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:fireDatasetChanged:()V
+org/jfree/data/general/AbstractDataset:notifyListeners:(Lorg/jfree/data/general/DatasetChangeEvent;)V
+org/jfree/data/DataUtilities:equal:([[D[[D)Z
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/general/DefaultHeatMapDataset:<init>:(IIDDDD)V
+org/jfree/data/general/DefaultHeatMapDataset:setZValue:(IID)V
+org/jfree/data/general/DefaultHeatMapDataset:setZValue:(IIDZ)V
+org/jfree/data/general/DefaultHeatMapDataset:equals:(Ljava/lang/Object;)Z

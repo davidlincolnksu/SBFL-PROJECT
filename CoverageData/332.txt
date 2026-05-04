@@ -1,0 +1,8 @@
+org.jfree.data.xy.MatrixSeriesCollectionTest.testPublicCloneable true
+org/jfree/data/general/AbstractSeriesDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/xy/AbstractXYDataset:<init>:()V
+org/jfree/data/xy/AbstractXYZDataset:<init>:()V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/xy/MatrixSeriesCollection:<init>:()V
+org/jfree/data/xy/MatrixSeriesCollection:<init>:(Lorg/jfree/data/xy/MatrixSeries;)V

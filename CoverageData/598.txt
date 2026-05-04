@@ -1,0 +1,6 @@
+org.jfree.chart.axis.CategoryLabelPositionTest.testHashCode true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/axis/CategoryLabelPosition:<init>:()V
+org/jfree/chart/axis/CategoryLabelPosition:<init>:(Lorg/jfree/ui/RectangleAnchor;Lorg/jfree/text/TextBlockAnchor;Lorg/jfree/ui/TextAnchor;DLorg/jfree/chart/axis/CategoryLabelWidthType;F)V
+org/jfree/chart/axis/CategoryLabelPosition:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/CategoryLabelPosition:hashCode:()I

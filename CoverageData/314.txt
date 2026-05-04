@@ -1,0 +1,5 @@
+org.jfree.chart.renderer.OutlierTest.testEquals true
+org/jfree/chart/renderer/Outlier:<init>:(DDD)V
+org/jfree/chart/renderer/Outlier:setPoint:(Ljava/awt/geom/Point2D;)V
+org/jfree/chart/renderer/Outlier:setRadius:(D)V
+org/jfree/chart/renderer/Outlier:equals:(Ljava/lang/Object;)Z

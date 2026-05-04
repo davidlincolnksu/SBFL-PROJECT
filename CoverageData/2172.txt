@@ -1,0 +1,13 @@
+org.jfree.data.statistics.BoxAndWhiskerCalculatorTest.test1593149 true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/statistics/Statistics:calculateMean:(Ljava/util/Collection;Z)D
+org/jfree/data/statistics/Statistics:calculateMedian:(Ljava/util/List;Z)D
+org/jfree/data/statistics/Statistics:calculateMedian:(Ljava/util/List;II)D
+org/jfree/data/statistics/Statistics:calculateMedian:(Ljava/util/List;IIZ)D
+org/jfree/data/statistics/BoxAndWhiskerItem:<init>:(Ljava/lang/Number;Ljava/lang/Number;Ljava/lang/Number;Ljava/lang/Number;Ljava/lang/Number;Ljava/lang/Number;Ljava/lang/Number;Ljava/lang/Number;Ljava/util/List;)V
+org/jfree/data/statistics/BoxAndWhiskerItem:getMinRegularValue:()Ljava/lang/Number;
+org/jfree/data/statistics/BoxAndWhiskerItem:getMaxRegularValue:()Ljava/lang/Number;
+org/jfree/data/statistics/BoxAndWhiskerCalculator:calculateBoxAndWhiskerStatistics:(Ljava/util/List;)Lorg/jfree/data/statistics/BoxAndWhiskerItem;
+org/jfree/data/statistics/BoxAndWhiskerCalculator:calculateBoxAndWhiskerStatistics:(Ljava/util/List;Z)Lorg/jfree/data/statistics/BoxAndWhiskerItem;
+org/jfree/data/statistics/BoxAndWhiskerCalculator:calculateQ1:(Ljava/util/List;)D
+org/jfree/data/statistics/BoxAndWhiskerCalculator:calculateQ3:(Ljava/util/List;)D

@@ -1,0 +1,6 @@
+org.jfree.data.xy.VectorSeriesCollectionTest.testPublicCloneable true
+org/jfree/data/general/AbstractSeriesDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/xy/AbstractXYDataset:<init>:()V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/xy/VectorSeriesCollection:<init>:()V

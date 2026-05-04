@@ -1,0 +1,24 @@
+org.jfree.chart.plot.dial.DialValueIndicatorTest.testEquals true
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;)V
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/chart/JFreeChart;Lorg/jfree/chart/event/ChartChangeEventType;)V
+org/jfree/chart/plot/dial/AbstractDialLayer:<init>:()V
+org/jfree/chart/plot/dial/AbstractDialLayer:setVisible:(Z)V
+org/jfree/chart/plot/dial/AbstractDialLayer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/plot/dial/AbstractDialLayer:notifyListeners:(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/plot/dial/DialLayerChangeEvent:<init>:(Lorg/jfree/chart/plot/dial/DialLayer;)V
+org/jfree/chart/plot/dial/DialValueIndicator:<init>:(I)V
+org/jfree/chart/plot/dial/DialValueIndicator:setDatasetIndex:(I)V
+org/jfree/chart/plot/dial/DialValueIndicator:setAngle:(D)V
+org/jfree/chart/plot/dial/DialValueIndicator:setRadius:(D)V
+org/jfree/chart/plot/dial/DialValueIndicator:setFrameAnchor:(Lorg/jfree/ui/RectangleAnchor;)V
+org/jfree/chart/plot/dial/DialValueIndicator:setTemplateValue:(Ljava/lang/Number;)V
+org/jfree/chart/plot/dial/DialValueIndicator:setFont:(Ljava/awt/Font;)V
+org/jfree/chart/plot/dial/DialValueIndicator:setPaint:(Ljava/awt/Paint;)V
+org/jfree/chart/plot/dial/DialValueIndicator:setBackgroundPaint:(Ljava/awt/Paint;)V
+org/jfree/chart/plot/dial/DialValueIndicator:setOutlineStroke:(Ljava/awt/Stroke;)V
+org/jfree/chart/plot/dial/DialValueIndicator:setOutlinePaint:(Ljava/awt/Paint;)V
+org/jfree/chart/plot/dial/DialValueIndicator:setInsets:(Lorg/jfree/ui/RectangleInsets;)V
+org/jfree/chart/plot/dial/DialValueIndicator:setValueAnchor:(Lorg/jfree/ui/RectangleAnchor;)V
+org/jfree/chart/plot/dial/DialValueIndicator:setTextAnchor:(Lorg/jfree/ui/TextAnchor;)V
+org/jfree/chart/plot/dial/DialValueIndicator:equals:(Ljava/lang/Object;)Z

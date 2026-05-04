@@ -1,0 +1,27 @@
+org.jfree.chart.axis.CategoryAxisTest.testSerialization true
+org/jfree/chart/axis/Axis:<init>:(Ljava/lang/String;)V
+org/jfree/chart/axis/Axis:notifyListeners:(Lorg/jfree/chart/event/AxisChangeEvent;)V
+org/jfree/chart/axis/Axis:fireChangeEvent:()V
+org/jfree/chart/axis/Axis:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/Axis:writeObject:(Ljava/io/ObjectOutputStream;)V
+org/jfree/chart/axis/Axis:readObject:(Ljava/io/ObjectInputStream;)V
+org/jfree/chart/axis/CategoryAxis:<init>:(Ljava/lang/String;)V
+org/jfree/chart/axis/CategoryAxis:setTickLabelPaint:(Ljava/lang/Comparable;Ljava/awt/Paint;)V
+org/jfree/chart/axis/CategoryAxis:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/CategoryAxis:writeObject:(Ljava/io/ObjectOutputStream;)V
+org/jfree/chart/axis/CategoryAxis:readObject:(Ljava/io/ObjectInputStream;)V
+org/jfree/chart/axis/CategoryAxis:readPaintMap:(Ljava/io/ObjectInputStream;)Ljava/util/Map;
+org/jfree/chart/axis/CategoryAxis:writePaintMap:(Ljava/util/Map;Ljava/io/ObjectOutputStream;)V
+org/jfree/chart/axis/CategoryAxis:equalPaintMaps:(Ljava/util/Map;Ljava/util/Map;)Z
+org/jfree/chart/event/AxisChangeEvent:<init>:(Lorg/jfree/chart/axis/Axis;)V
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;)V
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/chart/JFreeChart;Lorg/jfree/chart/event/ChartChangeEventType;)V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/axis/AxisLabelLocation:toString:()Ljava/lang/String;
+org/jfree/chart/axis/AxisLabelLocation:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/AxisLabelLocation:readResolve:()Ljava/lang/Object;
+org/jfree/chart/axis/CategoryLabelPositions:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/CategoryLabelPosition:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/CategoryLabelWidthType:toString:()Ljava/lang/String;
+org/jfree/chart/axis/CategoryLabelWidthType:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/CategoryLabelWidthType:readResolve:()Ljava/lang/Object;

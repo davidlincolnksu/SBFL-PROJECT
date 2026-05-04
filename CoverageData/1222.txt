@@ -1,0 +1,3 @@
+org.jfree.data.xy.YWithXIntervalTest.testSerialization true
+org/jfree/data/xy/YWithXInterval:<init>:(DDD)V
+org/jfree/data/xy/YWithXInterval:equals:(Ljava/lang/Object;)Z

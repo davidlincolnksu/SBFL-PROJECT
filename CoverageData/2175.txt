@@ -1,0 +1,4 @@
+org.jfree.chart.urls.StandardXYURLGeneratorTest.testPublicCloneable true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/urls/StandardXYURLGenerator:<init>:(Ljava/lang/String;)V
+org/jfree/chart/urls/StandardXYURLGenerator:<init>:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V

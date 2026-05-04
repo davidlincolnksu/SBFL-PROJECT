@@ -1,0 +1,26 @@
+org.jfree.data.xy.XYSeriesTest.testGetMinY true
+org/jfree/data/general/Series:<init>:(Ljava/lang/Comparable;)V
+org/jfree/data/general/Series:<init>:(Ljava/lang/Comparable;Ljava/lang/String;)V
+org/jfree/data/general/Series:fireSeriesChanged:()V
+org/jfree/data/general/Series:notifyListeners:(Lorg/jfree/data/general/SeriesChangeEvent;)V
+org/jfree/data/general/SeriesChangeEvent:<init>:(Ljava/lang/Object;)V
+org/jfree/data/xy/XYSeries:<init>:(Ljava/lang/Comparable;)V
+org/jfree/data/xy/XYSeries:<init>:(Ljava/lang/Comparable;ZZ)V
+org/jfree/data/xy/XYSeries:getMinY:()D
+org/jfree/data/xy/XYSeries:updateBoundsForAddedItem:(Lorg/jfree/data/xy/XYDataItem;)V
+org/jfree/data/xy/XYSeries:getItemCount:()I
+org/jfree/data/xy/XYSeries:add:(DD)V
+org/jfree/data/xy/XYSeries:add:(DLjava/lang/Number;)V
+org/jfree/data/xy/XYSeries:add:(Ljava/lang/Number;Ljava/lang/Number;)V
+org/jfree/data/xy/XYSeries:add:(Ljava/lang/Number;Ljava/lang/Number;Z)V
+org/jfree/data/xy/XYSeries:add:(Lorg/jfree/data/xy/XYDataItem;Z)V
+org/jfree/data/xy/XYSeries:minIgnoreNaN:(DD)D
+org/jfree/data/xy/XYSeries:maxIgnoreNaN:(DD)D
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/xy/XYDataItem:<init>:(Ljava/lang/Number;Ljava/lang/Number;)V
+org/jfree/data/xy/XYDataItem:getX:()Ljava/lang/Number;
+org/jfree/data/xy/XYDataItem:getXValue:()D
+org/jfree/data/xy/XYDataItem:getY:()Ljava/lang/Number;
+org/jfree/data/xy/XYDataItem:getYValue:()D
+org/jfree/data/xy/XYDataItem:compareTo:(Ljava/lang/Object;)I
+org/jfree/data/xy/XYDataItem:clone:()Ljava/lang/Object;

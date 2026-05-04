@@ -1,0 +1,10 @@
+org.jfree.chart.labels.StandardCategoryItemLabelGeneratorTest.testHashCode true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/HashUtilities:hashCode:(ILjava/lang/String;)I
+org/jfree/chart/HashUtilities:hashCode:(ILjava/lang/Object;)I
+org/jfree/chart/labels/AbstractCategoryItemLabelGenerator:<init>:(Ljava/lang/String;Ljava/text/NumberFormat;)V
+org/jfree/chart/labels/AbstractCategoryItemLabelGenerator:<init>:(Ljava/lang/String;Ljava/text/NumberFormat;Ljava/text/NumberFormat;)V
+org/jfree/chart/labels/AbstractCategoryItemLabelGenerator:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/labels/AbstractCategoryItemLabelGenerator:hashCode:()I
+org/jfree/chart/labels/StandardCategoryItemLabelGenerator:<init>:()V
+org/jfree/chart/labels/StandardCategoryItemLabelGenerator:equals:(Ljava/lang/Object;)Z

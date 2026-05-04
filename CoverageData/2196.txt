@@ -1,0 +1,15 @@
+org.jfree.chart.title.ImageTitleTest.testHashcode true
+org/jfree/chart/title/Title:<init>:(Lorg/jfree/ui/RectangleEdge;Lorg/jfree/ui/HorizontalAlignment;Lorg/jfree/ui/VerticalAlignment;Lorg/jfree/ui/RectangleInsets;)V
+org/jfree/chart/title/Title:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/title/Title:hashCode:()I
+org/jfree/chart/block/AbstractBlock:<init>:()V
+org/jfree/chart/block/AbstractBlock:setWidth:(D)V
+org/jfree/chart/block/AbstractBlock:setHeight:(D)V
+org/jfree/chart/block/AbstractBlock:setPadding:(Lorg/jfree/ui/RectangleInsets;)V
+org/jfree/chart/block/AbstractBlock:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/JFreeChartInfo:getLogo:()Ljava/awt/Image;
+org/jfree/chart/block/BlockBorder:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/title/ImageTitle:<init>:(Ljava/awt/Image;)V
+org/jfree/chart/title/ImageTitle:<init>:(Ljava/awt/Image;IILorg/jfree/ui/RectangleEdge;Lorg/jfree/ui/HorizontalAlignment;Lorg/jfree/ui/VerticalAlignment;Lorg/jfree/ui/RectangleInsets;)V
+org/jfree/chart/title/ImageTitle:equals:(Ljava/lang/Object;)Z

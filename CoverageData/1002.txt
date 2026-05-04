@@ -1,0 +1,5 @@
+org.jfree.chart.PaintMapTest.testSerialization1 true
+org/jfree/chart/PaintMap:<init>:()V
+org/jfree/chart/PaintMap:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/PaintMap:writeObject:(Ljava/io/ObjectOutputStream;)V
+org/jfree/chart/PaintMap:readObject:(Ljava/io/ObjectInputStream;)V

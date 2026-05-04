@@ -1,0 +1,7 @@
+org.jfree.chart.StrokeMapTest.testCloning true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/StrokeMap:<init>:()V
+org/jfree/chart/StrokeMap:getStroke:(Ljava/lang/Comparable;)Ljava/awt/Stroke;
+org/jfree/chart/StrokeMap:put:(Ljava/lang/Comparable;Ljava/awt/Stroke;)V
+org/jfree/chart/StrokeMap:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/StrokeMap:clone:()Ljava/lang/Object;

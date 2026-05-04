@@ -1,0 +1,7 @@
+org.jfree.chart.util.RelativeDateFormatTest.testFormat true
+org/jfree/chart/util/RelativeDateFormat:<init>:()V
+org/jfree/chart/util/RelativeDateFormat:<init>:(J)V
+org/jfree/chart/util/RelativeDateFormat:getHourSuffix:()Ljava/lang/String;
+org/jfree/chart/util/RelativeDateFormat:getMinuteSuffix:()Ljava/lang/String;
+org/jfree/chart/util/RelativeDateFormat:getSecondSuffix:()Ljava/lang/String;
+org/jfree/chart/util/RelativeDateFormat:format:(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;

@@ -1,0 +1,3 @@
+org.jfree.data.DomainOrderTest.testEquals true
+org/jfree/data/DomainOrder:toString:()Ljava/lang/String;
+org/jfree/data/DomainOrder:equals:(Ljava/lang/Object;)Z

@@ -1,0 +1,4 @@
+org.jfree.chart.renderer.category.StandardBarPainterTest.testHashcode true
+org/jfree/chart/renderer/category/StandardBarPainter:<init>:()V
+org/jfree/chart/renderer/category/StandardBarPainter:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/renderer/category/StandardBarPainter:hashCode:()I

@@ -1,0 +1,4 @@
+org.jfree.data.xy.XYCoordinateTest.testHashcode true
+org/jfree/data/xy/XYCoordinate:<init>:(DD)V
+org/jfree/data/xy/XYCoordinate:equals:(Ljava/lang/Object;)Z
+org/jfree/data/xy/XYCoordinate:hashCode:()I

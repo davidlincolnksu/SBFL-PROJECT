@@ -1,0 +1,6 @@
+org.jfree.chart.axis.CategoryLabelPositionsTest.testSerialization true
+org/jfree/chart/axis/CategoryLabelPositions:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/CategoryLabelPosition:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/CategoryLabelWidthType:toString:()Ljava/lang/String;
+org/jfree/chart/axis/CategoryLabelWidthType:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/CategoryLabelWidthType:readResolve:()Ljava/lang/Object;

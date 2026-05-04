@@ -1,0 +1,13 @@
+org.jfree.data.xy.DefaultXYDatasetTest.testAddSeries true
+org/jfree/data/general/DatasetChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/data/general/Dataset;)V
+org/jfree/data/general/AbstractSeriesDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:notifyListeners:(Lorg/jfree/data/general/DatasetChangeEvent;)V
+org/jfree/data/xy/AbstractXYDataset:<init>:()V
+org/jfree/data/xy/DefaultXYDataset:<init>:()V
+org/jfree/data/xy/DefaultXYDataset:getSeriesCount:()I
+org/jfree/data/xy/DefaultXYDataset:getSeriesKey:(I)Ljava/lang/Comparable;
+org/jfree/data/xy/DefaultXYDataset:indexOf:(Ljava/lang/Comparable;)I
+org/jfree/data/xy/DefaultXYDataset:getYValue:(II)D
+org/jfree/data/xy/DefaultXYDataset:addSeries:(Ljava/lang/Comparable;[[D)V
+org/jfree/data/general/DatasetGroup:<init>:()V

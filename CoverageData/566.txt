@@ -1,0 +1,7 @@
+org.jfree.data.time.SimpleTimePeriodTest.testHashcode true
+org/jfree/data/time/SimpleTimePeriod:<init>:(JJ)V
+org/jfree/data/time/SimpleTimePeriod:<init>:(Ljava/util/Date;Ljava/util/Date;)V
+org/jfree/data/time/SimpleTimePeriod:getStart:()Ljava/util/Date;
+org/jfree/data/time/SimpleTimePeriod:getEnd:()Ljava/util/Date;
+org/jfree/data/time/SimpleTimePeriod:equals:(Ljava/lang/Object;)Z
+org/jfree/data/time/SimpleTimePeriod:hashCode:()I

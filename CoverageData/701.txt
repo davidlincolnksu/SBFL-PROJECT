@@ -1,0 +1,4 @@
+org.jfree.data.function.PowerFunction2DTest.testHashCode true
+org/jfree/data/function/PowerFunction2D:<init>:(DD)V
+org/jfree/data/function/PowerFunction2D:hashCode:()I
+org/jfree/chart/HashUtilities:hashCode:(ID)I

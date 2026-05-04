@@ -1,0 +1,22 @@
+org.jfree.data.xy.YIntervalSeriesTest.testAdd true
+org/jfree/data/general/Series:<init>:(Ljava/lang/Comparable;)V
+org/jfree/data/general/Series:<init>:(Ljava/lang/Comparable;Ljava/lang/String;)V
+org/jfree/data/general/Series:fireSeriesChanged:()V
+org/jfree/data/general/Series:notifyListeners:(Lorg/jfree/data/general/SeriesChangeEvent;)V
+org/jfree/data/general/SeriesChangeEvent:<init>:(Ljava/lang/Object;)V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/ComparableObjectItem:<init>:(Ljava/lang/Comparable;Ljava/lang/Object;)V
+org/jfree/data/ComparableObjectItem:getObject:()Ljava/lang/Object;
+org/jfree/data/ComparableObjectSeries:<init>:(Ljava/lang/Comparable;ZZ)V
+org/jfree/data/ComparableObjectSeries:getItemCount:()I
+org/jfree/data/ComparableObjectSeries:add:(Lorg/jfree/data/ComparableObjectItem;Z)V
+org/jfree/data/ComparableObjectSeries:getDataItem:(I)Lorg/jfree/data/ComparableObjectItem;
+org/jfree/data/xy/YIntervalSeries:<init>:(Ljava/lang/Comparable;ZZ)V
+org/jfree/data/xy/YIntervalSeries:add:(DDDD)V
+org/jfree/data/xy/YIntervalSeries:add:(Lorg/jfree/data/xy/YIntervalDataItem;Z)V
+org/jfree/data/xy/YIntervalSeries:getYValue:(I)D
+org/jfree/data/xy/YIntervalSeries:getDataItem:(I)Lorg/jfree/data/ComparableObjectItem;
+org/jfree/data/xy/YIntervalDataItem:<init>:(DDDD)V
+org/jfree/data/xy/YIntervalDataItem:getYValue:()D
+org/jfree/data/xy/YInterval:<init>:(DDD)V
+org/jfree/data/xy/YInterval:getY:()D

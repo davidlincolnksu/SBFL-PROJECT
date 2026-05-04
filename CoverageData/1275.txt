@@ -1,0 +1,4 @@
+org.jfree.chart.plot.PlotOrientationTest.testSerialization true
+org/jfree/chart/plot/PlotOrientation:toString:()Ljava/lang/String;
+org/jfree/chart/plot/PlotOrientation:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/plot/PlotOrientation:readResolve:()Ljava/lang/Object;

@@ -1,0 +1,26 @@
+org.jfree.chart.renderer.xy.ClusteredXYBarRendererTest.testSerialization true
+org/jfree/chart/renderer/AbstractRenderer:<init>:()V
+org/jfree/chart/renderer/AbstractRenderer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/renderer/AbstractRenderer:writeObject:(Ljava/io/ObjectOutputStream;)V
+org/jfree/chart/renderer/AbstractRenderer:readObject:(Ljava/io/ObjectInputStream;)V
+org/jfree/chart/renderer/xy/AbstractXYItemRenderer:<init>:()V
+org/jfree/chart/renderer/xy/AbstractXYItemRenderer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/renderer/xy/ClusteredXYBarRenderer:<init>:()V
+org/jfree/chart/renderer/xy/ClusteredXYBarRenderer:<init>:(DZ)V
+org/jfree/chart/renderer/xy/ClusteredXYBarRenderer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/renderer/xy/XYBarRenderer:getDefaultBarPainter:()Lorg/jfree/chart/renderer/xy/XYBarPainter;
+org/jfree/chart/renderer/xy/XYBarRenderer:getDefaultShadowsVisible:()Z
+org/jfree/chart/renderer/xy/XYBarRenderer:<init>:(D)V
+org/jfree/chart/renderer/xy/XYBarRenderer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/renderer/xy/XYBarRenderer:readObject:(Ljava/io/ObjectInputStream;)V
+org/jfree/chart/renderer/xy/XYBarRenderer:writeObject:(Ljava/io/ObjectOutputStream;)V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/renderer/xy/GradientXYBarPainter:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/labels/ItemLabelPosition:<init>:(Lorg/jfree/chart/labels/ItemLabelAnchor;Lorg/jfree/ui/TextAnchor;)V
+org/jfree/chart/labels/ItemLabelPosition:<init>:(Lorg/jfree/chart/labels/ItemLabelAnchor;Lorg/jfree/ui/TextAnchor;Lorg/jfree/ui/TextAnchor;D)V
+org/jfree/chart/labels/ItemLabelPosition:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/labels/ItemLabelAnchor:toString:()Ljava/lang/String;
+org/jfree/chart/labels/ItemLabelAnchor:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/labels/ItemLabelAnchor:readResolve:()Ljava/lang/Object;
+org/jfree/chart/labels/StandardXYSeriesLabelGenerator:<init>:(Ljava/lang/String;)V
+org/jfree/chart/labels/StandardXYSeriesLabelGenerator:equals:(Ljava/lang/Object;)Z

@@ -1,0 +1,13 @@
+org.jfree.data.KeyedObjectsTest.testSerialization true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/KeyedObjects:<init>:()V
+org/jfree/data/KeyedObjects:getItemCount:()I
+org/jfree/data/KeyedObjects:getObject:(I)Ljava/lang/Object;
+org/jfree/data/KeyedObjects:getKey:(I)Ljava/lang/Comparable;
+org/jfree/data/KeyedObjects:getIndex:(Ljava/lang/Comparable;)I
+org/jfree/data/KeyedObjects:addObject:(Ljava/lang/Comparable;Ljava/lang/Object;)V
+org/jfree/data/KeyedObjects:setObject:(Ljava/lang/Comparable;Ljava/lang/Object;)V
+org/jfree/data/KeyedObjects:equals:(Ljava/lang/Object;)Z
+org/jfree/data/KeyedObject:<init>:(Ljava/lang/Comparable;Ljava/lang/Object;)V
+org/jfree/data/KeyedObject:getKey:()Ljava/lang/Comparable;
+org/jfree/data/KeyedObject:getObject:()Ljava/lang/Object;

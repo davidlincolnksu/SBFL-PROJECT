@@ -1,0 +1,8 @@
+org.jfree.data.statistics.DefaultMultiValueCategoryDatasetTest.testGetValue2 true
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/Range:<init>:(DD)V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/statistics/DefaultMultiValueCategoryDataset:<init>:()V
+org/jfree/data/statistics/DefaultMultiValueCategoryDataset:getValue:(II)Ljava/lang/Number;
+org/jfree/data/KeyedObjects2D:<init>:()V
+org/jfree/data/KeyedObjects2D:getObject:(II)Ljava/lang/Object;

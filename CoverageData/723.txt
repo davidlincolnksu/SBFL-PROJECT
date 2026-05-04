@@ -1,0 +1,23 @@
+org.jfree.chart.plot.dial.StandardDialScaleTest.testEquals true
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;)V
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/chart/JFreeChart;Lorg/jfree/chart/event/ChartChangeEventType;)V
+org/jfree/chart/plot/dial/AbstractDialLayer:<init>:()V
+org/jfree/chart/plot/dial/AbstractDialLayer:setVisible:(Z)V
+org/jfree/chart/plot/dial/AbstractDialLayer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/plot/dial/AbstractDialLayer:notifyListeners:(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/plot/dial/DialLayerChangeEvent:<init>:(Lorg/jfree/chart/plot/dial/DialLayer;)V
+org/jfree/chart/plot/dial/StandardDialScale:<init>:()V
+org/jfree/chart/plot/dial/StandardDialScale:<init>:(DDDDDI)V
+org/jfree/chart/plot/dial/StandardDialScale:setTickRadius:(D)V
+org/jfree/chart/plot/dial/StandardDialScale:setMajorTickIncrement:(D)V
+org/jfree/chart/plot/dial/StandardDialScale:setMajorTickLength:(D)V
+org/jfree/chart/plot/dial/StandardDialScale:setMajorTickPaint:(Ljava/awt/Paint;)V
+org/jfree/chart/plot/dial/StandardDialScale:setMajorTickStroke:(Ljava/awt/Stroke;)V
+org/jfree/chart/plot/dial/StandardDialScale:setMinorTickCount:(I)V
+org/jfree/chart/plot/dial/StandardDialScale:setMinorTickLength:(D)V
+org/jfree/chart/plot/dial/StandardDialScale:setTickLabelOffset:(D)V
+org/jfree/chart/plot/dial/StandardDialScale:setTickLabelFont:(Ljava/awt/Font;)V
+org/jfree/chart/plot/dial/StandardDialScale:setTickLabelPaint:(Ljava/awt/Paint;)V
+org/jfree/chart/plot/dial/StandardDialScale:setTickLabelsVisible:(Z)V
+org/jfree/chart/plot/dial/StandardDialScale:equals:(Ljava/lang/Object;)Z

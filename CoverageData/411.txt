@@ -1,0 +1,20 @@
+org.jfree.chart.block.BlockContainerTest.testSerialization true
+org/jfree/chart/block/AbstractBlock:<init>:()V
+org/jfree/chart/block/AbstractBlock:setWidth:(D)V
+org/jfree/chart/block/AbstractBlock:setHeight:(D)V
+org/jfree/chart/block/AbstractBlock:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/block/AbstractBlock:writeObject:(Ljava/io/ObjectOutputStream;)V
+org/jfree/chart/block/AbstractBlock:readObject:(Ljava/io/ObjectInputStream;)V
+org/jfree/chart/block/BlockContainer:<init>:()V
+org/jfree/chart/block/BlockContainer:<init>:(Lorg/jfree/chart/block/Arrangement;)V
+org/jfree/chart/block/BlockContainer:add:(Lorg/jfree/chart/block/Block;)V
+org/jfree/chart/block/BlockContainer:add:(Lorg/jfree/chart/block/Block;Ljava/lang/Object;)V
+org/jfree/chart/block/BlockContainer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/block/BlockBorder:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/block/BlockBorder:writeObject:(Ljava/io/ObjectOutputStream;)V
+org/jfree/chart/block/BlockBorder:readObject:(Ljava/io/ObjectInputStream;)V
+org/jfree/chart/block/BorderArrangement:<init>:()V
+org/jfree/chart/block/BorderArrangement:add:(Lorg/jfree/chart/block/Block;Ljava/lang/Object;)V
+org/jfree/chart/block/BorderArrangement:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/block/EmptyBlock:<init>:(DD)V

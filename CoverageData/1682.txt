@@ -1,0 +1,13 @@
+org.jfree.chart.needle.MeterNeedleTest.testEquals true
+org/jfree/chart/needle/MeterNeedle:<init>:()V
+org/jfree/chart/needle/MeterNeedle:<init>:(Ljava/awt/Paint;Ljava/awt/Paint;Ljava/awt/Paint;)V
+org/jfree/chart/needle/MeterNeedle:setOutlinePaint:(Ljava/awt/Paint;)V
+org/jfree/chart/needle/MeterNeedle:setOutlineStroke:(Ljava/awt/Stroke;)V
+org/jfree/chart/needle/MeterNeedle:setFillPaint:(Ljava/awt/Paint;)V
+org/jfree/chart/needle/MeterNeedle:setHighlightPaint:(Ljava/awt/Paint;)V
+org/jfree/chart/needle/MeterNeedle:setRotateX:(D)V
+org/jfree/chart/needle/MeterNeedle:setRotateY:(D)V
+org/jfree/chart/needle/MeterNeedle:setSize:(I)V
+org/jfree/chart/needle/MeterNeedle:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/needle/LineNeedle:<init>:()V
+org/jfree/chart/needle/LineNeedle:equals:(Ljava/lang/Object;)Z

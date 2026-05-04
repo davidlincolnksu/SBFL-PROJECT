@@ -1,0 +1,4 @@
+org.jfree.chart.axis.CategoryLabelWidthTypeTest.testSerialization true
+org/jfree/chart/axis/CategoryLabelWidthType:toString:()Ljava/lang/String;
+org/jfree/chart/axis/CategoryLabelWidthType:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/CategoryLabelWidthType:readResolve:()Ljava/lang/Object;

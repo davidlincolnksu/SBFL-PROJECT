@@ -1,0 +1,4 @@
+org.jfree.chart.labels.SymbolicXYItemLabelGeneratorTest.testHashCode true
+org/jfree/chart/labels/SymbolicXYItemLabelGenerator:<init>:()V
+org/jfree/chart/labels/SymbolicXYItemLabelGenerator:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/labels/SymbolicXYItemLabelGenerator:hashCode:()I

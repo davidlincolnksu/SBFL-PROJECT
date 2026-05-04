@@ -1,0 +1,4 @@
+org.jfree.data.time.DateRangeTest.testEquals true
+org/jfree/data/Range:<init>:(DD)V
+org/jfree/data/Range:equals:(Ljava/lang/Object;)Z
+org/jfree/data/time/DateRange:<init>:(Ljava/util/Date;Ljava/util/Date;)V

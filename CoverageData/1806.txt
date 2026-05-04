@@ -1,0 +1,3 @@
+org.jfree.data.general.DatasetGroupTest.testSerialization true
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/general/DatasetGroup:equals:(Ljava/lang/Object;)Z

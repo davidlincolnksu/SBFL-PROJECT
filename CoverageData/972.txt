@@ -1,0 +1,12 @@
+org.jfree.data.ComparableObjectSeriesTest.testConstructor1 true
+org/jfree/data/general/Series:<init>:(Ljava/lang/Comparable;)V
+org/jfree/data/general/Series:<init>:(Ljava/lang/Comparable;Ljava/lang/String;)V
+org/jfree/data/general/Series:getKey:()Ljava/lang/Comparable;
+org/jfree/data/general/Series:getDescription:()Ljava/lang/String;
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/ComparableObjectSeries:<init>:(Ljava/lang/Comparable;)V
+org/jfree/data/ComparableObjectSeries:<init>:(Ljava/lang/Comparable;ZZ)V
+org/jfree/data/ComparableObjectSeries:getAutoSort:()Z
+org/jfree/data/ComparableObjectSeries:getAllowDuplicateXValues:()Z
+org/jfree/data/ComparableObjectSeries:getItemCount:()I
+org/jfree/data/ComparableObjectSeries:getMaximumItemCount:()I

@@ -1,0 +1,2 @@
+org.jfree.chart.HashUtilitiesTest.testHashCodeForDoubleArray true
+org/jfree/chart/HashUtilities:hashCodeForDoubleArray:([D)I

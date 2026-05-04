@@ -1,0 +1,4 @@
+org.jfree.data.function.LineFunction2DTest.testConstructor true
+org/jfree/data/function/LineFunction2D:<init>:(DD)V
+org/jfree/data/function/LineFunction2D:getIntercept:()D
+org/jfree/data/function/LineFunction2D:getSlope:()D

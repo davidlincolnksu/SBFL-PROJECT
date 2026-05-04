@@ -1,0 +1,4 @@
+org.jfree.data.statistics.SimpleHistogramBinTest.testSerialization true
+org/jfree/data/statistics/SimpleHistogramBin:<init>:(DDZZ)V
+org/jfree/data/statistics/SimpleHistogramBin:setItemCount:(I)V
+org/jfree/data/statistics/SimpleHistogramBin:equals:(Ljava/lang/Object;)Z

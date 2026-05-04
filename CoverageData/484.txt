@@ -1,0 +1,7 @@
+org.jfree.chart.plot.dial.DialValueIndicatorTest.testSerialization true
+org/jfree/chart/plot/dial/AbstractDialLayer:<init>:()V
+org/jfree/chart/plot/dial/AbstractDialLayer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/plot/dial/DialValueIndicator:<init>:(I)V
+org/jfree/chart/plot/dial/DialValueIndicator:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/plot/dial/DialValueIndicator:writeObject:(Ljava/io/ObjectOutputStream;)V
+org/jfree/chart/plot/dial/DialValueIndicator:readObject:(Ljava/io/ObjectInputStream;)V

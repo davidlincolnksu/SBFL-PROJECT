@@ -1,0 +1,9 @@
+org.jfree.data.RangeTest.testCombineIgnoringNaN true
+org/jfree/data/Range:<init>:(DD)V
+org/jfree/data/Range:getLowerBound:()D
+org/jfree/data/Range:getUpperBound:()D
+org/jfree/data/Range:combineIgnoringNaN:(Lorg/jfree/data/Range;Lorg/jfree/data/Range;)Lorg/jfree/data/Range;
+org/jfree/data/Range:min:(DD)D
+org/jfree/data/Range:max:(DD)D
+org/jfree/data/Range:equals:(Ljava/lang/Object;)Z
+org/jfree/data/Range:isNaNRange:()Z

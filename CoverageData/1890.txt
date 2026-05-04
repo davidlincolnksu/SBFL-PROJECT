@@ -1,0 +1,11 @@
+org.jfree.chart.entity.PieSectionEntityTest.testCloning true
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/chart/entity/ChartEntity:<init>:(Ljava/awt/Shape;Ljava/lang/String;Ljava/lang/String;)V
+org/jfree/chart/entity/ChartEntity:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/entity/ChartEntity:clone:()Ljava/lang/Object;
+org/jfree/chart/entity/PieSectionEntity:<init>:(Ljava/awt/Shape;Lorg/jfree/data/general/PieDataset;IILjava/lang/Comparable;Ljava/lang/String;Ljava/lang/String;)V
+org/jfree/chart/entity/PieSectionEntity:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/DefaultKeyedValues:<init>:()V
+org/jfree/data/general/DefaultPieDataset:<init>:()V

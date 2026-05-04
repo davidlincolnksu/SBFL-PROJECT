@@ -1,0 +1,4 @@
+org.jfree.chart.axis.AxisLocationTest.testSerialization true
+org/jfree/chart/axis/AxisLocation:toString:()Ljava/lang/String;
+org/jfree/chart/axis/AxisLocation:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/AxisLocation:readResolve:()Ljava/lang/Object;

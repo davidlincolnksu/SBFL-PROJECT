@@ -1,0 +1,12 @@
+org.jfree.chart.labels.IntervalCategoryItemLabelGeneratorTest.testEquals true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/labels/AbstractCategoryItemLabelGenerator:<init>:(Ljava/lang/String;Ljava/text/NumberFormat;)V
+org/jfree/chart/labels/AbstractCategoryItemLabelGenerator:<init>:(Ljava/lang/String;Ljava/text/NumberFormat;Ljava/text/NumberFormat;)V
+org/jfree/chart/labels/AbstractCategoryItemLabelGenerator:<init>:(Ljava/lang/String;Ljava/text/DateFormat;)V
+org/jfree/chart/labels/AbstractCategoryItemLabelGenerator:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/labels/StandardCategoryItemLabelGenerator:<init>:(Ljava/lang/String;Ljava/text/NumberFormat;)V
+org/jfree/chart/labels/StandardCategoryItemLabelGenerator:<init>:(Ljava/lang/String;Ljava/text/DateFormat;)V
+org/jfree/chart/labels/StandardCategoryItemLabelGenerator:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/labels/IntervalCategoryItemLabelGenerator:<init>:()V
+org/jfree/chart/labels/IntervalCategoryItemLabelGenerator:<init>:(Ljava/lang/String;Ljava/text/NumberFormat;)V
+org/jfree/chart/labels/IntervalCategoryItemLabelGenerator:<init>:(Ljava/lang/String;Ljava/text/DateFormat;)V

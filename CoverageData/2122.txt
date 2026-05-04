@@ -1,0 +1,24 @@
+org.jfree.data.xy.DefaultWindDatasetTest.testEquals true
+org/jfree/data/time/RegularTimePeriod:<init>:()V
+org/jfree/data/time/RegularTimePeriod:getMiddleMillisecond:()J
+org/jfree/data/time/Day:<init>:(III)V
+org/jfree/data/time/Day:<init>:(Lorg/jfree/date/SerialDate;)V
+org/jfree/data/time/Day:getFirstMillisecond:()J
+org/jfree/data/time/Day:getLastMillisecond:()J
+org/jfree/data/time/Day:peg:(Ljava/util/Calendar;)V
+org/jfree/data/time/Day:next:()Lorg/jfree/data/time/RegularTimePeriod;
+org/jfree/data/time/Day:getFirstMillisecond:(Ljava/util/Calendar;)J
+org/jfree/data/time/Day:getLastMillisecond:(Ljava/util/Calendar;)J
+org/jfree/data/general/AbstractSeriesDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/xy/DefaultWindDataset:<init>:()V
+org/jfree/data/xy/DefaultWindDataset:<init>:([[[Ljava/lang/Object;)V
+org/jfree/data/xy/DefaultWindDataset:<init>:(Ljava/util/List;[[[Ljava/lang/Object;)V
+org/jfree/data/xy/DefaultWindDataset:seriesNameListFromDataArray:([[Ljava/lang/Object;)Ljava/util/List;
+org/jfree/data/xy/DefaultWindDataset:equals:(Ljava/lang/Object;)Z
+org/jfree/data/xy/AbstractXYDataset:<init>:()V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/xy/WindDataItem:<init>:(Ljava/lang/Number;Ljava/lang/Number;Ljava/lang/Number;)V
+org/jfree/data/xy/WindDataItem:compareTo:(Ljava/lang/Object;)I
+org/jfree/data/xy/WindDataItem:equals:(Ljava/lang/Object;)Z

@@ -1,0 +1,6 @@
+org.jfree.data.RangeTest.testCombine true
+org/jfree/data/Range:<init>:(DD)V
+org/jfree/data/Range:getLowerBound:()D
+org/jfree/data/Range:getUpperBound:()D
+org/jfree/data/Range:combine:(Lorg/jfree/data/Range;Lorg/jfree/data/Range;)Lorg/jfree/data/Range;
+org/jfree/data/Range:equals:(Ljava/lang/Object;)Z

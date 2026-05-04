@@ -1,0 +1,11 @@
+org.jfree.chart.renderer.xy.XYErrorRendererTest.testFindRangeBounds true
+org/jfree/chart/renderer/AbstractRenderer:<init>:()V
+org/jfree/chart/renderer/xy/AbstractXYItemRenderer:<init>:()V
+org/jfree/chart/renderer/xy/AbstractXYItemRenderer:findRangeBounds:(Lorg/jfree/data/xy/XYDataset;Z)Lorg/jfree/data/Range;
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/labels/ItemLabelPosition:<init>:(Lorg/jfree/chart/labels/ItemLabelAnchor;Lorg/jfree/ui/TextAnchor;)V
+org/jfree/chart/labels/ItemLabelPosition:<init>:(Lorg/jfree/chart/labels/ItemLabelAnchor;Lorg/jfree/ui/TextAnchor;Lorg/jfree/ui/TextAnchor;D)V
+org/jfree/chart/renderer/xy/XYLineAndShapeRenderer:<init>:(ZZ)V
+org/jfree/chart/labels/StandardXYSeriesLabelGenerator:<init>:(Ljava/lang/String;)V
+org/jfree/chart/renderer/xy/XYErrorRenderer:<init>:()V
+org/jfree/chart/renderer/xy/XYErrorRenderer:findRangeBounds:(Lorg/jfree/data/xy/XYDataset;)Lorg/jfree/data/Range;

@@ -1,0 +1,3 @@
+org.jfree.chart.block.FlowArrangementTest.testEquals true
+org/jfree/chart/block/FlowArrangement:<init>:(Lorg/jfree/ui/HorizontalAlignment;Lorg/jfree/ui/VerticalAlignment;DD)V
+org/jfree/chart/block/FlowArrangement:equals:(Ljava/lang/Object;)Z

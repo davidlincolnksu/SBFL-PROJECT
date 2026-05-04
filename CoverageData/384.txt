@@ -1,0 +1,13 @@
+org.jfree.data.statistics.SimpleHistogramDatasetTest.testEquals true
+org/jfree/data/general/AbstractSeriesDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/xy/AbstractXYDataset:<init>:()V
+org/jfree/data/xy/AbstractIntervalXYDataset:<init>:()V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/statistics/SimpleHistogramBin:<init>:(DD)V
+org/jfree/data/statistics/SimpleHistogramBin:<init>:(DDZZ)V
+org/jfree/data/statistics/SimpleHistogramBin:equals:(Ljava/lang/Object;)Z
+org/jfree/data/statistics/SimpleHistogramDataset:<init>:(Ljava/lang/Comparable;)V
+org/jfree/data/statistics/SimpleHistogramDataset:addBin:(Lorg/jfree/data/statistics/SimpleHistogramBin;)V
+org/jfree/data/statistics/SimpleHistogramDataset:equals:(Ljava/lang/Object;)Z

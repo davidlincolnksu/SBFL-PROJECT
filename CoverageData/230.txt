@@ -1,0 +1,8 @@
+org.jfree.chart.labels.MultipleXYSeriesLabelGeneratorTest.testHashCode true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/HashUtilities:hashCode:(ILjava/lang/String;)I
+org/jfree/chart/HashUtilities:hashCode:(ILjava/lang/Object;)I
+org/jfree/chart/labels/MultipleXYSeriesLabelGenerator:<init>:()V
+org/jfree/chart/labels/MultipleXYSeriesLabelGenerator:<init>:(Ljava/lang/String;)V
+org/jfree/chart/labels/MultipleXYSeriesLabelGenerator:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/labels/MultipleXYSeriesLabelGenerator:hashCode:()I

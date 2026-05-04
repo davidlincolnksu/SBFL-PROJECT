@@ -1,0 +1,4 @@
+org.jfree.chart.renderer.AreaRendererEndTypeTest.testSerialization true
+org/jfree/chart/renderer/AreaRendererEndType:toString:()Ljava/lang/String;
+org/jfree/chart/renderer/AreaRendererEndType:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/renderer/AreaRendererEndType:readResolve:()Ljava/lang/Object;

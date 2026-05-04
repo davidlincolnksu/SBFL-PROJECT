@@ -1,0 +1,10 @@
+org.jfree.data.category.CategoryToPieDatasetTest.testConstructor true
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/category/CategoryToPieDataset:<init>:(Lorg/jfree/data/category/CategoryDataset;Lorg/jfree/util/TableOrder;I)V
+org/jfree/data/category/CategoryToPieDataset:getUnderlyingDataset:()Lorg/jfree/data/category/CategoryDataset;
+org/jfree/data/category/CategoryToPieDataset:getItemCount:()I
+org/jfree/data/category/CategoryToPieDataset:getIndex:(Ljava/lang/Comparable;)I
+org/jfree/data/category/CategoryToPieDataset:getKeys:()Ljava/util/List;
+org/jfree/data/category/CategoryToPieDataset:getValue:(Ljava/lang/Comparable;)Ljava/lang/Number;

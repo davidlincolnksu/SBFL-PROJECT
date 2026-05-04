@@ -1,0 +1,27 @@
+org.jfree.chart.title.LegendGraphicTest.testEquals true
+org/jfree/chart/block/AbstractBlock:<init>:()V
+org/jfree/chart/block/AbstractBlock:setPadding:(Lorg/jfree/ui/RectangleInsets;)V
+org/jfree/chart/block/AbstractBlock:setPadding:(DDDD)V
+org/jfree/chart/block/AbstractBlock:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/block/BlockBorder:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/title/LegendGraphic:<init>:(Ljava/awt/Shape;Ljava/awt/Paint;)V
+org/jfree/chart/title/LegendGraphic:isShapeVisible:()Z
+org/jfree/chart/title/LegendGraphic:setShapeVisible:(Z)V
+org/jfree/chart/title/LegendGraphic:setShape:(Ljava/awt/Shape;)V
+org/jfree/chart/title/LegendGraphic:isShapeFilled:()Z
+org/jfree/chart/title/LegendGraphic:setShapeFilled:(Z)V
+org/jfree/chart/title/LegendGraphic:setFillPaint:(Ljava/awt/Paint;)V
+org/jfree/chart/title/LegendGraphic:setFillPaintTransformer:(Lorg/jfree/ui/GradientPaintTransformer;)V
+org/jfree/chart/title/LegendGraphic:isShapeOutlineVisible:()Z
+org/jfree/chart/title/LegendGraphic:setShapeOutlineVisible:(Z)V
+org/jfree/chart/title/LegendGraphic:setOutlinePaint:(Ljava/awt/Paint;)V
+org/jfree/chart/title/LegendGraphic:setOutlineStroke:(Ljava/awt/Stroke;)V
+org/jfree/chart/title/LegendGraphic:setShapeAnchor:(Lorg/jfree/ui/RectangleAnchor;)V
+org/jfree/chart/title/LegendGraphic:setShapeLocation:(Lorg/jfree/ui/RectangleAnchor;)V
+org/jfree/chart/title/LegendGraphic:isLineVisible:()Z
+org/jfree/chart/title/LegendGraphic:setLineVisible:(Z)V
+org/jfree/chart/title/LegendGraphic:setLine:(Ljava/awt/Shape;)V
+org/jfree/chart/title/LegendGraphic:setLinePaint:(Ljava/awt/Paint;)V
+org/jfree/chart/title/LegendGraphic:setLineStroke:(Ljava/awt/Stroke;)V
+org/jfree/chart/title/LegendGraphic:equals:(Ljava/lang/Object;)Z

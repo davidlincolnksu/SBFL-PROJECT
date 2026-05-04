@@ -1,0 +1,3 @@
+org.jfree.data.RangeTest.testHashCode true
+org/jfree/data/Range:<init>:(DD)V
+org/jfree/data/Range:hashCode:()I

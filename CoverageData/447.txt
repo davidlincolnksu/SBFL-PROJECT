@@ -1,0 +1,9 @@
+org.jfree.chart.annotations.XYLineAnnotationTest.testCloning true
+org/jfree/chart/annotations/AbstractAnnotation:<init>:()V
+org/jfree/chart/annotations/AbstractAnnotation:clone:()Ljava/lang/Object;
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/annotations/AbstractXYAnnotation:<init>:()V
+org/jfree/chart/annotations/AbstractXYAnnotation:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/annotations/XYLineAnnotation:<init>:(DDDDLjava/awt/Stroke;Ljava/awt/Paint;)V
+org/jfree/chart/annotations/XYLineAnnotation:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/annotations/XYLineAnnotation:clone:()Ljava/lang/Object;

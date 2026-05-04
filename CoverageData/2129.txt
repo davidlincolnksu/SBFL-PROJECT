@@ -1,0 +1,11 @@
+org.jfree.chart.labels.BubbleXYItemLabelGeneratorTest.testHashCode true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/HashUtilities:hashCode:(ILjava/lang/String;)I
+org/jfree/chart/HashUtilities:hashCode:(ILjava/lang/Object;)I
+org/jfree/chart/labels/AbstractXYItemLabelGenerator:<init>:(Ljava/lang/String;Ljava/text/NumberFormat;Ljava/text/NumberFormat;)V
+org/jfree/chart/labels/AbstractXYItemLabelGenerator:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/labels/AbstractXYItemLabelGenerator:hashCode:()I
+org/jfree/chart/labels/BubbleXYItemLabelGenerator:<init>:()V
+org/jfree/chart/labels/BubbleXYItemLabelGenerator:<init>:(Ljava/lang/String;Ljava/text/NumberFormat;Ljava/text/NumberFormat;Ljava/text/NumberFormat;)V
+org/jfree/chart/labels/BubbleXYItemLabelGenerator:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/labels/BubbleXYItemLabelGenerator:hashCode:()I

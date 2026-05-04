@@ -1,0 +1,20 @@
+org.jfree.data.xy.XIntervalSeriesCollectionTest.test1170825 true
+org/jfree/data/general/DatasetChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/data/general/Dataset;)V
+org/jfree/data/general/Series:<init>:(Ljava/lang/Comparable;)V
+org/jfree/data/general/Series:<init>:(Ljava/lang/Comparable;Ljava/lang/String;)V
+org/jfree/data/general/Series:addChangeListener:(Lorg/jfree/data/general/SeriesChangeListener;)V
+org/jfree/data/general/AbstractSeriesDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:fireDatasetChanged:()V
+org/jfree/data/general/AbstractDataset:notifyListeners:(Lorg/jfree/data/general/DatasetChangeEvent;)V
+org/jfree/data/xy/AbstractXYDataset:<init>:()V
+org/jfree/data/xy/AbstractIntervalXYDataset:<init>:()V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/ComparableObjectSeries:<init>:(Ljava/lang/Comparable;ZZ)V
+org/jfree/data/xy/XIntervalSeriesCollection:<init>:()V
+org/jfree/data/xy/XIntervalSeriesCollection:addSeries:(Lorg/jfree/data/xy/XIntervalSeries;)V
+org/jfree/data/xy/XIntervalSeriesCollection:getSeriesCount:()I
+org/jfree/data/xy/XIntervalSeriesCollection:getSeries:(I)Lorg/jfree/data/xy/XIntervalSeries;
+org/jfree/data/xy/XIntervalSeries:<init>:(Ljava/lang/Comparable;)V
+org/jfree/data/xy/XIntervalSeries:<init>:(Ljava/lang/Comparable;ZZ)V

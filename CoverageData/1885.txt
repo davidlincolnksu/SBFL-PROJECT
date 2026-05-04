@@ -1,0 +1,21 @@
+org.jfree.data.statistics.DefaultMultiValueCategoryDatasetTest.testGetColumnCount true
+org/jfree/data/general/DatasetChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/data/general/Dataset;)V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:fireDatasetChanged:()V
+org/jfree/data/general/AbstractDataset:notifyListeners:(Lorg/jfree/data/general/DatasetChangeEvent;)V
+org/jfree/data/Range:<init>:(DD)V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/statistics/DefaultMultiValueCategoryDataset:<init>:()V
+org/jfree/data/statistics/DefaultMultiValueCategoryDataset:add:(Ljava/util/List;Ljava/lang/Comparable;Ljava/lang/Comparable;)V
+org/jfree/data/statistics/DefaultMultiValueCategoryDataset:getColumnCount:()I
+org/jfree/data/KeyedObjects2D:<init>:()V
+org/jfree/data/KeyedObjects2D:getColumnCount:()I
+org/jfree/data/KeyedObjects2D:addObject:(Ljava/lang/Object;Ljava/lang/Comparable;Ljava/lang/Comparable;)V
+org/jfree/data/KeyedObjects2D:setObject:(Ljava/lang/Object;Ljava/lang/Comparable;Ljava/lang/Comparable;)V
+org/jfree/data/KeyedObjects:<init>:()V
+org/jfree/data/KeyedObjects:getIndex:(Ljava/lang/Comparable;)I
+org/jfree/data/KeyedObjects:setObject:(Ljava/lang/Comparable;Ljava/lang/Object;)V
+org/jfree/data/KeyedObject:<init>:(Ljava/lang/Comparable;Ljava/lang/Object;)V
+org/jfree/data/KeyedObject:getKey:()Ljava/lang/Comparable;
+org/jfree/data/KeyedObject:setObject:(Ljava/lang/Object;)V

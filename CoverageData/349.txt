@@ -1,0 +1,17 @@
+org.jfree.chart.axis.NumberAxisTest.testHashCode true
+org/jfree/chart/axis/ValueAxis:<init>:(Ljava/lang/String;Lorg/jfree/chart/axis/TickUnitSource;)V
+org/jfree/chart/axis/ValueAxis:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/Axis:<init>:(Ljava/lang/String;)V
+org/jfree/chart/axis/Axis:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/Axis:hashCode:()I
+org/jfree/chart/axis/NumberAxis:<init>:(Ljava/lang/String;)V
+org/jfree/chart/axis/NumberAxis:createStandardTickUnits:()Lorg/jfree/chart/axis/TickUnitSource;
+org/jfree/chart/axis/NumberAxis:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/NumberAxis:hashCode:()I
+org/jfree/data/Range:equals:(Ljava/lang/Object;)Z
+org/jfree/data/RangeType:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/AxisLabelLocation:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/NumberTickUnitSource:<init>:()V
+org/jfree/chart/axis/NumberTickUnitSource:<init>:(Z)V
+org/jfree/chart/axis/NumberTickUnitSource:<init>:(ZLjava/text/NumberFormat;)V
+org/jfree/chart/axis/NumberTickUnitSource:equals:(Ljava/lang/Object;)Z

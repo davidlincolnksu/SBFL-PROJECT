@@ -1,0 +1,7 @@
+org.jfree.chart.urls.CustomPieURLGeneratorTest.testEquals true
+org/jfree/chart/urls/CustomPieURLGenerator:<init>:()V
+org/jfree/chart/urls/CustomPieURLGenerator:getListCount:()I
+org/jfree/chart/urls/CustomPieURLGenerator:getURLCount:(I)I
+org/jfree/chart/urls/CustomPieURLGenerator:getURL:(Ljava/lang/Comparable;I)Ljava/lang/String;
+org/jfree/chart/urls/CustomPieURLGenerator:addURLs:(Ljava/util/Map;)V
+org/jfree/chart/urls/CustomPieURLGenerator:equals:(Ljava/lang/Object;)Z

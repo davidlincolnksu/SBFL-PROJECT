@@ -1,0 +1,26 @@
+org.jfree.data.xy.VectorSeriesCollectionTest.testRemoveSeries true
+org/jfree/data/general/DatasetChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/data/general/Dataset;)V
+org/jfree/data/general/Series:<init>:(Ljava/lang/Comparable;)V
+org/jfree/data/general/Series:<init>:(Ljava/lang/Comparable;Ljava/lang/String;)V
+org/jfree/data/general/Series:getKey:()Ljava/lang/Comparable;
+org/jfree/data/general/Series:equals:(Ljava/lang/Object;)Z
+org/jfree/data/general/Series:addChangeListener:(Lorg/jfree/data/general/SeriesChangeListener;)V
+org/jfree/data/general/Series:removeChangeListener:(Lorg/jfree/data/general/SeriesChangeListener;)V
+org/jfree/data/general/AbstractSeriesDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:fireDatasetChanged:()V
+org/jfree/data/general/AbstractDataset:notifyListeners:(Lorg/jfree/data/general/DatasetChangeEvent;)V
+org/jfree/data/xy/AbstractXYDataset:<init>:()V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/ComparableObjectSeries:<init>:(Ljava/lang/Comparable;ZZ)V
+org/jfree/data/ComparableObjectSeries:equals:(Ljava/lang/Object;)Z
+org/jfree/data/xy/VectorSeries:<init>:(Ljava/lang/Comparable;)V
+org/jfree/data/xy/VectorSeries:<init>:(Ljava/lang/Comparable;ZZ)V
+org/jfree/data/xy/VectorSeriesCollection:<init>:()V
+org/jfree/data/xy/VectorSeriesCollection:addSeries:(Lorg/jfree/data/xy/VectorSeries;)V
+org/jfree/data/xy/VectorSeriesCollection:removeSeries:(Lorg/jfree/data/xy/VectorSeries;)Z
+org/jfree/data/xy/VectorSeriesCollection:getSeriesCount:()I
+org/jfree/data/xy/VectorSeriesCollection:getSeries:(I)Lorg/jfree/data/xy/VectorSeries;
+org/jfree/data/xy/VectorSeriesCollection:getSeriesKey:(I)Ljava/lang/Comparable;
+org/jfree/data/xy/VectorSeriesCollection:equals:(Ljava/lang/Object;)Z

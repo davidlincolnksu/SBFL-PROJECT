@@ -1,0 +1,10 @@
+org.jfree.chart.LegendItemTest.testSerialization true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/LegendItem:<init>:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/awt/Shape;Ljava/awt/Paint;)V
+org/jfree/chart/LegendItem:<init>:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/awt/Shape;ZLjava/awt/Paint;ZLjava/awt/Paint;Ljava/awt/Stroke;ZLjava/awt/Shape;Ljava/awt/Stroke;Ljava/awt/Paint;)V
+org/jfree/chart/LegendItem:setLabelPaint:(Ljava/awt/Paint;)V
+org/jfree/chart/LegendItem:setLinePaint:(Ljava/awt/Paint;)V
+org/jfree/chart/LegendItem:setOutlinePaint:(Ljava/awt/Paint;)V
+org/jfree/chart/LegendItem:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/LegendItem:writeObject:(Ljava/io/ObjectOutputStream;)V
+org/jfree/chart/LegendItem:readObject:(Ljava/io/ObjectInputStream;)V

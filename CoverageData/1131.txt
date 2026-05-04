@@ -1,0 +1,7 @@
+org.jfree.chart.labels.IntervalCategoryToolTipGeneratorTest.testEquals2 true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/labels/StandardCategoryToolTipGenerator:<init>:(Ljava/lang/String;Ljava/text/NumberFormat;)V
+org/jfree/chart/labels/AbstractCategoryItemLabelGenerator:<init>:(Ljava/lang/String;Ljava/text/NumberFormat;)V
+org/jfree/chart/labels/AbstractCategoryItemLabelGenerator:<init>:(Ljava/lang/String;Ljava/text/NumberFormat;Ljava/text/NumberFormat;)V
+org/jfree/chart/labels/IntervalCategoryToolTipGenerator:<init>:()V
+org/jfree/chart/labels/IntervalCategoryToolTipGenerator:equals:(Ljava/lang/Object;)Z

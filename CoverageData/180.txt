@@ -1,0 +1,4 @@
+org.jfree.chart.axis.DateTickMarkPositionTest.testSerialization true
+org/jfree/chart/axis/DateTickMarkPosition:toString:()Ljava/lang/String;
+org/jfree/chart/axis/DateTickMarkPosition:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/DateTickMarkPosition:readResolve:()Ljava/lang/Object;

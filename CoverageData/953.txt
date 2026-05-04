@@ -1,0 +1,4 @@
+org.jfree.data.statistics.HistogramBinTest.testCloning true
+org/jfree/data/statistics/HistogramBin:<init>:(DD)V
+org/jfree/data/statistics/HistogramBin:equals:(Ljava/lang/Object;)Z
+org/jfree/data/statistics/HistogramBin:clone:()Ljava/lang/Object;

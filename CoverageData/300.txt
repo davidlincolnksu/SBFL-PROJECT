@@ -1,0 +1,3 @@
+org.jfree.data.RangeTest.testIsNaNRange true
+org/jfree/data/Range:<init>:(DD)V
+org/jfree/data/Range:isNaNRange:()Z

@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/main/java/sbfl/Formula.java",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1777862117582,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1777863133920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,20 @@\n package main.java.sbfl;\r\n \r\n-public class Formula {\r\n-    \r\n-}\r\n+import java.util.function.Function;\r\n+\r\n+public enum Formula {\r\n+\r\n+    TARANTULA,\r\n+    OCHIAI,\r\n+    JACCARD,\r\n+    ZOLTAR;\r\n+\r\n+    public static Formula fromString(String name) {\r\n+        return switch (name) {\r\n+            case \"Ochiai\" -> OCHIAI;\r\n+            case \"Jaccard\" -> JACCARD;\r\n+            case \"Zoltar\" -> ZOLTAR;\r\n+            default -> TARANTULA;\r\n+        };\r\n+    }\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1777863212832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,33 @@\n package main.java.sbfl;\r\n \r\n public enum Formula {\r\n \r\n-    TARANTULA,\r\n-    OCHIAI,\r\n-    JACCARD,\r\n-    ZOLTAR;\r\n+    TARANTULA {\r\n+        public double compute(int ef, int ep, int nf, int np) {\r\n+            double a = ef / (double)(ef + nf + 1e-9);\r\n+            double b = ep / (double)(ep + np + 1e-9);\r\n+            return a / (a + b + 1e-9);\r\n+        }\r\n+    },\r\n \r\n-    public static Formula fromString(String name) {\r\n-        return switch (name) {\r\n-            case \"Ochiai\" -> OCHIAI;\r\n-            case \"Jaccard\" -> JACCARD;\r\n-            case \"Zoltar\" -> ZOLTAR;\r\n-            default -> TARANTULA;\r\n-        };\r\n-    }\r\n+    OCHIAI {\r\n+        public double compute(int ef, int ep, int nf, int np) {\r\n+            return ef / Math.sqrt((ef + ep + 1e-9) * (ef + nf + 1e-9));\r\n+        }\r\n+    },\r\n+\r\n+    JACCARD {\r\n+        public double compute(int ef, int ep, int nf, int np) {\r\n+            return ef / (double)(ef + ep + nf + 1e-9);\r\n+        }\r\n+    },\r\n+\r\n+    ZOLTAR {\r\n+        public double compute(int ef, int ep, int nf, int np) {\r\n+            if (ef == 0) return 0;\r\n+            return ef / (ef + ep + nf + (10000.0 * nf * ep / ef));\r\n+        }\r\n+    };\r\n+\r\n+    public abstract double compute(int ef, int ep, int nf, int np);\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1777862117582,
+            "name": "Commit-0",
+            "content": "package main.java.sbfl;\r\n\r\npublic class Formula {\r\n    \r\n}\r\n"
+        }
+    ]
+}

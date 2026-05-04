@@ -1,0 +1,3 @@
+org.jfree.chart.block.BorderArrangementTest.testSerialization true
+org/jfree/chart/block/BorderArrangement:<init>:()V
+org/jfree/chart/block/BorderArrangement:equals:(Ljava/lang/Object;)Z

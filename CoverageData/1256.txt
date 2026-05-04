@@ -1,0 +1,2 @@
+org.jfree.data.xy.YWithXIntervalTest.testCloning true
+org/jfree/data/xy/YWithXInterval:<init>:(DDD)V

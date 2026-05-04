@@ -1,0 +1,14 @@
+org.jfree.chart.entity.XYItemEntityTest.testCloning true
+org/jfree/data/general/AbstractSeriesDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/xy/AbstractXYDataset:<init>:()V
+org/jfree/data/xy/AbstractIntervalXYDataset:<init>:()V
+org/jfree/chart/entity/ChartEntity:<init>:(Ljava/awt/Shape;Ljava/lang/String;Ljava/lang/String;)V
+org/jfree/chart/entity/ChartEntity:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/entity/ChartEntity:clone:()Ljava/lang/Object;
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/time/TimeSeriesCollection:<init>:()V
+org/jfree/data/time/TimeSeriesCollection:<init>:(Lorg/jfree/data/time/TimeSeries;Ljava/util/TimeZone;)V
+org/jfree/chart/entity/XYItemEntity:<init>:(Ljava/awt/Shape;Lorg/jfree/data/xy/XYDataset;IILjava/lang/String;Ljava/lang/String;)V
+org/jfree/chart/entity/XYItemEntity:equals:(Ljava/lang/Object;)Z

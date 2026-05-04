@@ -1,0 +1,2 @@
+org.jfree.chart.labels.CustomXYItemLabelGeneratorTest.testPublicCloneable true
+org/jfree/chart/labels/CustomXYToolTipGenerator:<init>:()V

@@ -1,0 +1,7 @@
+org.jfree.data.KeyToGroupMapTest.testGroupCount true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/KeyToGroupMap:<init>:(Ljava/lang/Comparable;)V
+org/jfree/data/KeyToGroupMap:getGroupCount:()I
+org/jfree/data/KeyToGroupMap:getGroup:(Ljava/lang/Comparable;)Ljava/lang/Comparable;
+org/jfree/data/KeyToGroupMap:mapKeyToGroup:(Ljava/lang/Comparable;Ljava/lang/Comparable;)V
+org/jfree/data/KeyToGroupMap:getKeyCount:(Ljava/lang/Comparable;)I

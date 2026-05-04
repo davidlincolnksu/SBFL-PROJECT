@@ -1,0 +1,4 @@
+org.jfree.data.KeyedObjectTest.testCloning true
+org/jfree/data/KeyedObject:<init>:(Ljava/lang/Comparable;Ljava/lang/Object;)V
+org/jfree/data/KeyedObject:clone:()Ljava/lang/Object;
+org/jfree/data/KeyedObject:equals:(Ljava/lang/Object;)Z

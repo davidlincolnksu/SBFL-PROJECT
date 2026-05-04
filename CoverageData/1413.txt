@@ -1,0 +1,4 @@
+org.jfree.chart.axis.AxisSpaceTest.testHashCode true
+org/jfree/chart/axis/AxisSpace:<init>:()V
+org/jfree/chart/axis/AxisSpace:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/AxisSpace:hashCode:()I

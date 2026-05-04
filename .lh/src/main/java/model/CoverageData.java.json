@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/main/java/model/CoverageData.java",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1777862117582,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1777862297860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,9 @@\n package main.java.model;\r\n \r\n+import java.util.*;\r\n+\r\n public class CoverageData {\r\n-    \r\n+    public Map<String, Set<String>> testToMethods = new HashMap<>();\r\n+    public Set<String> allMethods = new HashSet<>();\r\n+    public Set<String> failedTests = new HashSet<>();\r\n }\r\n"
+                }
+            ],
+            "date": 1777862117582,
+            "name": "Commit-0",
+            "content": "package main.java.model;\r\n\r\npublic class CoverageData {\r\n    \r\n}\r\n"
+        }
+    ]
+}

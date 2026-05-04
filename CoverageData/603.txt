@@ -1,0 +1,6 @@
+org.jfree.chart.renderer.OutlierTest.testConstructor true
+org/jfree/chart/renderer/Outlier:<init>:(DDD)V
+org/jfree/chart/renderer/Outlier:getPoint:()Ljava/awt/geom/Point2D;
+org/jfree/chart/renderer/Outlier:getX:()D
+org/jfree/chart/renderer/Outlier:getY:()D
+org/jfree/chart/renderer/Outlier:getRadius:()D

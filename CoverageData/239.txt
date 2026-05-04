@@ -1,0 +1,2 @@
+org.jfree.data.statistics.RegressionTest.testPowerRegression1a true
+org/jfree/data/statistics/Regression:getPowerRegression:([[D)[D

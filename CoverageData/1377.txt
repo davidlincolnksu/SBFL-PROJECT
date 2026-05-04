@@ -1,0 +1,4 @@
+org.jfree.chart.axis.StandardTickUnitSourceTest.testSerialization true
+org/jfree/chart/axis/StandardTickUnitSource:<clinit>:()V
+org/jfree/chart/axis/StandardTickUnitSource:<init>:()V
+org/jfree/chart/axis/StandardTickUnitSource:equals:(Ljava/lang/Object;)Z

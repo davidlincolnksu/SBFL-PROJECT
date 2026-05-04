@@ -1,0 +1,3 @@
+org.jfree.data.RangeTest.testContains true
+org/jfree/data/Range:<init>:(DD)V
+org/jfree/data/Range:contains:(D)Z

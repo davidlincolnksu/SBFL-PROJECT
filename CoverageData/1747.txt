@@ -1,0 +1,4 @@
+org.jfree.data.DataUtilitiesTest.testCreateNumberArray2D true
+org/jfree/data/DataUtilities:createNumberArray:([D)[Ljava/lang/Number;
+org/jfree/data/DataUtilities:createNumberArray2D:([[D)[[Ljava/lang/Number;
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V

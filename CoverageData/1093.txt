@@ -1,0 +1,4 @@
+org.jfree.data.statistics.SimpleHistogramBinTest.testAccepts true
+org/jfree/data/statistics/SimpleHistogramBin:<init>:(DD)V
+org/jfree/data/statistics/SimpleHistogramBin:<init>:(DDZZ)V
+org/jfree/data/statistics/SimpleHistogramBin:accepts:(D)Z

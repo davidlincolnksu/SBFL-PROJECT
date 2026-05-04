@@ -1,0 +1,17 @@
+org.jfree.chart.ChartRenderingInfoTest.testCloning true
+org/jfree/chart/entity/ChartEntity:<init>:(Ljava/awt/Shape;)V
+org/jfree/chart/entity/ChartEntity:<init>:(Ljava/awt/Shape;Ljava/lang/String;)V
+org/jfree/chart/entity/ChartEntity:<init>:(Ljava/awt/Shape;Ljava/lang/String;Ljava/lang/String;)V
+org/jfree/chart/entity/ChartEntity:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/plot/PlotRenderingInfo:<init>:(Lorg/jfree/chart/ChartRenderingInfo;)V
+org/jfree/chart/ChartRenderingInfo:<init>:()V
+org/jfree/chart/ChartRenderingInfo:<init>:(Lorg/jfree/chart/entity/EntityCollection;)V
+org/jfree/chart/ChartRenderingInfo:getChartArea:()Ljava/awt/geom/Rectangle2D;
+org/jfree/chart/ChartRenderingInfo:getEntityCollection:()Lorg/jfree/chart/entity/EntityCollection;
+org/jfree/chart/ChartRenderingInfo:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/ChartRenderingInfo:clone:()Ljava/lang/Object;
+org/jfree/chart/entity/StandardEntityCollection:<init>:()V
+org/jfree/chart/entity/StandardEntityCollection:add:(Lorg/jfree/chart/entity/ChartEntity;)V
+org/jfree/chart/entity/StandardEntityCollection:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/entity/StandardEntityCollection:clone:()Ljava/lang/Object;

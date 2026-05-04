@@ -1,0 +1,5 @@
+org.jfree.chart.plot.MeterIntervalTest.testCloning true
+org/jfree/data/Range:<init>:(DD)V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/plot/MeterInterval:<init>:(Ljava/lang/String;Lorg/jfree/data/Range;)V
+org/jfree/chart/plot/MeterInterval:<init>:(Ljava/lang/String;Lorg/jfree/data/Range;Ljava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;)V

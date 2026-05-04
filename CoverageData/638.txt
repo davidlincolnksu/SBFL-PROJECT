@@ -1,0 +1,19 @@
+org.jfree.data.statistics.HistogramDatasetTest.testEquals true
+org/jfree/data/general/DatasetChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/data/general/Dataset;)V
+org/jfree/data/general/AbstractSeriesDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:fireDatasetChanged:()V
+org/jfree/data/general/AbstractDataset:notifyListeners:(Lorg/jfree/data/general/DatasetChangeEvent;)V
+org/jfree/data/xy/AbstractXYDataset:<init>:()V
+org/jfree/data/xy/AbstractIntervalXYDataset:<init>:()V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/statistics/HistogramDataset:<init>:()V
+org/jfree/data/statistics/HistogramDataset:addSeries:(Ljava/lang/Comparable;[DI)V
+org/jfree/data/statistics/HistogramDataset:addSeries:(Ljava/lang/Comparable;[DIDD)V
+org/jfree/data/statistics/HistogramDataset:getMinimum:([D)D
+org/jfree/data/statistics/HistogramDataset:getMaximum:([D)D
+org/jfree/data/statistics/HistogramDataset:equals:(Ljava/lang/Object;)Z
+org/jfree/data/statistics/HistogramBin:<init>:(DD)V
+org/jfree/data/statistics/HistogramBin:incrementCount:()V
+org/jfree/data/statistics/HistogramBin:equals:(Ljava/lang/Object;)Z

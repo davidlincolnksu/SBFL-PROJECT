@@ -1,0 +1,6 @@
+org.jfree.chart.renderer.GrayPaintScaleTest.testCloning true
+org/jfree/chart/renderer/GrayPaintScale:<init>:()V
+org/jfree/chart/renderer/GrayPaintScale:<init>:(DD)V
+org/jfree/chart/renderer/GrayPaintScale:<init>:(DDI)V
+org/jfree/chart/renderer/GrayPaintScale:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/renderer/GrayPaintScale:clone:()Ljava/lang/Object;

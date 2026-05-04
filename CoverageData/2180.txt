@@ -1,0 +1,7 @@
+org.jfree.data.time.MonthTest.testDec9999Next true
+org/jfree/data/time/RegularTimePeriod:<init>:()V
+org/jfree/data/time/Month:<init>:(II)V
+org/jfree/data/time/Month:peg:(Ljava/util/Calendar;)V
+org/jfree/data/time/Month:next:()Lorg/jfree/data/time/RegularTimePeriod;
+org/jfree/data/time/Month:getFirstMillisecond:(Ljava/util/Calendar;)J
+org/jfree/data/time/Month:getLastMillisecond:(Ljava/util/Calendar;)J

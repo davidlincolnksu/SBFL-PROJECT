@@ -1,0 +1,10 @@
+org.jfree.chart.plot.ValueMarkerTest.testSerialization true
+org/jfree/chart/plot/Marker:<init>:()V
+org/jfree/chart/plot/Marker:<init>:(Ljava/awt/Paint;)V
+org/jfree/chart/plot/Marker:<init>:(Ljava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V
+org/jfree/chart/plot/Marker:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/plot/Marker:writeObject:(Ljava/io/ObjectOutputStream;)V
+org/jfree/chart/plot/Marker:readObject:(Ljava/io/ObjectInputStream;)V
+org/jfree/chart/plot/ValueMarker:<init>:(D)V
+org/jfree/chart/plot/ValueMarker:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V

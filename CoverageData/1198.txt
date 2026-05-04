@@ -1,0 +1,9 @@
+org.jfree.chart.plot.dial.StandardDialRangeTest.testSerialization true
+org/jfree/chart/plot/dial/AbstractDialLayer:<init>:()V
+org/jfree/chart/plot/dial/AbstractDialLayer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/plot/dial/StandardDialRange:<init>:()V
+org/jfree/chart/plot/dial/StandardDialRange:<init>:(DDLjava/awt/Paint;)V
+org/jfree/chart/plot/dial/StandardDialRange:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/plot/dial/StandardDialRange:writeObject:(Ljava/io/ObjectOutputStream;)V
+org/jfree/chart/plot/dial/StandardDialRange:readObject:(Ljava/io/ObjectInputStream;)V

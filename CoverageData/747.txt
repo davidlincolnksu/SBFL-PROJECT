@@ -1,0 +1,4 @@
+org.jfree.data.function.PolynomialFunction2DTest.testConstructor true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/function/PolynomialFunction2D:<init>:([D)V
+org/jfree/data/function/PolynomialFunction2D:getCoefficients:()[D

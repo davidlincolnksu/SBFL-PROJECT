@@ -1,0 +1,26 @@
+org.jfree.chart.renderer.category.ScatterRendererTest.testCloning true
+org/jfree/chart/renderer/category/AbstractCategoryItemRenderer:<init>:()V
+org/jfree/chart/renderer/category/AbstractCategoryItemRenderer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/renderer/category/AbstractCategoryItemRenderer:clone:()Ljava/lang/Object;
+org/jfree/chart/renderer/AbstractRenderer:<init>:()V
+org/jfree/chart/renderer/AbstractRenderer:fireChangeEvent:()V
+org/jfree/chart/renderer/AbstractRenderer:notifyListeners:(Lorg/jfree/chart/event/RendererChangeEvent;)V
+org/jfree/chart/renderer/AbstractRenderer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/renderer/AbstractRenderer:clone:()Ljava/lang/Object;
+org/jfree/chart/renderer/category/ScatterRenderer:<init>:()V
+org/jfree/chart/renderer/category/ScatterRenderer:setSeriesShapesFilled:(IZ)V
+org/jfree/chart/renderer/category/ScatterRenderer:setBaseShapesFilled:(Z)V
+org/jfree/chart/renderer/category/ScatterRenderer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/renderer/category/ScatterRenderer:clone:()Ljava/lang/Object;
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;)V
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/chart/JFreeChart;Lorg/jfree/chart/event/ChartChangeEventType;)V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/labels/ItemLabelPosition:<init>:(Lorg/jfree/chart/labels/ItemLabelAnchor;Lorg/jfree/ui/TextAnchor;)V
+org/jfree/chart/labels/ItemLabelPosition:<init>:(Lorg/jfree/chart/labels/ItemLabelAnchor;Lorg/jfree/ui/TextAnchor;Lorg/jfree/ui/TextAnchor;D)V
+org/jfree/chart/labels/StandardCategorySeriesLabelGenerator:<init>:()V
+org/jfree/chart/labels/StandardCategorySeriesLabelGenerator:<init>:(Ljava/lang/String;)V
+org/jfree/chart/labels/StandardCategorySeriesLabelGenerator:clone:()Ljava/lang/Object;
+org/jfree/chart/labels/StandardCategorySeriesLabelGenerator:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/event/RendererChangeEvent:<init>:(Ljava/lang/Object;)V
+org/jfree/chart/event/RendererChangeEvent:<init>:(Ljava/lang/Object;Z)V
+org/jfree/chart/util/CloneUtils:cloneMapValues:(Ljava/util/Map;)Ljava/util/Map;

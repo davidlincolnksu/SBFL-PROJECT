@@ -1,0 +1,24 @@
+org.jfree.chart.annotations.XYPointerAnnotationTest.testEquals true
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;)V
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/chart/JFreeChart;Lorg/jfree/chart/event/ChartChangeEventType;)V
+org/jfree/chart/annotations/AbstractAnnotation:<init>:()V
+org/jfree/chart/annotations/AbstractAnnotation:fireAnnotationChanged:()V
+org/jfree/chart/annotations/AbstractAnnotation:notifyListeners:(Lorg/jfree/chart/event/AnnotationChangeEvent;)V
+org/jfree/chart/event/AnnotationChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/chart/annotations/Annotation;)V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/annotations/XYTextAnnotation:<init>:(Ljava/lang/String;DD)V
+org/jfree/chart/annotations/XYTextAnnotation:setX:(D)V
+org/jfree/chart/annotations/XYTextAnnotation:setY:(D)V
+org/jfree/chart/annotations/XYTextAnnotation:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/annotations/AbstractXYAnnotation:<init>:()V
+org/jfree/chart/annotations/AbstractXYAnnotation:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/annotations/XYPointerAnnotation:<init>:(Ljava/lang/String;DDD)V
+org/jfree/chart/annotations/XYPointerAnnotation:setAngle:(D)V
+org/jfree/chart/annotations/XYPointerAnnotation:setTipRadius:(D)V
+org/jfree/chart/annotations/XYPointerAnnotation:setBaseRadius:(D)V
+org/jfree/chart/annotations/XYPointerAnnotation:setLabelOffset:(D)V
+org/jfree/chart/annotations/XYPointerAnnotation:setArrowLength:(D)V
+org/jfree/chart/annotations/XYPointerAnnotation:setArrowWidth:(D)V
+org/jfree/chart/annotations/XYPointerAnnotation:setArrowStroke:(Ljava/awt/Stroke;)V
+org/jfree/chart/annotations/XYPointerAnnotation:setArrowPaint:(Ljava/awt/Paint;)V
+org/jfree/chart/annotations/XYPointerAnnotation:equals:(Ljava/lang/Object;)Z

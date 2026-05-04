@@ -1,0 +1,15 @@
+org.jfree.chart.plot.ValueMarkerTest.test1802195 true
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;)V
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/chart/JFreeChart;Lorg/jfree/chart/event/ChartChangeEventType;)V
+org/jfree/chart/plot/Marker:<init>:()V
+org/jfree/chart/plot/Marker:<init>:(Ljava/awt/Paint;)V
+org/jfree/chart/plot/Marker:<init>:(Ljava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V
+org/jfree/chart/plot/Marker:notifyListeners:(Lorg/jfree/chart/event/MarkerChangeEvent;)V
+org/jfree/chart/plot/Marker:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/plot/Marker:writeObject:(Ljava/io/ObjectOutputStream;)V
+org/jfree/chart/plot/Marker:readObject:(Ljava/io/ObjectInputStream;)V
+org/jfree/chart/plot/ValueMarker:<init>:(D)V
+org/jfree/chart/plot/ValueMarker:setValue:(D)V
+org/jfree/chart/plot/ValueMarker:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/event/MarkerChangeEvent:<init>:(Lorg/jfree/chart/plot/Marker;)V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V

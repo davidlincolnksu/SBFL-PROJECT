@@ -1,0 +1,4 @@
+org.jfree.chart.renderer.xy.StandardXYBarPainterTest.testHashcode true
+org/jfree/chart/renderer/xy/StandardXYBarPainter:<init>:()V
+org/jfree/chart/renderer/xy/StandardXYBarPainter:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/renderer/xy/StandardXYBarPainter:hashCode:()I

@@ -1,0 +1,21 @@
+org.jfree.data.xy.DefaultOHLCDatasetTest.testDataRange true
+org/jfree/data/general/AbstractSeriesDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/xy/AbstractXYDataset:<init>:()V
+org/jfree/data/Range:<init>:(DD)V
+org/jfree/data/Range:getLowerBound:()D
+org/jfree/data/Range:getUpperBound:()D
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/xy/OHLCDataItem:<init>:(Ljava/util/Date;DDDDD)V
+org/jfree/data/xy/OHLCDataItem:getHigh:()Ljava/lang/Number;
+org/jfree/data/xy/OHLCDataItem:getLow:()Ljava/lang/Number;
+org/jfree/data/general/DatasetUtilities:findRangeBounds:(Lorg/jfree/data/xy/XYDataset;Z)Lorg/jfree/data/Range;
+org/jfree/data/general/DatasetUtilities:iterateRangeBounds:(Lorg/jfree/data/xy/XYDataset;Z)Lorg/jfree/data/Range;
+org/jfree/data/xy/DefaultOHLCDataset:<init>:(Ljava/lang/Comparable;[Lorg/jfree/data/xy/OHLCDataItem;)V
+org/jfree/data/xy/DefaultOHLCDataset:getHigh:(II)Ljava/lang/Number;
+org/jfree/data/xy/DefaultOHLCDataset:getHighValue:(II)D
+org/jfree/data/xy/DefaultOHLCDataset:getLow:(II)Ljava/lang/Number;
+org/jfree/data/xy/DefaultOHLCDataset:getLowValue:(II)D
+org/jfree/data/xy/DefaultOHLCDataset:getSeriesCount:()I
+org/jfree/data/xy/DefaultOHLCDataset:getItemCount:(I)I

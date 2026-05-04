@@ -1,0 +1,7 @@
+org.jfree.chart.renderer.GrayPaintScaleTest.testConstructor true
+org/jfree/chart/renderer/GrayPaintScale:<init>:()V
+org/jfree/chart/renderer/GrayPaintScale:<init>:(DD)V
+org/jfree/chart/renderer/GrayPaintScale:<init>:(DDI)V
+org/jfree/chart/renderer/GrayPaintScale:getLowerBound:()D
+org/jfree/chart/renderer/GrayPaintScale:getUpperBound:()D
+org/jfree/chart/renderer/GrayPaintScale:getAlpha:()I

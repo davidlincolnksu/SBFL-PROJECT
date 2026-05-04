@@ -1,0 +1,26 @@
+org.jfree.chart.plot.CombinedDomainXYPlotTest.testConstructor1 true
+org/jfree/data/general/DatasetChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/data/general/Dataset;)V
+org/jfree/chart/plot/Plot:<init>:()V
+org/jfree/chart/plot/Plot:getParent:()Lorg/jfree/chart/plot/Plot;
+org/jfree/chart/plot/Plot:notifyListeners:(Lorg/jfree/chart/event/PlotChangeEvent;)V
+org/jfree/chart/plot/XYPlot:<init>:(Lorg/jfree/data/xy/XYDataset;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/renderer/xy/XYItemRenderer;)V
+org/jfree/chart/plot/XYPlot:getDomainAxis:()Lorg/jfree/chart/axis/ValueAxis;
+org/jfree/chart/plot/XYPlot:getDomainAxis:(I)Lorg/jfree/chart/axis/ValueAxis;
+org/jfree/chart/plot/XYPlot:configureDomainAxes:()V
+org/jfree/chart/plot/XYPlot:configureRangeAxes:()V
+org/jfree/chart/plot/XYPlot:getDataset:(I)Lorg/jfree/data/xy/XYDataset;
+org/jfree/chart/plot/XYPlot:mapDatasetToDomainAxis:(II)V
+org/jfree/chart/plot/XYPlot:mapDatasetToDomainAxes:(ILjava/util/List;)V
+org/jfree/chart/plot/XYPlot:mapDatasetToRangeAxis:(II)V
+org/jfree/chart/plot/XYPlot:mapDatasetToRangeAxes:(ILjava/util/List;)V
+org/jfree/chart/plot/XYPlot:checkAxisIndices:(Ljava/util/List;)V
+org/jfree/chart/plot/XYPlot:datasetChanged:(Lorg/jfree/data/general/DatasetChangeEvent;)V
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;)V
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/chart/JFreeChart;Lorg/jfree/chart/event/ChartChangeEventType;)V
+org/jfree/chart/event/ChartChangeEvent:setType:(Lorg/jfree/chart/event/ChartChangeEventType;)V
+org/jfree/chart/event/PlotChangeEvent:<init>:(Lorg/jfree/chart/plot/Plot;)V
+org/jfree/chart/plot/CombinedDomainXYPlot:<init>:(Lorg/jfree/chart/axis/ValueAxis;)V
+org/jfree/chart/plot/CombinedDomainXYPlot:datasetChanged:(Lorg/jfree/data/general/DatasetChangeEvent;)V
+org/jfree/chart/util/ParamChecks:requireNonNegative:(ILjava/lang/String;)V
+org/jfree/chart/plot/DefaultDrawingSupplier:<init>:()V
+org/jfree/chart/plot/DefaultDrawingSupplier:<init>:([Ljava/awt/Paint;[Ljava/awt/Paint;[Ljava/awt/Paint;[Ljava/awt/Stroke;[Ljava/awt/Stroke;[Ljava/awt/Shape;)V

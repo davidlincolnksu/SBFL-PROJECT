@@ -1,0 +1,10 @@
+org.jfree.chart.LegendItemTest.testEquals true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/LegendItem:<init>:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/awt/Shape;ZLjava/awt/Paint;ZLjava/awt/Paint;Ljava/awt/Stroke;ZLjava/awt/Shape;Ljava/awt/Stroke;Ljava/awt/Paint;)V
+org/jfree/chart/LegendItem:setLabelFont:(Ljava/awt/Font;)V
+org/jfree/chart/LegendItem:setLabelPaint:(Ljava/awt/Paint;)V
+org/jfree/chart/LegendItem:setFillPaint:(Ljava/awt/Paint;)V
+org/jfree/chart/LegendItem:setLinePaint:(Ljava/awt/Paint;)V
+org/jfree/chart/LegendItem:setOutlinePaint:(Ljava/awt/Paint;)V
+org/jfree/chart/LegendItem:setFillPaintTransformer:(Lorg/jfree/ui/GradientPaintTransformer;)V
+org/jfree/chart/LegendItem:equals:(Ljava/lang/Object;)Z

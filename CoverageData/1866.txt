@@ -1,0 +1,9 @@
+org.jfree.chart.renderer.LookupPaintScaleTest.testCloning true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/renderer/LookupPaintScale:<init>:()V
+org/jfree/chart/renderer/LookupPaintScale:<init>:(DDLjava/awt/Paint;)V
+org/jfree/chart/renderer/LookupPaintScale:add:(DLjava/awt/Paint;)V
+org/jfree/chart/renderer/LookupPaintScale:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/renderer/LookupPaintScale:clone:()Ljava/lang/Object;
+org/jfree/chart/renderer/LookupPaintScale$PaintItem:<init>:(DLjava/awt/Paint;)V
+org/jfree/chart/renderer/LookupPaintScale$PaintItem:equals:(Ljava/lang/Object;)Z

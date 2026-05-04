@@ -1,0 +1,21 @@
+org.jfree.data.category.DefaultIntervalCategoryDatasetTest.testSerialization true
+org/jfree/data/general/DatasetChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/data/general/Dataset;)V
+org/jfree/data/general/AbstractSeriesDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:fireDatasetChanged:()V
+org/jfree/data/general/AbstractDataset:notifyListeners:(Lorg/jfree/data/general/DatasetChangeEvent;)V
+org/jfree/data/general/AbstractDataset:writeObject:(Ljava/io/ObjectOutputStream;)V
+org/jfree/data/general/AbstractDataset:readObject:(Ljava/io/ObjectInputStream;)V
+org/jfree/data/general/AbstractDataset:validateObject:()V
+org/jfree/data/category/DefaultIntervalCategoryDataset:<init>:([[D[[D)V
+org/jfree/data/category/DefaultIntervalCategoryDataset:<init>:([[Ljava/lang/Number;[[Ljava/lang/Number;)V
+org/jfree/data/category/DefaultIntervalCategoryDataset:<init>:([Ljava/lang/Comparable;[Ljava/lang/Comparable;[[Ljava/lang/Number;[[Ljava/lang/Number;)V
+org/jfree/data/category/DefaultIntervalCategoryDataset:generateKeys:(ILjava/lang/String;)[Ljava/lang/Comparable;
+org/jfree/data/category/DefaultIntervalCategoryDataset:equals:(Ljava/lang/Object;)Z
+org/jfree/data/category/DefaultIntervalCategoryDataset:equal:([[Ljava/lang/Number;[[Ljava/lang/Number;)Z
+org/jfree/data/DataUtilities:createNumberArray:([D)[Ljava/lang/Number;
+org/jfree/data/DataUtilities:createNumberArray2D:([[D)[[Ljava/lang/Number;
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/chart/util/ResourceBundleWrapper:getBundle:(Ljava/lang/String;)Ljava/util/ResourceBundle;
+org/jfree/data/resources/DataPackageResources:getContents:()[[Ljava/lang/Object;

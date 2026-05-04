@@ -1,0 +1,2 @@
+org.jfree.chart.axis.CategoryAnchorTest.testHashCode true
+org/jfree/chart/axis/CategoryAnchor:equals:(Ljava/lang/Object;)Z

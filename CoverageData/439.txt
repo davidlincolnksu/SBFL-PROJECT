@@ -1,0 +1,3 @@
+org.jfree.data.RangeTest.testEquals true
+org/jfree/data/Range:<init>:(DD)V
+org/jfree/data/Range:equals:(Ljava/lang/Object;)Z

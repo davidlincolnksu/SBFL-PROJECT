@@ -1,0 +1,3 @@
+org.jfree.data.time.FixedMillisecondTest.testNotCloneable true
+org/jfree/data/time/RegularTimePeriod:<init>:()V
+org/jfree/data/time/FixedMillisecond:<init>:(J)V

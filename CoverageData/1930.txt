@@ -1,0 +1,2 @@
+org.jfree.chart.renderer.xy.GradientXYBarPainterTest.testCloning true
+org/jfree/chart/renderer/xy/GradientXYBarPainter:<init>:(DDD)V

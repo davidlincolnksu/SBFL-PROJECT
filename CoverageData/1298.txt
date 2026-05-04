@@ -1,0 +1,3 @@
+org.jfree.chart.axis.CategoryAnchorTest.testEquals true
+org/jfree/chart/axis/CategoryAnchor:toString:()Ljava/lang/String;
+org/jfree/chart/axis/CategoryAnchor:equals:(Ljava/lang/Object;)Z

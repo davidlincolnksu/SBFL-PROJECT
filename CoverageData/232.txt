@@ -1,0 +1,8 @@
+org.jfree.data.RangeTest.testExpand true
+org/jfree/data/Range:<init>:(DD)V
+org/jfree/data/Range:getLowerBound:()D
+org/jfree/data/Range:getUpperBound:()D
+org/jfree/data/Range:getLength:()D
+org/jfree/data/Range:expand:(Lorg/jfree/data/Range;DD)Lorg/jfree/data/Range;
+org/jfree/data/Range:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V

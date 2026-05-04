@@ -1,0 +1,3 @@
+org.jfree.data.time.ohlc.OHLCTest.testEquals true
+org/jfree/data/time/ohlc/OHLC:<init>:(DDDD)V
+org/jfree/data/time/ohlc/OHLC:equals:(Ljava/lang/Object;)Z

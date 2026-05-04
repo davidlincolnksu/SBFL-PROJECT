@@ -1,0 +1,4 @@
+org.jfree.data.function.NormalDistributionFunction2DTest.testConstructor true
+org/jfree/data/function/NormalDistributionFunction2D:<init>:(DD)V
+org/jfree/data/function/NormalDistributionFunction2D:getMean:()D
+org/jfree/data/function/NormalDistributionFunction2D:getStandardDeviation:()D

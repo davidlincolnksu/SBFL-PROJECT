@@ -1,0 +1,4 @@
+org.jfree.data.statistics.StatisticsTest.testCalculateMean_Collection true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/statistics/Statistics:calculateMean:(Ljava/util/Collection;)D
+org/jfree/data/statistics/Statistics:calculateMean:(Ljava/util/Collection;Z)D

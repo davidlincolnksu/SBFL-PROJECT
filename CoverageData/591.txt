@@ -1,0 +1,5 @@
+org.jfree.chart.imagemap.OverLIBToolTipTagFragmentGeneratorTest.testGenerateURLFragment true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/imagemap/ImageMapUtilities:javascriptEscape:(Ljava/lang/String;)Ljava/lang/String;
+org/jfree/chart/imagemap/OverLIBToolTipTagFragmentGenerator:<init>:()V
+org/jfree/chart/imagemap/OverLIBToolTipTagFragmentGenerator:generateToolTipFragment:(Ljava/lang/String;)Ljava/lang/String;

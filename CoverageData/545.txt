@@ -1,0 +1,10 @@
+org.jfree.data.statistics.DefaultBoxAndWhiskerXYDatasetTest.testConstructor true
+org/jfree/data/general/AbstractSeriesDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/xy/AbstractXYDataset:<init>:()V
+org/jfree/data/general/DatasetGroup:<init>:()V
+org/jfree/data/statistics/DefaultBoxAndWhiskerXYDataset:<init>:(Ljava/lang/Comparable;)V
+org/jfree/data/statistics/DefaultBoxAndWhiskerXYDataset:getSeriesCount:()I
+org/jfree/data/statistics/DefaultBoxAndWhiskerXYDataset:getItemCount:(I)I
+org/jfree/data/statistics/DefaultBoxAndWhiskerXYDataset:getRangeLowerBound:(Z)D
+org/jfree/data/statistics/DefaultBoxAndWhiskerXYDataset:getRangeUpperBound:(Z)D

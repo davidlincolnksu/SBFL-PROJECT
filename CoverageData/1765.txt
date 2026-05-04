@@ -1,0 +1,2 @@
+org.jfree.chart.renderer.AreaRendererEndTypeTest.testEquals true
+org/jfree/chart/renderer/AreaRendererEndType:equals:(Ljava/lang/Object;)Z

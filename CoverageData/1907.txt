@@ -1,0 +1,26 @@
+org.jfree.data.xy.VectorSeriesTest.testSetMaximumItemCount true
+org/jfree/data/general/Series:<init>:(Ljava/lang/Comparable;)V
+org/jfree/data/general/Series:<init>:(Ljava/lang/Comparable;Ljava/lang/String;)V
+org/jfree/data/general/Series:fireSeriesChanged:()V
+org/jfree/data/general/Series:notifyListeners:(Lorg/jfree/data/general/SeriesChangeEvent;)V
+org/jfree/data/general/SeriesChangeEvent:<init>:(Ljava/lang/Object;)V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/ComparableObjectItem:<init>:(Ljava/lang/Comparable;Ljava/lang/Object;)V
+org/jfree/data/ComparableObjectItem:getComparable:()Ljava/lang/Comparable;
+org/jfree/data/ComparableObjectSeries:<init>:(Ljava/lang/Comparable;ZZ)V
+org/jfree/data/ComparableObjectSeries:getItemCount:()I
+org/jfree/data/ComparableObjectSeries:getMaximumItemCount:()I
+org/jfree/data/ComparableObjectSeries:setMaximumItemCount:(I)V
+org/jfree/data/ComparableObjectSeries:add:(Lorg/jfree/data/ComparableObjectItem;Z)V
+org/jfree/data/ComparableObjectSeries:getDataItem:(I)Lorg/jfree/data/ComparableObjectItem;
+org/jfree/data/xy/Vector:<init>:(DD)V
+org/jfree/data/xy/XYCoordinate:<init>:(DD)V
+org/jfree/data/xy/XYCoordinate:getX:()D
+org/jfree/data/xy/VectorSeries:<init>:(Ljava/lang/Comparable;)V
+org/jfree/data/xy/VectorSeries:<init>:(Ljava/lang/Comparable;ZZ)V
+org/jfree/data/xy/VectorSeries:add:(DDDD)V
+org/jfree/data/xy/VectorSeries:add:(Lorg/jfree/data/xy/VectorDataItem;Z)V
+org/jfree/data/xy/VectorSeries:getXValue:(I)D
+org/jfree/data/xy/VectorSeries:getDataItem:(I)Lorg/jfree/data/ComparableObjectItem;
+org/jfree/data/xy/VectorDataItem:<init>:(DDDD)V
+org/jfree/data/xy/VectorDataItem:getXValue:()D

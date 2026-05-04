@@ -1,0 +1,7 @@
+org.jfree.chart.plot.dial.DialValueIndicatorTest.testHashCode true
+org/jfree/chart/plot/dial/AbstractDialLayer:<init>:()V
+org/jfree/chart/plot/dial/AbstractDialLayer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/HashUtilities:hashCodeForPaint:(Ljava/awt/Paint;)I
+org/jfree/chart/plot/dial/DialValueIndicator:<init>:(I)V
+org/jfree/chart/plot/dial/DialValueIndicator:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/plot/dial/DialValueIndicator:hashCode:()I

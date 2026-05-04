@@ -1,0 +1,4 @@
+org.jfree.chart.axis.MarkerAxisBandTest.testHashCode true
+org/jfree/chart/axis/MarkerAxisBand:<init>:(Lorg/jfree/chart/axis/NumberAxis;DDDDLjava/awt/Font;)V
+org/jfree/chart/axis/MarkerAxisBand:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/MarkerAxisBand:hashCode:()I

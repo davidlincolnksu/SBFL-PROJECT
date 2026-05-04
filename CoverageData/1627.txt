@@ -1,0 +1,11 @@
+org.jfree.chart.axis.DateTickTest.testSerialization true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/axis/Tick:<init>:(Ljava/lang/String;Lorg/jfree/ui/TextAnchor;Lorg/jfree/ui/TextAnchor;D)V
+org/jfree/chart/axis/Tick:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/ValueTick:<init>:(Lorg/jfree/chart/axis/TickType;DLjava/lang/String;Lorg/jfree/ui/TextAnchor;Lorg/jfree/ui/TextAnchor;D)V
+org/jfree/chart/axis/ValueTick:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/TickType:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/TickType:readResolve:()Ljava/lang/Object;
+org/jfree/chart/axis/DateTick:<init>:(Ljava/util/Date;Ljava/lang/String;Lorg/jfree/ui/TextAnchor;Lorg/jfree/ui/TextAnchor;D)V
+org/jfree/chart/axis/DateTick:<init>:(Lorg/jfree/chart/axis/TickType;Ljava/util/Date;Ljava/lang/String;Lorg/jfree/ui/TextAnchor;Lorg/jfree/ui/TextAnchor;D)V
+org/jfree/chart/axis/DateTick:equals:(Ljava/lang/Object;)Z

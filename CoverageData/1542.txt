@@ -1,0 +1,26 @@
+org.jfree.chart.axis.LogAxisTest.testHashCode true
+org/jfree/chart/axis/ValueAxis:<init>:(Ljava/lang/String;Lorg/jfree/chart/axis/TickUnitSource;)V
+org/jfree/chart/axis/ValueAxis:setDefaultAutoRange:(Lorg/jfree/data/Range;)V
+org/jfree/chart/axis/ValueAxis:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/Axis:<init>:(Ljava/lang/String;)V
+org/jfree/chart/axis/Axis:notifyListeners:(Lorg/jfree/chart/event/AxisChangeEvent;)V
+org/jfree/chart/axis/Axis:fireChangeEvent:()V
+org/jfree/chart/axis/Axis:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/TickUnit:<init>:(DI)V
+org/jfree/chart/axis/TickUnit:hashCode:()I
+org/jfree/chart/axis/NumberTickUnit:<init>:(DLjava/text/NumberFormat;I)V
+org/jfree/chart/axis/NumberTickUnit:hashCode:()I
+org/jfree/chart/axis/LogAxis:<init>:(Ljava/lang/String;)V
+org/jfree/chart/axis/LogAxis:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/LogAxis:hashCode:()I
+org/jfree/data/Range:<init>:(DD)V
+org/jfree/data/Range:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/event/AxisChangeEvent:<init>:(Lorg/jfree/chart/axis/Axis;)V
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;)V
+org/jfree/chart/event/ChartChangeEvent:<init>:(Ljava/lang/Object;Lorg/jfree/chart/JFreeChart;Lorg/jfree/chart/event/ChartChangeEventType;)V
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/axis/AxisLabelLocation:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/NumberTickUnitSource:<init>:()V
+org/jfree/chart/axis/NumberTickUnitSource:<init>:(Z)V
+org/jfree/chart/axis/NumberTickUnitSource:<init>:(ZLjava/text/NumberFormat;)V
+org/jfree/chart/axis/NumberTickUnitSource:equals:(Ljava/lang/Object;)Z

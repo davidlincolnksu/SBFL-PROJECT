@@ -1,0 +1,7 @@
+org.jfree.chart.urls.CustomCategoryURLGeneratorTest.testEquals true
+org/jfree/chart/urls/CustomCategoryURLGenerator:<init>:()V
+org/jfree/chart/urls/CustomCategoryURLGenerator:getListCount:()I
+org/jfree/chart/urls/CustomCategoryURLGenerator:getURLCount:(I)I
+org/jfree/chart/urls/CustomCategoryURLGenerator:getURL:(II)Ljava/lang/String;
+org/jfree/chart/urls/CustomCategoryURLGenerator:addURLSeries:(Ljava/util/List;)V
+org/jfree/chart/urls/CustomCategoryURLGenerator:equals:(Ljava/lang/Object;)Z

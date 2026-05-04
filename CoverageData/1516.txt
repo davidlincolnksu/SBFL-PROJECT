@@ -1,0 +1,10 @@
+org.jfree.chart.plot.dial.ArcDialFrameTest.testCloning true
+org/jfree/chart/plot/dial/AbstractDialLayer:<init>:()V
+org/jfree/chart/plot/dial/AbstractDialLayer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/plot/dial/AbstractDialLayer:clone:()Ljava/lang/Object;
+org/jfree/chart/plot/dial/AbstractDialLayer:addChangeListener:(Lorg/jfree/chart/plot/dial/DialLayerChangeListener;)V
+org/jfree/chart/plot/dial/AbstractDialLayer:hasListener:(Ljava/util/EventListener;)Z
+org/jfree/chart/plot/dial/ArcDialFrame:<init>:()V
+org/jfree/chart/plot/dial/ArcDialFrame:<init>:(DD)V
+org/jfree/chart/plot/dial/ArcDialFrame:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/plot/dial/ArcDialFrame:clone:()Ljava/lang/Object;

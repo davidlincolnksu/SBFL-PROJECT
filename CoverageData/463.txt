@@ -1,0 +1,8 @@
+org.jfree.chart.plot.dial.DialBackgroundTest.testHashCode true
+org/jfree/chart/plot/dial/AbstractDialLayer:<init>:()V
+org/jfree/chart/plot/dial/AbstractDialLayer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/HashUtilities:hashCodeForPaint:(Ljava/awt/Paint;)I
+org/jfree/chart/plot/dial/DialBackground:<init>:(Ljava/awt/Paint;)V
+org/jfree/chart/plot/dial/DialBackground:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/plot/dial/DialBackground:hashCode:()I

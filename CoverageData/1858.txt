@@ -1,0 +1,5 @@
+org.jfree.chart.PaintMapTest.testGetPaint true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/PaintMap:<init>:()V
+org/jfree/chart/PaintMap:getPaint:(Ljava/lang/Comparable;)Ljava/awt/Paint;
+org/jfree/chart/PaintMap:put:(Ljava/lang/Comparable;Ljava/awt/Paint;)V

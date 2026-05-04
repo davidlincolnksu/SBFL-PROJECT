@@ -1,0 +1,9 @@
+org.jfree.chart.block.EmptyBlockTest.testCloning true
+org/jfree/chart/block/AbstractBlock:<init>:()V
+org/jfree/chart/block/AbstractBlock:setWidth:(D)V
+org/jfree/chart/block/AbstractBlock:setHeight:(D)V
+org/jfree/chart/block/AbstractBlock:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/block/AbstractBlock:clone:()Ljava/lang/Object;
+org/jfree/chart/block/BlockBorder:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/block/EmptyBlock:<init>:(DD)V
+org/jfree/chart/block/EmptyBlock:clone:()Ljava/lang/Object;

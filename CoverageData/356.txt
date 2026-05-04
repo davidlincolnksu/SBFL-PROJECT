@@ -1,0 +1,4 @@
+org.jfree.data.statistics.MeanAndStandardDeviationTest.testSerialization true
+org/jfree/data/statistics/MeanAndStandardDeviation:<init>:(DD)V
+org/jfree/data/statistics/MeanAndStandardDeviation:<init>:(Ljava/lang/Number;Ljava/lang/Number;)V
+org/jfree/data/statistics/MeanAndStandardDeviation:equals:(Ljava/lang/Object;)Z

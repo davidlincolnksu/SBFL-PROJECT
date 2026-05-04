@@ -1,0 +1,5 @@
+org.jfree.chart.plot.dial.StandardDialScaleTest.testAngleToValue true
+org/jfree/chart/plot/dial/AbstractDialLayer:<init>:()V
+org/jfree/chart/plot/dial/StandardDialScale:<init>:()V
+org/jfree/chart/plot/dial/StandardDialScale:<init>:(DDDDDI)V
+org/jfree/chart/plot/dial/StandardDialScale:angleToValue:(D)D

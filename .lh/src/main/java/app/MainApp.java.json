@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/main/java/app/MainApp.java",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1777862117586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1777863671476,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,76 @@\n package main.java.app;\r\n \r\n-public class MainApp {\r\n-    \r\n-}\r\n+import javafx.application.Application;\r\n+import javafx.scene.Scene;\r\n+import javafx.scene.control.*;\r\n+import javafx.scene.layout.*;\r\n+import javafx.stage.*;\r\n+\r\n+import model.CoverageData;\r\n+import model.Result;\r\n+import sbfl.*;\r\n+\r\n+import java.io.File;\r\n+import java.util.List;\r\n+\r\n+public class MainApp extends Application {\r\n+\r\n+    private CoverageData data = null;\r\n+    private TableView<Result> table = new TableView<>();\r\n+\r\n+    @Override\r\n+    public void start(Stage stage) {\r\n+\r\n+        Button loadBtn = new Button(\"Load Data\");\r\n+        ComboBox<String> combo = new ComboBox<>();\r\n+        combo.getItems().addAll(\"Tarantula\", \"Ochiai\", \"Jaccard\", \"Zoltar\");\r\n+        combo.setValue(\"Tarantula\");\r\n+\r\n+        Button runBtn = new Button(\"Run SBFL\");\r\n+\r\n+        setupTable();\r\n+\r\n+        loadBtn.setOnAction(e -> loadData(stage));\r\n+        runBtn.setOnAction(e -> run(combo.getValue()));\r\n+\r\n+        VBox root = new VBox(10, loadBtn, combo, runBtn, table);\r\n+\r\n+        stage.setScene(new Scene(root, 800, 600));\r\n+        stage.setTitle(\"SBFL Tool\");\r\n+        stage.show();\r\n+    }\r\n+\r\n+    private void loadData(Stage stage) {\r\n+        DirectoryChooser dc = new DirectoryChooser();\r\n+        File folder = dc.showDialog(stage);\r\n+\r\n+        try {\r\n+            data = CoverageParser.parse(folder);\r\n+            SBFL.injectFailures(data);\r\n+            System.out.println(\"Loaded + failures injected\");\r\n+        } catch (Exception e) {\r\n+            e.printStackTrace();\r\n+        }\r\n+    }\r\n+\r\n+    private void run(String formula) {\r\n+        if (data == null) return;\r\n+\r\n+        List<Result> results = SBFL.rank(data, formula);\r\n+        table.getItems().setAll(results);\r\n+    }\r\n+\r\n+    private void setupTable() {\r\n+        TableColumn<Result, String> col1 = new TableColumn<>(\"Method\");\r\n+        col1.setCellValueFactory(c -> new javafx.beans.property.SimpleStringProperty(c.getValue().method));\r\n+\r\n+        TableColumn<Result, Number> col2 = new TableColumn<>(\"Score\");\r\n+        col2.setCellValueFactory(c -> new javafx.beans.property.SimpleDoubleProperty(c.getValue().score));\r\n+\r\n+        table.getColumns().addAll(col1, col2);\r\n+    }\r\n+\r\n+    public static void main(String[] args) {\r\n+        launch();\r\n+    }\r\n+}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1777862117586,
+            "name": "Commit-0",
+            "content": "package main.java.app;\r\n\r\npublic class MainApp {\r\n    \r\n}\r\n"
+        }
+    ]
+}

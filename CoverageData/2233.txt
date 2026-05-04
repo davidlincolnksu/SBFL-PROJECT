@@ -1,0 +1,7 @@
+org.jfree.data.xy.DefaultIntervalXYDatasetTest.testPublicCloneable true
+org/jfree/data/general/AbstractSeriesDataset:<init>:()V
+org/jfree/data/general/AbstractDataset:<init>:()V
+org/jfree/data/xy/AbstractXYDataset:<init>:()V
+org/jfree/data/xy/DefaultIntervalXYDataset:<init>:()V
+org/jfree/data/xy/AbstractIntervalXYDataset:<init>:()V
+org/jfree/data/general/DatasetGroup:<init>:()V

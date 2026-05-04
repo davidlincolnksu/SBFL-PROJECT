@@ -1,0 +1,8 @@
+org.jfree.chart.plot.dial.ArcDialFrameTest.testHashCode true
+org/jfree/chart/plot/dial/AbstractDialLayer:<init>:()V
+org/jfree/chart/plot/dial/AbstractDialLayer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/HashUtilities:hashCodeForPaint:(Ljava/awt/Paint;)I
+org/jfree/chart/plot/dial/ArcDialFrame:<init>:()V
+org/jfree/chart/plot/dial/ArcDialFrame:<init>:(DD)V
+org/jfree/chart/plot/dial/ArcDialFrame:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/plot/dial/ArcDialFrame:hashCode:()I

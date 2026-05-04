@@ -1,0 +1,4 @@
+org.jfree.data.RangeTest.testConstrain true
+org/jfree/data/Range:<init>:(DD)V
+org/jfree/data/Range:contains:(D)Z
+org/jfree/data/Range:constrain:(D)D

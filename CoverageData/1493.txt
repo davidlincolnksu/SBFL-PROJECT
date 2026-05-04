@@ -1,0 +1,13 @@
+org.jfree.chart.plot.dial.DialPointerTest.testHashCode true
+org/jfree/chart/plot/dial/DialPointer:<init>:(I)V
+org/jfree/chart/plot/dial/DialPointer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/plot/dial/DialPointer:hashCode:()I
+org/jfree/chart/plot/dial/AbstractDialLayer:<init>:()V
+org/jfree/chart/plot/dial/AbstractDialLayer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/plot/dial/DialPointer$Pin:<init>:(I)V
+org/jfree/chart/plot/dial/DialPointer$Pin:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/plot/dial/DialPointer$Pin:hashCode:()I
+org/jfree/chart/HashUtilities:hashCodeForPaint:(Ljava/awt/Paint;)I
+org/jfree/chart/HashUtilities:hashCode:(ID)I
+org/jfree/chart/HashUtilities:hashCode:(ILjava/awt/Paint;)I
+org/jfree/chart/HashUtilities:hashCode:(ILjava/awt/Stroke;)I

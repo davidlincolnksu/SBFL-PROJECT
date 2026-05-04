@@ -1,0 +1,2 @@
+org.jfree.chart.axis.CategoryLabelWidthTypeTest.testHashCode true
+org/jfree/chart/axis/CategoryLabelWidthType:equals:(Ljava/lang/Object;)Z

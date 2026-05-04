@@ -1,0 +1,6 @@
+org.jfree.chart.annotations.XYBoxAnnotationTest.testEquals true
+org/jfree/chart/annotations/AbstractAnnotation:<init>:()V
+org/jfree/chart/annotations/AbstractXYAnnotation:<init>:()V
+org/jfree/chart/annotations/AbstractXYAnnotation:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/annotations/XYBoxAnnotation:<init>:(DDDDLjava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Paint;)V
+org/jfree/chart/annotations/XYBoxAnnotation:equals:(Ljava/lang/Object;)Z

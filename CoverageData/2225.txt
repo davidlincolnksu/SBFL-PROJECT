@@ -1,0 +1,7 @@
+org.jfree.chart.plot.dial.StandardDialScaleTest.testHashCode true
+org/jfree/chart/plot/dial/AbstractDialLayer:<init>:()V
+org/jfree/chart/plot/dial/AbstractDialLayer:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/plot/dial/StandardDialScale:<init>:()V
+org/jfree/chart/plot/dial/StandardDialScale:<init>:(DDDDDI)V
+org/jfree/chart/plot/dial/StandardDialScale:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/plot/dial/StandardDialScale:hashCode:()I

@@ -1,0 +1,5 @@
+org.jfree.chart.StrokeMapTest.testSerialization1 true
+org/jfree/chart/StrokeMap:<init>:()V
+org/jfree/chart/StrokeMap:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/StrokeMap:writeObject:(Ljava/io/ObjectOutputStream;)V
+org/jfree/chart/StrokeMap:readObject:(Ljava/io/ObjectInputStream;)V

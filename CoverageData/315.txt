@@ -1,0 +1,4 @@
+org.jfree.chart.axis.CategoryAnchorTest.testSerialization true
+org/jfree/chart/axis/CategoryAnchor:toString:()Ljava/lang/String;
+org/jfree/chart/axis/CategoryAnchor:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/axis/CategoryAnchor:readResolve:()Ljava/lang/Object;

@@ -1,0 +1,11 @@
+org.jfree.chart.block.LabelBlockTest.testEquals true
+org/jfree/chart/block/AbstractBlock:<init>:()V
+org/jfree/chart/block/AbstractBlock:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/chart/block/BlockBorder:equals:(Ljava/lang/Object;)Z
+org/jfree/chart/block/LabelBlock:<init>:(Ljava/lang/String;Ljava/awt/Font;Ljava/awt/Paint;)V
+org/jfree/chart/block/LabelBlock:setToolTipText:(Ljava/lang/String;)V
+org/jfree/chart/block/LabelBlock:setURLText:(Ljava/lang/String;)V
+org/jfree/chart/block/LabelBlock:setContentAlignmentPoint:(Lorg/jfree/text/TextBlockAnchor;)V
+org/jfree/chart/block/LabelBlock:setTextAnchor:(Lorg/jfree/ui/RectangleAnchor;)V
+org/jfree/chart/block/LabelBlock:equals:(Ljava/lang/Object;)Z

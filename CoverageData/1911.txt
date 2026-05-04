@@ -1,0 +1,16 @@
+org.jfree.data.time.QuarterTest.testParseQuarter true
+org/jfree/data/time/RegularTimePeriod:<init>:()V
+org/jfree/data/time/Year:<init>:(I)V
+org/jfree/data/time/Year:getYear:()I
+org/jfree/data/time/Year:peg:(Ljava/util/Calendar;)V
+org/jfree/data/time/Year:getFirstMillisecond:(Ljava/util/Calendar;)J
+org/jfree/data/time/Year:getLastMillisecond:(Ljava/util/Calendar;)J
+org/jfree/data/time/Year:parseYear:(Ljava/lang/String;)Lorg/jfree/data/time/Year;
+org/jfree/data/time/Quarter:<init>:(II)V
+org/jfree/data/time/Quarter:<init>:(ILorg/jfree/data/time/Year;)V
+org/jfree/data/time/Quarter:getQuarter:()I
+org/jfree/data/time/Quarter:getYear:()Lorg/jfree/data/time/Year;
+org/jfree/data/time/Quarter:peg:(Ljava/util/Calendar;)V
+org/jfree/data/time/Quarter:getFirstMillisecond:(Ljava/util/Calendar;)J
+org/jfree/data/time/Quarter:getLastMillisecond:(Ljava/util/Calendar;)J
+org/jfree/data/time/Quarter:parseQuarter:(Ljava/lang/String;)Lorg/jfree/data/time/Quarter;

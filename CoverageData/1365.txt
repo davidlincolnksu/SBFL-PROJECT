@@ -1,0 +1,5 @@
+org.jfree.data.time.FixedMillisecondTest.testImmutability true
+org/jfree/data/time/RegularTimePeriod:<init>:()V
+org/jfree/data/time/FixedMillisecond:<init>:(J)V
+org/jfree/data/time/FixedMillisecond:<init>:(Ljava/util/Date;)V
+org/jfree/data/time/FixedMillisecond:getFirstMillisecond:()J

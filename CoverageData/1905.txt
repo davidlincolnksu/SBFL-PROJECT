@@ -1,0 +1,3 @@
+org.jfree.data.statistics.HistogramBinTest.testSerialization true
+org/jfree/data/statistics/HistogramBin:<init>:(DD)V
+org/jfree/data/statistics/HistogramBin:equals:(Ljava/lang/Object;)Z

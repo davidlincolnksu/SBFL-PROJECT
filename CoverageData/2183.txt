@@ -1,0 +1,16 @@
+org.jfree.data.DefaultKeyedValuesTest.testSortByKeyAscending true
+org/jfree/chart/util/ParamChecks:nullNotPermitted:(Ljava/lang/Object;Ljava/lang/String;)V
+org/jfree/data/DefaultKeyedValues:<init>:()V
+org/jfree/data/DefaultKeyedValues:getValue:(I)Ljava/lang/Number;
+org/jfree/data/DefaultKeyedValues:getKey:(I)Ljava/lang/Comparable;
+org/jfree/data/DefaultKeyedValues:getIndex:(Ljava/lang/Comparable;)I
+org/jfree/data/DefaultKeyedValues:getValue:(Ljava/lang/Comparable;)Ljava/lang/Number;
+org/jfree/data/DefaultKeyedValues:addValue:(Ljava/lang/Comparable;Ljava/lang/Number;)V
+org/jfree/data/DefaultKeyedValues:setValue:(Ljava/lang/Comparable;Ljava/lang/Number;)V
+org/jfree/data/DefaultKeyedValues:clear:()V
+org/jfree/data/DefaultKeyedValues:sortByKeys:(Lorg/jfree/util/SortOrder;)V
+org/jfree/data/DefaultKeyedValue:<init>:(Ljava/lang/Comparable;Ljava/lang/Number;)V
+org/jfree/data/DefaultKeyedValue:getKey:()Ljava/lang/Comparable;
+org/jfree/data/DefaultKeyedValue:getValue:()Ljava/lang/Number;
+org/jfree/data/KeyedValueComparator:<init>:(Lorg/jfree/data/KeyedValueComparatorType;Lorg/jfree/util/SortOrder;)V
+org/jfree/data/KeyedValueComparator:compare:(Ljava/lang/Object;Ljava/lang/Object;)I

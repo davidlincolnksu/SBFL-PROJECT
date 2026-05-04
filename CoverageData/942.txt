@@ -1,0 +1,7 @@
+org.jfree.data.time.QuarterTest.testGetLastMillisecondWithTimeZone true
+org/jfree/data/time/RegularTimePeriod:<init>:()V
+org/jfree/data/time/RegularTimePeriod:getLastMillisecond:(Ljava/util/TimeZone;)J
+org/jfree/data/time/Quarter:<init>:(II)V
+org/jfree/data/time/Quarter:peg:(Ljava/util/Calendar;)V
+org/jfree/data/time/Quarter:getFirstMillisecond:(Ljava/util/Calendar;)J
+org/jfree/data/time/Quarter:getLastMillisecond:(Ljava/util/Calendar;)J
