@@ -136,7 +136,10 @@ public class MainApp extends Application {
             "-fx-padding: 12 20 12 20;"
         );
         card.setPrefWidth(160);
-        Tooltip.install(card, new Tooltip(tooltip));
+        Tooltip t = new Tooltip(tooltip);
+        t.setShowDelay(javafx.util.Duration.millis(100));
+        t.setShowDuration(javafx.util.Duration.seconds(10));
+        Tooltip.install(card, t);
         return card;
     }
 
@@ -303,18 +306,33 @@ public class MainApp extends Application {
         col2.setMinWidth(80);
 
         table.setRowFactory(tv -> new TableRow<>() {
+            {
+                selectedProperty().addListener((obs, wasSelected, isSelected) -> applyColor());
+            }
+
             @Override protected void updateItem(Result item, boolean empty) {
                 super.updateItem(item, empty);
-                if (empty || item == null || maxScore == minScore) {
+                applyColor();
+            }
+
+            private void applyColor() {
+                Result item = getItem();
+                if (item == null || isEmpty() || maxScore == minScore) {
                     setStyle("");
-                } else {
-                    double ratio = (item.score - minScore) / (maxScore - minScore);
-                    String color;
-                    if (ratio > 0.66) color = "#ffcccc";
-                    else if (ratio > 0.33) color = "#fff3cc";
-                    else color = "#ccffcc";
-                    setStyle("-fx-background-color: " + color + ";");
+                    return;
                 }
+                double ratio = (item.score - minScore) / (maxScore - minScore);
+                String color;
+                if (isSelected()) {
+                    if (ratio > 0.66)      color = "#e57373";
+                    else if (ratio > 0.33) color = "#ffd54f";
+                    else                   color = "#66bb6a";
+                } else {
+                    if (ratio > 0.66)      color = "#ffcccc";
+                    else if (ratio > 0.33) color = "#fff3cc";
+                    else                   color = "#ccffcc";
+                }
+                setStyle("-fx-background-color: " + color + ";");
             }
         });
 
