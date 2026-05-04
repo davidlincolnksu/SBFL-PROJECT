@@ -282,8 +282,14 @@ public class MainApp extends Application {
 
         TableColumn<Result, String> col1 = new TableColumn<>("Method");
         col1.setCellValueFactory(c -> new javafx.beans.property.SimpleStringProperty(c.getValue().method));
+        col1.setCellFactory(tc -> new TableCell<>() {
+            @Override protected void updateItem(String item, boolean empty) {
+                super.updateItem(item, empty);
+                setText(empty || item == null ? null : formatMethod(item));
+            }
+        });
 
-        TableColumn<Result, Number> col2 = new TableColumn<>("Score");
+        TableColumn<Result, Number> col2 = new TableColumn<>("Suspiciousness");
         col2.setCellValueFactory(c -> new javafx.beans.property.SimpleDoubleProperty(c.getValue().score));
         col2.setCellFactory(tc -> new TableCell<>() {
             @Override protected void updateItem(Number item, boolean empty) {
@@ -314,6 +320,13 @@ public class MainApp extends Application {
 
         table.getColumns().addAll(colRank, col1, col2);
         table.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
+    }
+
+    private String formatMethod(String raw) {
+        String[] parts = raw.split(":");
+        String className = parts[0].replace('/', '.');
+        String methodName = parts.length > 1 ? parts[1] : "";
+        return methodName.isEmpty() ? className : className + "." + methodName;
     }
 
     public static void main(String[] args) {
